@@ -4,6 +4,7 @@
 bin-debug
 bin-release
 bin-release-temp
+ant
 scripts
 .settings
 !.gitignore
