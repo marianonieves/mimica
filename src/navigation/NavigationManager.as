@@ -1,17 +1,23 @@
 package navigation
 {
 	
-	import starling.display.Sprite;
 	import screens.GameScreen;
+	import screens.IScreen;
+	import screens.TeamsScreen;
 	import screens.WelcomeScreen;
+	
+	import starling.display.Sprite;
 
 	public class NavigationManager
 	{
 		
 		private var stage:Sprite;
 		
+		private var currentScreen:IScreen;
+		
 		private var screenWelcome:WelcomeScreen;
 		private var screenInGame:GameScreen;
+		private var screenTeams:TeamsScreen;
 		
 		
 		public function NavigationManager()
@@ -21,28 +27,48 @@ package navigation
 		public function initialize(baseStage:Sprite):void
 		{
 			this.stage = baseStage;
-			
-			
+
 			screenInGame = new GameScreen();
-			screenInGame.disposeTemporarily();
 			this.stage.addChild(screenInGame);
 			
 			screenWelcome = new WelcomeScreen();
 			this.stage.addChild(screenWelcome);
+			
+			screenTeams = new TeamsScreen();
+			this.stage.addChild(screenTeams);
+			
+		}
+		
+		private function swapCurrentScreen(newScreen:IScreen,params:*=null):void
+		{
+			if( currentScreen ) currentScreen.disposeTemporarily();
+			currentScreen = newScreen;
+			currentScreen.initialize(params);
 		}
 		
 		public function onChangeScreen(event:NavigationEvent):void
 		{
 			trace("NavigationManager > event.params.id:" + event.params.id)
+			
 			switch (event.params.id)
 			{
 				case "welcome":
-					screenWelcome.initialize();
-					screenInGame.disposeTemporarily();
+					swapCurrentScreen(screenWelcome);
 					break;
 				case "play":
-					screenWelcome.disposeTemporarily();
-					screenInGame.initialize({game:event.params.game});
+					swapCurrentScreen(screenInGame,{game:event.params.game});
+					break;
+				case "teams":
+					swapCurrentScreen(screenTeams);
+					break;
+				case "tips":
+					swapCurrentScreen(screenTeams);
+					break;
+				case "rules":
+					swapCurrentScreen(screenTeams);
+					break;
+				case "credits":
+					swapCurrentScreen(screenTeams);
 					break;
 			}
 		}

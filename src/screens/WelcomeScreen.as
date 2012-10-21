@@ -9,18 +9,20 @@ package screens
 	import starling.display.Sprite;
 	import starling.events.Event;
 	
+	import ui.Background;
+	import ui.Logo;
+	
 	import utils.Utils;
 	
 	public class WelcomeScreen extends Sprite implements IScreen
 	{
-		private var background:Image;
+		private var background:Background;		
+		private var logo:Logo;
 		
-		private var mLogo:Button;
 		private var btnGame1:Button;
 		private var btnGame2:Button;
 		private var btnGame3:Button;
 		private var btnGame4:Button;
-		private var twitterReader:TwitterReader;
 		
 		public function WelcomeScreen()
 		{
@@ -36,22 +38,15 @@ package screens
 		
 		public function initialize(params:Object=null):void
 		{
-			// add twitter
-			twitterReader = new TwitterReader();
 			
-			
-			// add some content
-			background = new Image(Assets.getTexture("Background"));
+			// add Background
+			background = new Background();
 			addChild(background);
 			
-			// add buttons
-			mLogo = new Button(Assets.getAtlasTexture("logo"));
-			mLogo.name = "logo"
-			mLogo.height = 65; //mLogo.height * ( mLogo.width*100/Config.STAGE_WIDTH );
-			mLogo.width = Config.STAGE_WIDTH;
-			mLogo.x = int((Config.STAGE_WIDTH - mLogo.width)  / 2);
-			mLogo.y = 10;
-			addChild(mLogo);
+			// add Logo
+			logo = new Logo();
+			addChild(logo);
+	
 			
 			var menu_offset_y:Number = 100;
 			
@@ -97,13 +92,13 @@ package screens
 					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "play",game:"game1"}, true));
 					break;
 				case "btnGame2":
-					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "play",game:"game2"}, true));
+					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
 					break;
 				case "btnGame3":
-					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "play",game:"game3"}, true));
+					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
 					break;
 				case "btnGame4":
-					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "play",game:"game4"}, true));
+					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
 					break;
 			}
 		}
@@ -112,7 +107,6 @@ package screens
 		{
 			this.visible = false;
 
-			if (mLogo.hasEventListener(Event.TRIGGERED)) mLogo.removeEventListener(Event.TRIGGERED, onButtonTriggered);
 			if (btnGame1.hasEventListener(Event.TRIGGERED)) btnGame1.removeEventListener(Event.TRIGGERED, onButtonTriggered);
 			if (btnGame2.hasEventListener(Event.TRIGGERED)) btnGame2.removeEventListener(Event.TRIGGERED, onButtonTriggered);
 			if (btnGame3.hasEventListener(Event.TRIGGERED)) btnGame3.removeEventListener(Event.TRIGGERED, onButtonTriggered);
