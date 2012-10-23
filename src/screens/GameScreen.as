@@ -1,5 +1,7 @@
 package screens
 {	
+	import data.DataManager;
+	
 	import navigation.NavigationEvent;
 	
 	import starling.display.Button;
@@ -16,8 +18,8 @@ package screens
 	{
 		private var background:Background;
 		private var logo:Logo;
-		private var selectedGame:DisplayObject;
-		
+		private var dataManager:DataManager = DataManager.getInstance();
+
 		public function GameScreen()
 		{
 			super();
@@ -28,7 +30,6 @@ package screens
 		{
 			trace("GameCanvas screen onAddedToStage");
 			this.removeEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
-			
 		}
 		
 		public function initialize(params:Object=null):void
@@ -43,8 +44,16 @@ package screens
 			
 			trace("GameScreen > params.game:" + params.game)
 			
+			dataManager.openDatabaseConnection();
+			
 			this.visible = true;
 		}
+		
+		private function checkData():void
+		{
+
+		}
+			
 						
 		public function disposeTemporarily():void
 		{
