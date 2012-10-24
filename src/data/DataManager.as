@@ -1,6 +1,5 @@
 package data
 {
-	import com.elad.framework.sqlite.SQLiteManager;
 	
 	import flash.data.SQLConnection;
 	import flash.data.SQLResult;
@@ -8,6 +7,8 @@ package data
 	import flash.events.SQLErrorEvent;
 	import flash.events.SQLEvent;
 	import flash.filesystem.File;
+	import flash.filesystem.FileMode;
+	import flash.filesystem.FileStream;
 	
 	public class DataManager
 	{
@@ -15,10 +16,6 @@ package data
 		
 		// Singleton instance.
 		protected static var instance:DataManager;
-		
-		// holds the database manager singelton instance
-		public static var database:SQLiteManager = SQLiteManager.getInstance();
-		
 		public function DataManager(enforcer:AccessRestriction)
 		{
 			if (enforcer == null)
@@ -40,24 +37,78 @@ package data
 		}
 		
 		
-		
 		private var sqlConnection:SQLConnection;
 		private var initComplete:Boolean = false;
 		private var sqlStat:SQLStatement;
 		
+		private var folderName:String = "db";
+		private var fileName:String = "mimica.s3db";
 
 		public function openDatabaseConnection():void{
+			
+			
+			try
+			{
+				var sessionDBConn:SQLConnection;
+				var sessionDBFile:File;
+				var selectStmt:SQLStatement;
+				
+				sessionDBConn = new SQLConnection();        
+				var embededSessionDB:File = File.applicationDirectory.resolvePath("db/mimica.s3db");
+				
+				if (!embededSessionDB.exists)
+				{    
+					trace("DB Not Found");
+				}
+				
+				var writeSessionDB:File = File.applicationStorageDirectory.resolvePath("db/mimica.s3db");
+				
+				try
+				{
+					if (!writeSessionDB.exists) {            
+						embededSessionDB.copyTo(writeSessionDB);
+					}
+				}
+				catch(err:Error)
+				{  
+					trace(err);
+				}
+			}
+			catch(error:Error)
+			{
+				trace(error);
+			}			
 			
 			// create new sqlConnection
 			sqlConnection = new SQLConnection();
 			sqlConnection.addEventListener(SQLEvent.OPEN, onDatabaseOpen);
 			sqlConnection.addEventListener(SQLErrorEvent.ERROR, errorHandler);
-			
-			// get currently dir
-			var dbFile:File = File.applicationStorageDirectory.resolvePath("mimica.s3db");
-			
+						
 			// open database,If the file doesn't exist yet, it will be created
-			sqlConnection.openAsync(dbFile);
+			sqlConnection.openAsync(writeSessionDB);
+			
+			
+/*
+			// create new sqlConnection
+			sqlConnection = new SQLConnection();
+			sqlConnection.addEventListener(SQLEvent.OPEN, onDatabaseOpen);
+			sqlConnection.addEventListener(SQLErrorEvent.ERROR, errorHandler);
+			
+			if (!File.applicationStorageDirectory.resolvePath(folderName + fileName).exists)	
+			{
+				// copyFile(fileName);
+				
+				var buildPath:String = File.applicationDirectory.nativePath;
+
+				var dbFile:File = File.applicationDirectory.resolvePath(folderName + fileName);
+				//var dbFile:File = File.applicationStorageDirectory.resolvePath("db/mimica.s3db");
+				
+				// open database,If the file doesn't exist yet, it will be created
+				sqlConnection.openAsync(dbFile);
+				
+			} else {
+				trace("DATABASE NOT FOUND");
+			}*/
 		}
 		
 		// connect and init database/table
@@ -127,7 +178,10 @@ package data
 			excuseUpdate(sqlupdate)
 		}
 */		
+
+
 	}
+	
 }
 
 class AccessRestriction {}

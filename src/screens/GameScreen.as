@@ -1,6 +1,7 @@
 package screens
 {	
 	import data.DataManager;
+	import data.SQLiteCode;
 	
 	import navigation.NavigationEvent;
 	
@@ -18,7 +19,7 @@ package screens
 	{
 		private var background:Background;
 		private var logo:Logo;
-		private var dataManager:DataManager = DataManager.getInstance();
+		private var dataManager:SQLiteCode = SQLiteCode.getInstance();
 
 		public function GameScreen()
 		{
@@ -44,14 +45,15 @@ package screens
 			
 			trace("GameScreen > params.game:" + params.game)
 			
-			dataManager.openDatabaseConnection();
 			
 			this.visible = true;
+			
+			checkData();
 		}
 		
 		private function checkData():void
 		{
-
+			dataManager.start();
 		}
 			
 						
