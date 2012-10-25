@@ -1,7 +1,6 @@
 package screens
 {	
 	import data.DataManager;
-	import data.SQLiteCode;
 	
 	import navigation.NavigationEvent;
 	
@@ -14,12 +13,16 @@ package screens
 	
 	import ui.Background;
 	import ui.Logo;
+	import ui.MovieCard;
 	
 	public class GameScreen extends Sprite implements IScreen
 	{
 		private var background:Background;
 		private var logo:Logo;
-		private var dataManager:SQLiteCode = SQLiteCode.getInstance();
+		
+		private var movieCard:MovieCard;
+		
+		public var dataManager:DataManager;
 
 		public function GameScreen()
 		{
@@ -41,19 +44,34 @@ package screens
 			
 			// add Logo
 			logo = new Logo();
-			addChild(logo);
+			addChild(logo);			
 			
-			trace("GameScreen > params.game:" + params.game)
+			// add MovieCard
+			movieCard = new MovieCard();
+			movieCard.y = 80;
+			addChild(movieCard);			
 			
-			
+			dataManager = new DataManager();
+			dataManager.initialize(dataManager_onInitialize);
+
 			this.visible = true;
-			
-			checkData();
 		}
 		
-		private function checkData():void
+		private function dataManager_onInitialize():void
 		{
-			dataManager.start();
+			gameStart();
+		}
+		
+		
+		private function gameStart():void
+		{
+			dataManager.getRandomMovie(dataManager_onGetRandomMovie);
+		}
+		
+		private function dataManager_onGetRandomMovie(movieRecord:*=null):void
+		{
+			if( movieRecord!=null ) 
+				movieCard.movieTitle = movieRecord.title_es;
 		}
 			
 						

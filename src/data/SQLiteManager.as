@@ -13,12 +13,18 @@ package data
 	import flash.utils.clearInterval;
 	import flash.utils.setInterval;
 	
-	public class SQLiteCode
+	public class SQLiteManager
 	{
+		private var sqlConnection:SQLConnection = new SQLConnection();
+		private var SQLcall:SQLStatement = new SQLStatement();
 
+		public var OnInitialize:Function = new Function;
+		public var onResultCallback:Function = new Function;
+		
+		
 		// Singleton instance.
-		protected static var instance:SQLiteCode;
-		public function SQLiteCode(enforcer:AccessRestriction)
+		protected static var instance:SQLiteManager;
+		public function SQLiteManager(enforcer:AccessRestriction)
 		{
 			if (enforcer == null)
 				throw new Error("Error enforcer input param is undefined" );
@@ -30,21 +36,46 @@ package data
 		 * @return The same instance of the class
 		 * 
 		 */
-		public static function getInstance():SQLiteCode
+		public static function getInstance():SQLiteManager
 		{
 			if( instance == null )
-				instance = new  SQLiteCode(new AccessRestriction());
+				instance = new  SQLiteManager(new AccessRestriction());
 			
 			return instance;
 		}
-			
-
-		private var sqlConnection:SQLConnection = new SQLConnection();
-		private var SQLcall:SQLStatement = new SQLStatement();
 		
-		public function start():void
+		public function initialize(callback:Function):void
 		{
-			// C:\Users\playdom\AppData\Roaming\ar.com.marianonieves.mimica.debug
+			OnInitialize = callback;
+			
+			if (!File.applicationStorageDirectory.resolvePath("mimica.db").exists)	
+			{
+				var embededSessionDB:File = File.applicationDirectory.resolvePath("db/mimica_original.db");
+				
+				if (!embededSessionDB.exists)
+				{    
+					trace("DB Not Found");
+				}
+				
+				var writeSessionDB:File = File.applicationStorageDirectory.resolvePath("mimica.db");
+				
+				try
+				{
+					if (!writeSessionDB.exists) {            
+						embededSessionDB.copyTo(writeSessionDB);
+					}
+				}
+				catch(err:Error)
+				{  
+					trace(err);
+				}
+			}
+			
+			openDatabaseConnection();
+		}
+		
+		private function openDatabaseConnection():void
+		{
 			
 			var db:File = File.applicationStorageDirectory.resolvePath("mimica.db");
 			sqlConnection.addEventListener(SQLEvent.OPEN, onSQLOpen);
@@ -57,26 +88,34 @@ package data
 			SQLcall.addEventListener(SQLEvent.RESULT, onSQLResult);
 			SQLcall.addEventListener(SQLErrorEvent.ERROR, onSQLError);
 			SQLcall.sqlConnection = sqlConnection;
-
-			doSQLcall(Q_GET_ALL_MOVIES);
+			
+			OnInitialize();
 		}
 		
-		private const Q_GET_ALL_MOVIES:String = "SELECT * FROM movies";
-		private const Q_GET_ALL_DIFFERENT_GENRES:String = "SELECT DISTINCT genres FROM movies";
-
-		// function to add item to our database
-		private function doSQLcall(query:String):void
-		{			
-			// in this sql statment we add item at the end of our table with values 
-			// first_name.text in column first_name and last_name.text for column last_name
+		public function doSQLcall(query:String, params:*=null, callback:Function=null):void
+		{
+			if( callback!=null ) onResultCallback = callback;
+			if( params!=null ) query = replaceParamsInQuery(query,params);
 			SQLcall.text = query;
 			SQLcall.execute();
-			
+		}
+		
+		private function replaceParamsInQuery(query:String, params:*):String
+		{
+			var keyPattern:RegExp; 
+			for (var key:* in params)
+			{
+				keyPattern = new RegExp("<"+key+">","gi"); 
+				query = query.replace(keyPattern,params[key]);
+			}
+			return query;
 		}		
+		
 		private function onSQLResult(e:SQLEvent):void
 		{
 			var result:SQLResult = SQLcall.getResult();
-			traceRecords(result)
+			traceRecords(result);
+			onResultCallback(result);
 		}
 		
 		private function traceRecords(result:SQLResult):void
@@ -95,19 +134,14 @@ package data
 			}			
 			
 		}
-
 		
-		// method which gets called when we recive an error  from sql connection 
-		// or sql statement and displays the error in the alert
 		private function onSQLError(e:SQLErrorEvent):void
 		{
 			trace(e.toString());
 		}
 		
-
-		
 		
 	}
 }
-	
+
 class AccessRestriction {}

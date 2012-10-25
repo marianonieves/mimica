@@ -6,7 +6,7 @@ package ui
 	import starling.display.Sprite;
 	import starling.events.Event;
 
-	public class Logo extends Sprite
+	public class Logo extends Sprite implements IUIElement 
 	{
 		
 		private var logoButton:Button;
