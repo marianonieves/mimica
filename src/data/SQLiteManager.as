@@ -115,7 +115,7 @@ package data
 		{
 			var result:SQLResult = SQLcall.getResult();
 			traceRecords(result);
-			onResultCallback(result);
+			onResultCallback(result.data);
 		}
 		
 		private function traceRecords(result:SQLResult):void

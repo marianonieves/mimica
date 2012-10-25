@@ -71,7 +71,7 @@ package screens
 		private function dataManager_onGetRandomMovie(movieRecord:*=null):void
 		{
 			if( movieRecord!=null ) 
-				movieCard.movieTitle = movieRecord.title_es;
+				movieCard.movieTitle = movieRecord[0].title_es;
 		}
 			
 						

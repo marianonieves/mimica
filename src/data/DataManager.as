@@ -17,7 +17,7 @@ package data
 		//
 		public const Q_GET_ALL_MOVIES:String = "SELECT * FROM movies";
 		public const Q_GET_ALL_DIFFERENT_GENRES:String = "SELECT DISTINCT genres FROM movies";
-		public const Q_GET_RANDOM_MOVIE:String = "SELECT * FROM table ORDER BY RANDOM() LIMIT 1";
+		public const Q_GET_RANDOM_MOVIE:String = "SELECT * FROM movies ORDER BY RANDOM() LIMIT 1";
 		public const Q_GET_ALL_TEAMS:String = "SELECT * FROM teams";
 		public const Q_GET_ALL_PLAYERS:String = "SELECT * FROM players";
 		
