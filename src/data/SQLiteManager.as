@@ -17,8 +17,13 @@ package data
 	{
 		private var sqlConnection:SQLConnection = new SQLConnection();
 		private var SQLcall:SQLStatement = new SQLStatement();
-
-		public var OnInitialize:Function = new Function;
+		
+		public const ST_CLOSED:String = "ST_CLOSED";
+		public const ST_READY:String = "ST_READY";
+		public const ST_WORKING:String = "ST_WORKING";
+		
+		public var status:String = ST_CLOSED;
+		public var onInitialize:Function = new Function;
 		public var onResultCallback:Function = new Function;
 		
 		
@@ -46,7 +51,13 @@ package data
 		
 		public function initialize(callback:Function):void
 		{
-			OnInitialize = callback;
+			if( status!=ST_CLOSED )
+			{
+				callback();
+				return;
+			}
+			
+			onInitialize = callback;
 			
 			if (!File.applicationStorageDirectory.resolvePath("mimica.db").exists)	
 			{
@@ -76,7 +87,6 @@ package data
 		
 		private function openDatabaseConnection():void
 		{
-			
 			var db:File = File.applicationStorageDirectory.resolvePath("mimica.db");
 			sqlConnection.addEventListener(SQLEvent.OPEN, onSQLOpen);
 			sqlConnection.addEventListener(SQLErrorEvent.ERROR, onSQLError);
@@ -89,13 +99,22 @@ package data
 			SQLcall.addEventListener(SQLErrorEvent.ERROR, onSQLError);
 			SQLcall.sqlConnection = sqlConnection;
 			
-			OnInitialize();
+			status = ST_READY;
+			
+			onInitialize();
 		}
 		
 		public function doSQLcall(query:String, params:*=null, callback:Function=null):void
 		{
+			if( status!=ST_READY ) 
+			{ 
+				callback();
+				return;
+			}
+
 			if( callback!=null ) onResultCallback = callback;
 			if( params!=null ) query = replaceParamsInQuery(query,params);
+			
 			SQLcall.text = query;
 			SQLcall.execute();
 		}

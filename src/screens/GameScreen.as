@@ -64,6 +64,7 @@ package screens
 		
 		private function gameStart():void
 		{
+			movieCard.start();
 		}
 			
 						

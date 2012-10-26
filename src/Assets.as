@@ -80,6 +80,7 @@ package
         public static function prepareSounds():void
         {
 			sSounds["Click"] = new EmbedSounds.Click();   
+			sSounds["Alarm"] = new EmbedSounds.Alarm();   
         }
         
         private static function prepareAtlas():void

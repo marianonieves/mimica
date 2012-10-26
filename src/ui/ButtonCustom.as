@@ -8,15 +8,16 @@ package ui
 	import starling.events.Event;
 	import starling.text.TextField;
 	
-	public class CustomButton extends Sprite implements IUIElement 
+	public class ButtonCustom extends Sprite implements IUIElement 
 	{
 
 		private var btnArea:Button;		
 		public var onClick:Function;
 		private var label:TextField;
 		private var background:Image;
+		public var _enable:Boolean=true;
 		
-		public function CustomButton(labelText:String)
+		public function ButtonCustom(labelText:String)
 		{
 			background = new Image(Assets.getAtlasTexture("backgroundbutton"));
 			background.height = 50;
@@ -38,15 +39,22 @@ package ui
 		
 		public function onButtonTriggered(event:Event):void
 		{
+			if(!_enable) return;
 			Assets.getSound("Click").play();
 			if(onClick!=null) onClick();
 		}
+		
+		public function enable():void {_enable=true;}
+		public function disable():void {_enable=false;}
 		
 		public function disposeTemporarily():void
 		{
 			this.visible = false;
 			if (btnArea.hasEventListener(Event.TRIGGERED)) btnArea.removeEventListener(Event.TRIGGERED, onButtonTriggered);
 		}
+		
+		
+		
 				
 	}
 }
