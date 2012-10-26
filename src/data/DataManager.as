@@ -27,11 +27,28 @@ package data
 		public const Q_GET_ALL_PLAYERS_BY_TEAM_ID:String = "SELECT * FROM players WHERE teamId = <teamId>";
 		
 
-		// Constructor
-		public function DataManager()
+		// Singleton instance.
+		protected static var instance:DataManager;
+		public function DataManager(enforcer:AccessRestriction)
 		{
+			if (enforcer == null)
+				throw new Error("Error enforcer input param is undefined" );
 		}
 		
+		/**
+		 * Method function to retrieve instance of the class
+		 *  
+		 * @return The same instance of the class
+		 * 
+		 */
+		public static function getInstance():DataManager
+		{
+			if( instance == null )
+				instance = new  DataManager(new AccessRestriction());
+			
+			return instance;
+		}
+				
 		public function initialize(callback:Function):void
 		{
 			SQLiteManager.getInstance().initialize(callback);
@@ -45,3 +62,5 @@ package data
 
 	}
 }
+
+class AccessRestriction {}

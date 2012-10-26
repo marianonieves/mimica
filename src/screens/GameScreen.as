@@ -22,7 +22,7 @@ package screens
 		
 		private var movieCard:MovieCard;
 		
-		public var dataManager:DataManager;
+		public var dataManager:DataManager = DataManager.getInstance();
 
 		public function GameScreen()
 		{
@@ -51,7 +51,6 @@ package screens
 			movieCard.y = 80;
 			addChild(movieCard);			
 			
-			dataManager = new DataManager();
 			dataManager.initialize(dataManager_onInitialize);
 
 			this.visible = true;
@@ -65,13 +64,6 @@ package screens
 		
 		private function gameStart():void
 		{
-			dataManager.getRandomMovie(dataManager_onGetRandomMovie);
-		}
-		
-		private function dataManager_onGetRandomMovie(movieRecord:*=null):void
-		{
-			if( movieRecord!=null ) 
-				movieCard.movieTitle = movieRecord[0].title_es;
 		}
 			
 						
