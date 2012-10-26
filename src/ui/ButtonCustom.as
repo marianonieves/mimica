@@ -21,16 +21,16 @@ package ui
 		{
 			background = new Image(Assets.getAtlasTexture("backgroundbutton"));
 			background.height = 50;
-			background.width = 300;
+			background.width = 320;
 			addChild(background);
 			
-			label = new TextField(300,50,labelText,"Verdana",20,0x0,true);
+			label = new TextField(320,50,labelText,"Verdana",20,0x0,true);
 			addChild(label);
 			
 			btnArea = new Button(Assets.getAtlasTexture("hitarea"));
 			btnArea.name = "area"
 			btnArea.height = 50; 
-			btnArea.width = 300;
+			btnArea.width = 320;
 			btnArea.x = 0;
 			btnArea.y = 0;
 			btnArea.addEventListener(Event.TRIGGERED, onButtonTriggered);			

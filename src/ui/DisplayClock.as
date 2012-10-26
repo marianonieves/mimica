@@ -24,7 +24,7 @@ package ui
 		{
 			callbackAlarm = callback;
 			
-			timeTF = new TextField(300,50,"......","Verdana",16,0x00ff00);
+			timeTF = new TextField(320,80,"......","Verdana",60,0x00ff00,true);
 			addChild(timeTF);
 			
 			reset();

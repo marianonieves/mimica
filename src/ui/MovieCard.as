@@ -27,7 +27,7 @@ package ui
 			
 			randomButton = new ButtonCustom("OTRA");
 			randomButton.disable();
-			randomButton.y = 260;
+			randomButton.y = 280;
 			randomButton.onClick = onClick;
 			addChild(randomButton);
 			
@@ -46,7 +46,7 @@ package ui
 		
 		private function dataManager_onGetRandomMovie(movieRecord:*=null):void
 		{
-			titleDisplay.text = movieRecord[0].title_es;
+			titleDisplay.text = movieRecord[0].title_es + "\n" + movieRecord[0].title_en + "\n (" + movieRecord[0].year +")";
 		}
 		
 		public function set movieTitle(value:String):void 

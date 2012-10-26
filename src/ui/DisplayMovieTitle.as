@@ -19,10 +19,10 @@ package ui
 		{
 			background = new Image(Assets.getAtlasTexture("backgroundbutton"));
 			background.height = 140;
-			background.width = 300;
+			background.width = 320;
 			addChild(background);
 			
-			titleTF = new TextField(300,50,"......","Verdana",16,0xff0000);
+			titleTF = new TextField(320,140,"......","Verdana",15,0xff0000);
 			addChild(titleTF);
 		}
 
