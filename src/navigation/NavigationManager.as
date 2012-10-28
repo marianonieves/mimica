@@ -1,9 +1,11 @@
 package navigation
 {
 	
+	import screens.CreditsScreen;
 	import screens.GameScreen;
 	import screens.GesturesScreen;
 	import screens.IScreen;
+	import screens.RulesScreen;
 	import screens.TeamsScreen;
 	import screens.WelcomeScreen;
 	
@@ -20,6 +22,8 @@ package navigation
 		private var screenInGame:GameScreen;
 		private var screenTeams:TeamsScreen;
 		private var screenGestures:GesturesScreen;
+		private var screenRules:RulesScreen;
+		private var screenCredits:CreditsScreen;
 		
 		
 		public function NavigationManager()
@@ -42,6 +46,11 @@ package navigation
 			screenGestures = new GesturesScreen();
 			this.stage.addChild(screenGestures);
 			
+			screenRules = new RulesScreen();
+			this.stage.addChild(screenRules);
+			
+			screenCredits = new CreditsScreen();
+			this.stage.addChild(screenCredits);
 			
 		}
 		
@@ -71,10 +80,10 @@ package navigation
 					swapCurrentScreen(screenGestures);
 					break;
 				case "rules":
-					swapCurrentScreen(screenTeams);
+					swapCurrentScreen(screenRules);
 					break;
 				case "credits":
-					swapCurrentScreen(screenTeams);
+					swapCurrentScreen(screenCredits);
 					break;
 			}
 		}

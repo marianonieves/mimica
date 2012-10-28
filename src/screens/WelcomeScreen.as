@@ -2,6 +2,8 @@ package screens
 {
 	import com.greensock.TweenLite;
 	
+	import embeds.LocalizatedTexts;
+	
 	import navigation.NavigationEvent;
 	
 	import starling.display.Button;
@@ -11,6 +13,7 @@ package screens
 	
 	import ui.Background;
 	import ui.Logo;
+	import ui.MenuWelcome;
 	
 	import utils.Utils;
 	
@@ -18,11 +21,7 @@ package screens
 	{
 		private var background:Background;		
 		private var logo:Logo;
-		
-		private var btnGame1:Button;
-		private var btnGame2:Button;
-		private var btnGame3:Button;
-		private var btnGame4:Button;
+		private var menu:MenuWelcome;
 		
 		public function WelcomeScreen()
 		{
@@ -38,7 +37,6 @@ package screens
 		
 		public function initialize(params:Object=null):void
 		{
-			
 			// add Background
 			background = new Background();
 			addChild(background);
@@ -46,71 +44,50 @@ package screens
 			// add Logo
 			logo = new Logo();
 			addChild(logo);
+			
+			// add Menu
+			menu = new MenuWelcome();
+			menu.x = 80;
+			menu.y = 100;
+			menu.onAction = menu_onAction;
+			addChild(menu);
 	
-			
-			var menu_offset_y:Number = 100;
-			
-			btnGame1 = new Button( Assets.getAtlasTexture("backgroundbutton"),"JUGAR");
-			btnGame1.name = "btnGame1";
-			btnGame1.x = 0;
-			btnGame1.y = menu_offset_y;
-			btnGame1.addEventListener(Event.TRIGGERED, onButtonTriggered);			
-			addChild(btnGame1);
-
-			btnGame2 = new Button(Assets.getAtlasTexture("backgroundbutton"),"EQUIPOS");
-			btnGame2.name = "btnGame2";
-			btnGame2.x = 0;
-			btnGame2.y = btnGame1.y + btnGame1.height;
-			btnGame2.addEventListener(Event.TRIGGERED, onButtonTriggered);			
-			addChild(btnGame2);
-			
-			btnGame3 = new Button(Assets.getAtlasTexture("backgroundbutton"),"GESTOS");
-			btnGame3.name = "btnGame3";
-			btnGame3.x = 0;
-			btnGame3.y = btnGame2.y + btnGame1.height;
-			btnGame3.addEventListener(Event.TRIGGERED, onButtonTriggered);			
-			addChild(btnGame3);
-			
-			btnGame4 = new Button(Assets.getAtlasTexture("backgroundbutton"),"REGLAS");
-			btnGame4.name = "btnGame4";
-			btnGame4.x = 0;
-			btnGame4.y = btnGame3.y + btnGame1.height;
-			btnGame4.addEventListener(Event.TRIGGERED, onButtonTriggered);			
-			addChild(btnGame4);
-			
 			this.visible = true;
 		}
-		
-		public function onButtonTriggered(event:Event):void
+
+		public function menu_onAction(action:String=""):void
 		{
-			var buttonClicked:Button = event.target as Button;
-			
-			Assets.getSound("Click").play();
-			switch (buttonClicked.name)
+			trace("menu_onAction:",action);					
+			switch (action)
 			{
-				case "btnGame1":
+				case menu.ACTION_NAVIGATE_PLAY:
 					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "play",game:"game1"}, true));
 					break;
-				case "btnGame2":
+				case menu.ACTION_NAVIGATE_TEAMS:
 					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
 					break;
-				case "btnGame3":
+				case menu.ACTION_NAVIGATE_GESTURES:
 					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "gestures"}, true));
 					break;
-				case "btnGame4":
-					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
+				case menu.ACTION_NAVIGATE_RULES:
+					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "rules"}, true));
 					break;
-			}
+				case menu.ACTION_NAVIGATE_CREDITS:
+					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "credits"}, true));
+					break;
+				default:
+				{
+					trace("[#ERROR#] displayGameMenu_onAction, NO ACTION")
+					break;
+				}
+			}			
+			
 		}
-
+		
+		
 		public function disposeTemporarily():void
 		{
 			this.visible = false;
-
-			if (btnGame1.hasEventListener(Event.TRIGGERED)) btnGame1.removeEventListener(Event.TRIGGERED, onButtonTriggered);
-			if (btnGame2.hasEventListener(Event.TRIGGERED)) btnGame2.removeEventListener(Event.TRIGGERED, onButtonTriggered);
-			if (btnGame3.hasEventListener(Event.TRIGGERED)) btnGame3.removeEventListener(Event.TRIGGERED, onButtonTriggered);
-			if (btnGame4.hasEventListener(Event.TRIGGERED)) btnGame4.removeEventListener(Event.TRIGGERED, onButtonTriggered);
 		}
 		
 	}

@@ -12,7 +12,7 @@ package screens
 	import starling.events.TouchEvent;
 	
 	import ui.Background;
-	import ui.DisplayGameMenu;
+	import ui.MenuGame;
 	import ui.DisplayTeams;
 	import ui.Logo;
 	import ui.MovieCard;
@@ -24,7 +24,7 @@ package screens
 		
 		private var movieCard:MovieCard;
 		private var displayTeams:DisplayTeams;
-		private var displayGameMenu:DisplayGameMenu;
+		private var displayGameMenu:MenuGame;
 		
 		public var dataManager:DataManager = DataManager.getInstance();
 
@@ -61,7 +61,7 @@ package screens
 			addChild(movieCard);
 			
 			// add GameMenu
-			displayGameMenu = new DisplayGameMenu();
+			displayGameMenu = new MenuGame();
 			displayGameMenu.y = 340;
 			displayGameMenu.onAction = displayGameMenu_onAction;
 			addChild(displayGameMenu);
@@ -86,7 +86,7 @@ package screens
 					break;
 				}
 			}
-			trace("displayGameMenu_onAction:",action);
+			trace("[#ERROR#] displayGameMenu_onAction:",action);
 			
 		}
 		

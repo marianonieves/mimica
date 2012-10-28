@@ -1,5 +1,5 @@
 package screens
-{	
+{
 	import embeds.LocalizatedTexts;
 	
 	import starling.display.Sprite;
@@ -10,7 +10,7 @@ package screens
 	import ui.Logo;
 	import ui.MenuPagination;
 
-	public class GesturesScreen extends Sprite implements IScreen
+	public class RulesScreen extends Sprite implements IScreen
 	{
 		private var background:Background;
 		private var logo:Logo;
@@ -18,9 +18,9 @@ package screens
 		private var menu:MenuPagination;
 		
 		private var indexSlideContent:int=1;
-		private var totalSlideContent:int=20;
+		private var totalSlideContent:int=8;
 		
-		public function GesturesScreen()
+		public function RulesScreen()
 		{
 			super();
 			this.addEventListener(starling.events.Event.ADDED_TO_STAGE, onAddedToStage);
@@ -28,7 +28,7 @@ package screens
 		
 		private function onAddedToStage(event:Event):void
 		{
-			trace("GameCanvas screen onAddedToStage");
+			trace("Rules screen onAddedToStage");
 			this.removeEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
 		}
 		
@@ -41,7 +41,7 @@ package screens
 			// add Logo
 			logo = new Logo();
 			addChild(logo);	
-
+			
 			displayTextArea = new DisplayTextSlides();
 			displayTextArea.y = 80;
 			addChild(displayTextArea);
@@ -58,14 +58,14 @@ package screens
 		
 		private function setText():void
 		{
-			displayTextArea.text = LocalizatedTexts.getLocalizatedTextByKey("GESTURE_CONTENT" + indexSlideContent);
+			displayTextArea.text = LocalizatedTexts.getLocalizatedTextByKey("RULES_CONTENT" + indexSlideContent);
 		}
 		
 		
 		public function menu_onAction(action:String=""):void
 		{
-			trace("GestureScreen.menu_onAction:",action);
-
+			trace("RulesScreen.menu_onAction:",action);
+			
 			
 			switch (action)
 			{
@@ -87,12 +87,10 @@ package screens
 			setText();
 		}
 		
-		
 		public function disposeTemporarily():void
 		{
 			this.visible = false;
 		}
 				
-		
 	}
 }

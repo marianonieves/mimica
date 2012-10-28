@@ -1,11 +1,13 @@
 package ui
 {
 	
+	import embeds.LocalizatedTexts;
+	
 	import starling.display.Button;
 	import starling.display.Sprite;
 	import starling.events.Event;
 	
-	public class DisplayGameMenu extends Sprite implements IUIElement 
+	public class MenuGame extends Sprite implements IUIElement 
 	{
 		
 		private var randomButton:Button;
@@ -13,10 +15,10 @@ package ui
 		
 		public const ACTION_GET_RANDOM_MOVIE:String="ACTION_GET_RANDOM_MOVIE";
 		
-		public function DisplayGameMenu()
+		public function MenuGame()
 		{
 			
-			randomButton = new Button(Assets.getAtlasTexture("backgroundbutton"),"OTRA");
+			randomButton = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_GAME_OTHER"));
 			randomButton.y = 0;
 			randomButton.addEventListener(Event.TRIGGERED, randomButton_onClick);			
 			addChild(randomButton);
