@@ -21,7 +21,7 @@ package ui
 		private var background:Image;
 		private var callbackAlarm:Function = new Function();
 
-		public var MAX_TICS:int = 10;
+		public var MAX_TICS:int = 300;
 		
 		public function DisplayClock(callback:Function)
 		{
