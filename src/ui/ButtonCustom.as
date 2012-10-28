@@ -8,6 +8,8 @@ package ui
 	import starling.events.Event;
 	import starling.text.TextField;
 	
+	import utils.CustomEvent;
+	
 	public class ButtonCustom extends Sprite implements IUIElement 
 	{
 
@@ -17,9 +19,9 @@ package ui
 		private var background:Image;
 		public var _enable:Boolean=true;
 		
-		public function ButtonCustom(labelText:String)
+		public function ButtonCustom(labelText:String, backgroundAtlasTexture:String="backgroundbutton")
 		{
-			background = new Image(Assets.getAtlasTexture("backgroundbutton"));
+			background = new Image(Assets.getAtlasTexture(backgroundAtlasTexture));
 			background.height = 50;
 			background.width = 320;
 			addChild(background);
@@ -41,7 +43,7 @@ package ui
 		{
 			if(!_enable) return;
 			Assets.getSound("Click").play();
-			if(onClick!=null) onClick();
+			if(onClick!=null) onClick(new CustomEvent(Event.TRIGGERED,this));
 		}
 		
 		public function enable():void {_enable=true;}

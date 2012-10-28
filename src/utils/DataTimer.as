@@ -35,5 +35,10 @@ package utils
 			isRepeatable = false;
 		}
 		
+		
+		public function disposeTemporarily():void
+		{
+			removeEventListener(TimerEvent.TIMER_COMPLETE, onTimerComplete);
+		}			
 	}
 }

@@ -23,7 +23,7 @@ package ui
 
 		public var MAX_TICS:int = 10;
 		
-		public function DisplayClock(callback:Function=null)
+		public function DisplayClock(callback:Function)
 		{
 			callbackAlarm = callback;
 			
@@ -63,6 +63,7 @@ package ui
 		{
 			pause();
 			Assets.getSound("Alarm").play();
+			callbackAlarm();
 		}
 		
 		private function formatTime(c:int):String
@@ -99,7 +100,7 @@ package ui
 		public function disposeTemporarily():void
 		{
 			this.visible = false;
-			dataTimer.removeEventListener(TimerEvent.TIMER_COMPLETE, tic);
+			dataTimer.disposeTemporarily();
 		}		
 	}
 }

@@ -12,6 +12,8 @@ package screens
 	import starling.events.TouchEvent;
 	
 	import ui.Background;
+	import ui.DisplayGameMenu;
+	import ui.DisplayTeams;
 	import ui.Logo;
 	import ui.MovieCard;
 	
@@ -21,6 +23,8 @@ package screens
 		private var logo:Logo;
 		
 		private var movieCard:MovieCard;
+		private var displayTeams:DisplayTeams;
+		private var displayGameMenu:DisplayGameMenu;
 		
 		public var dataManager:DataManager = DataManager.getInstance();
 
@@ -45,15 +49,45 @@ package screens
 			// add Logo
 			logo = new Logo();
 			addChild(logo);			
-			
+
+			// add Teams
+			displayTeams = new DisplayTeams();
+			displayTeams.y = 80;
+			addChild(displayTeams);
+
 			// add MovieCard
 			movieCard = new MovieCard();
 			movieCard.y = 80;
-			addChild(movieCard);			
+			addChild(movieCard);
+			
+			// add GameMenu
+			displayGameMenu = new DisplayGameMenu();
+			displayGameMenu.y = 340;
+			displayGameMenu.onAction = displayGameMenu_onAction;
+			addChild(displayGameMenu);
 			
 			dataManager.initialize(dataManager_onInitialize);
 
 			this.visible = true;
+		}
+		
+		public function displayGameMenu_onAction(action:String=""):void
+		{
+			switch(action)
+			{
+				case displayGameMenu.ACTION_GET_RANDOM_MOVIE:
+				{
+					movieCard.getRandomMovie();
+					break;
+				}					
+				default:
+				{
+					trace("displayGameMenu_onAction, NO ACTION")
+					break;
+				}
+			}
+			trace("displayGameMenu_onAction:",action);
+			
 		}
 		
 		private function dataManager_onInitialize():void

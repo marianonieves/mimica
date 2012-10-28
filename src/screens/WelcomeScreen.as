@@ -50,28 +50,28 @@ package screens
 			
 			var menu_offset_y:Number = 100;
 			
-			btnGame1 = new Button( Assets.getAtlasTexture("button1"));
+			btnGame1 = new Button( Assets.getAtlasTexture("backgroundbutton"),"JUGAR");
 			btnGame1.name = "btnGame1";
 			btnGame1.x = 0;
 			btnGame1.y = menu_offset_y;
 			btnGame1.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			addChild(btnGame1);
 
-			btnGame2 = new Button(Assets.getAtlasTexture("button2"));
+			btnGame2 = new Button(Assets.getAtlasTexture("backgroundbutton"),"EQUIPOS");
 			btnGame2.name = "btnGame2";
 			btnGame2.x = 0;
 			btnGame2.y = btnGame1.y + btnGame1.height;
 			btnGame2.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			addChild(btnGame2);
 			
-			btnGame3 = new Button(Assets.getAtlasTexture("button3"));
+			btnGame3 = new Button(Assets.getAtlasTexture("backgroundbutton"),"GESTOS");
 			btnGame3.name = "btnGame3";
 			btnGame3.x = 0;
 			btnGame3.y = btnGame2.y + btnGame1.height;
 			btnGame3.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			addChild(btnGame3);
 			
-			btnGame4 = new Button(Assets.getAtlasTexture("button4"));
+			btnGame4 = new Button(Assets.getAtlasTexture("backgroundbutton"),"REGLAS");
 			btnGame4.name = "btnGame4";
 			btnGame4.x = 0;
 			btnGame4.y = btnGame3.y + btnGame1.height;
@@ -95,7 +95,7 @@ package screens
 					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
 					break;
 				case "btnGame3":
-					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
+					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "gestures"}, true));
 					break;
 				case "btnGame4":
 					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));

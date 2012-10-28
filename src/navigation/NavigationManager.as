@@ -2,6 +2,7 @@ package navigation
 {
 	
 	import screens.GameScreen;
+	import screens.GesturesScreen;
 	import screens.IScreen;
 	import screens.TeamsScreen;
 	import screens.WelcomeScreen;
@@ -18,6 +19,7 @@ package navigation
 		private var screenWelcome:WelcomeScreen;
 		private var screenInGame:GameScreen;
 		private var screenTeams:TeamsScreen;
+		private var screenGestures:GesturesScreen;
 		
 		
 		public function NavigationManager()
@@ -36,6 +38,10 @@ package navigation
 			
 			screenTeams = new TeamsScreen();
 			this.stage.addChild(screenTeams);
+			
+			screenGestures = new GesturesScreen();
+			this.stage.addChild(screenGestures);
+			
 			
 		}
 		
@@ -61,8 +67,8 @@ package navigation
 				case "teams":
 					swapCurrentScreen(screenTeams);
 					break;
-				case "tips":
-					swapCurrentScreen(screenTeams);
+				case "gestures":
+					swapCurrentScreen(screenGestures);
 					break;
 				case "rules":
 					swapCurrentScreen(screenTeams);
