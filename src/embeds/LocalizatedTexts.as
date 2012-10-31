@@ -1,7 +1,7 @@
 package embeds
 {
 	public class LocalizatedTexts
-	{
+	{			
 		public static const LANG_EN:String = "EN";
 		public static const LANG_ES:String = "ES";
 		

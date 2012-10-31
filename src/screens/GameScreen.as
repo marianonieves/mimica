@@ -82,11 +82,10 @@ package screens
 				}					
 				default:
 				{
-					trace("displayGameMenu_onAction, NO ACTION")
+					trace("[#ERROR#] displayGameMenu_onAction, NO ACTION")
 					break;
 				}
 			}
-			trace("[#ERROR#] displayGameMenu_onAction:",action);
 			
 		}
 		
@@ -106,6 +105,10 @@ package screens
 		{
 			this.visible = false;
 			logo.disposeTemporarily();
+			background.disposeTemporarily();
+			displayTeams.disposeTemporarily();
+			movieCard.disposeTemporarily();
+			displayGameMenu.disposeTemporarily();			
 		}
 		
 	}

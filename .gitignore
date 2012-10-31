@@ -1,10 +1,11 @@
 .*
 /*.swc
 /*.swf
+!.gitignore
+!ant
+!material
 bin-debug
 bin-release
 bin-release-temp
-ant
 scripts
 .settings
-!.gitignore

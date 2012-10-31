@@ -16,6 +16,7 @@ package ui
 		private var btnGame3:Button;
 		private var btnGame4:Button;
 		private var btnGame5:Button;
+		private var btnGameLang:ButtonTwoStates;
 		
 		public const ACTION_NAVIGATE_PLAY:String="ACTION_NAVIGATE_PLAY";
 		public const ACTION_NAVIGATE_TEAMS:String="ACTION_NAVIGATE_TEAMS";
@@ -63,6 +64,13 @@ package ui
 			btnGame5.y = btnGame4.y + btnGame1.height + buttonSeparator;
 			btnGame5.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			addChild(btnGame5);			
+			
+/*			btnGameLang = new ButtonTwoStates(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_LANG"));
+			btnGameLang.name = ACTION_NAVIGATE_CREDITS;
+			btnGameLang.x = 0;
+			btnGameLang.y = btnGame4.y + btnGame1.height + buttonSeparator;
+			btnGameLang.addEventListener(Event.TRIGGERED, onButtonTriggered);			
+			addChild(btnGameLang);	*/		
 			
 		}
 

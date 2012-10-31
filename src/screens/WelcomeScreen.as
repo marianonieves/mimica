@@ -88,6 +88,9 @@ package screens
 		public function disposeTemporarily():void
 		{
 			this.visible = false;
+			background.disposeTemporarily();
+			logo.disposeTemporarily();
+			menu.disposeTemporarily();
 		}
 		
 	}

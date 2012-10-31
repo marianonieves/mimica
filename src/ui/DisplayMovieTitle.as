@@ -7,12 +7,27 @@ package ui
 	public class DisplayMovieTitle extends Sprite implements IUIElement 
 	{
 		
-		private var titleTF:TextField;
+		private var title_esTF:TextField;
+		private var title_enTF:TextField;
+		private var yearTF:TextField;
+		private var taglineTF:TextField;
 		private var background:Image;
 		
-		public function set text(s:String):void
+		public function set title_es(s:String):void
 		{
-			titleTF.text = s;
+			title_esTF.text = s;
+		}
+		public function set title_en(s:String):void
+		{
+			title_enTF.text = s;
+		}
+		public function set year(s:String):void
+		{
+			yearTF.text = s;
+		}
+		public function set tagline(s:String):void
+		{
+			taglineTF.text = s;
 		}
 		
 		public function DisplayMovieTitle()
@@ -22,8 +37,21 @@ package ui
 			background.width = 320;
 			addChild(background);
 			
-			titleTF = new TextField(320,140,"......","Verdana",15,0xff0000);
-			addChild(titleTF);
+			title_esTF = new TextField(320,40,"......","Verdana",16,0xff0000);
+			title_esTF.y = 0;
+			addChild(title_esTF);
+			
+			title_enTF = new TextField(320,40,"......","Verdana",14,0xff0000);
+			title_enTF.y = 40;
+			addChild(title_enTF);
+			
+			yearTF = new TextField(320,30,"......","Verdana",14,0x000000);
+			yearTF.y = 80;
+			addChild(yearTF);
+			
+			taglineTF = new TextField(320,40,"......","Verdana",10,0x000000);
+			taglineTF.y = 100;
+			addChild(taglineTF);
 		}
 
 		public function disposeTemporarily():void
