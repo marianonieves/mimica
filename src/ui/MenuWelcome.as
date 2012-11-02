@@ -22,7 +22,7 @@ package ui
 		public const ACTION_NAVIGATE_TEAMS:String="ACTION_NAVIGATE_TEAMS";
 		public const ACTION_NAVIGATE_GESTURES:String="ACTION_NAVIGATE_GESTURES";
 		public const ACTION_NAVIGATE_RULES:String="ACTION_NAVIGATE_RULES";
-		public const ACTION_NAVIGATE_CREDITS:String="ACTION_NAVIGATE_CREDITS";
+		public const ACTION_NAVIGATE_SETTINGS:String="ACTION_NAVIGATE_SETTINGS";
 
 		private var buttonSeparator:int=10;
 		
@@ -58,15 +58,15 @@ package ui
 			btnGame4.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			addChild(btnGame4);
 			
-			btnGame5 = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_CREDITS"));
-			btnGame5.name = ACTION_NAVIGATE_CREDITS;
+			btnGame5 = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_SETTINGS"));
+			btnGame5.name = ACTION_NAVIGATE_SETTINGS;
 			btnGame5.x = 0;
 			btnGame5.y = btnGame4.y + btnGame1.height + buttonSeparator;
 			btnGame5.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			addChild(btnGame5);			
 			
 /*			btnGameLang = new ButtonTwoStates(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_LANG"));
-			btnGameLang.name = ACTION_NAVIGATE_CREDITS;
+			btnGameLang.name = ACTION_NAVIGATE_SETTINGS;
 			btnGameLang.x = 0;
 			btnGameLang.y = btnGame4.y + btnGame1.height + buttonSeparator;
 			btnGameLang.addEventListener(Event.TRIGGERED, onButtonTriggered);			

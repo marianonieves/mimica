@@ -1,12 +1,9 @@
 package embeds
 {
+	import utils.Settings;
+
 	public class LocalizatedTexts
 	{			
-		public static const LANG_EN:String = "EN";
-		public static const LANG_ES:String = "ES";
-		
-		public static var lang:String = LocalizatedTexts.LANG_EN;
-
 		public static var MENU_WELCOME_PLAY_EN:String="PLAY";
 		public static var MENU_WELCOME_PLAY_ES:String="JUGAR";
 		
@@ -19,8 +16,8 @@ package embeds
 		public static var MENU_WELCOME_RULES_EN:String="RULES";
 		public static var MENU_WELCOME_RULES_ES:String="REGLAS";
 
-		public static var MENU_WELCOME_CREDITS_EN:String="CREDITS";
-		public static var MENU_WELCOME_CREDITS_ES:String="CREDITOS";
+		public static var MENU_WELCOME_SETTINGS_EN:String="SETTINGS";
+		public static var MENU_WELCOME_SETTINGS_ES:String="AJUSTES";
 		
 		public static var MENU_GAME_OTHER_EN:String="OTHER";
 		public static var MENU_GAME_OTHER_ES:String="OTRA";
@@ -67,7 +64,7 @@ package embeds
 		private var s:String="";
 		public static function getLocalizatedTextByKey(key:String):String
 		{
-			var s:String = LocalizatedTexts[key+"_"+lang];
+			var s:String = LocalizatedTexts[key+"_"+Settings.lang];
 			if(s==null) 
 			{
 				trace("[#ERROR#] LocalizatedTexts ",key," NOT FOUND");

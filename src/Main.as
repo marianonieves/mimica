@@ -1,9 +1,13 @@
 package 
 {
+	import data.DataManager;
+	
+	import embeds.LocalizatedTexts;
+	
 	import navigation.NavigationEvent;
+	import navigation.NavigationManager;
 	
 	import screens.GameScreen;
-	import navigation.NavigationManager;
 	import screens.WelcomeScreen;
 	
 	import starling.core.Starling;
@@ -13,6 +17,8 @@ package
 	import starling.events.ResizeEvent;
 	import starling.events.TouchEvent;
 	import starling.utils.deg2rad;
+	
+	import utils.Settings;
 
     public class Main extends Sprite
     {
@@ -46,10 +52,22 @@ package
 			screenManager = new NavigationManager();
 			screenManager.initialize(this);
 			this.addEventListener(navigation.NavigationEvent.CHANGE_SCREEN, screenManager.onChangeScreen);
-						
-			initialize();
+			
+			DataManager.getInstance().initialize( getSettings );
         }
-        
+		
+		private function getSettings():void
+		{
+			DataManager.getInstance().getSettings( dataManager_onGetSettings );
+		}
+		
+		private function dataManager_onGetSettings(settingsRecord:*=null):void
+		{
+			trace("Main.dataManager_onGetSettings: ",settingsRecord[0].lang)
+			Settings.lang = settingsRecord[0].lang;
+			initialize();
+		}
+		
         private function initialize():void
         {
 			this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "welcome"}, true));

@@ -17,6 +17,7 @@ package data
 	{
 		private var sqlConnection:SQLConnection = new SQLConnection();
 		private var SQLcall:SQLStatement = new SQLStatement();
+		private var updateDataBase:Boolean = false;
 		
 		public const ST_CLOSED:String = "ST_CLOSED";
 		public const ST_READY:String = "ST_READY";
@@ -26,6 +27,8 @@ package data
 		public var onInitialize:Function = new Function;
 		public var onResultCallback:Function = new Function;
 		
+		private var applicationDB:File;
+		private var storageDB:File;
 		
 		// Singleton instance.
 		protected static var instance:SQLiteManager;
@@ -59,38 +62,45 @@ package data
 			
 			onInitialize = callback;
 			
-			if (!File.applicationStorageDirectory.resolvePath("mimica.db").exists)	
-			{
-				var embededSessionDB:File = File.applicationDirectory.resolvePath("db/mimica_original.db");
+			applicationDB = File.applicationDirectory.resolvePath("db/mimica_original.db");
+			storageDB = File.applicationStorageDirectory.resolvePath("mimica.db");
+			
+			if (!applicationDB.exists)
+			{    
+				trace("[ERROR] DB Not Found in the applicationDirectory");
+				return;
 				
-				if (!embededSessionDB.exists)
-				{    
-					trace("DB Not Found");
-				}
+			} else if (!storageDB.exists) {
 				
-				var writeSessionDB:File = File.applicationStorageDirectory.resolvePath("mimica.db");
+				createDatabaseFromApplicationToStorage();
 				
-				try
-				{
-					if (!writeSessionDB.exists) {            
-						embededSessionDB.copyTo(writeSessionDB);
-					}
-				}
-				catch(err:Error)
-				{  
-					trace(err);
-				}
 			}
 			
 			openDatabaseConnection();
 		}
+				
+		private function createDatabaseFromApplicationToStorage():void
+		{
+			try
+			{
+				if (!storageDB.exists ) {            
+					trace("[LOG] the DB was created");
+					applicationDB.copyTo(storageDB);
+				} else {
+					trace("[LOG] writeSessionDB.exists");
+				}
+			}
+			catch(err:Error)
+			{  
+				trace(err);
+			}
+		}
 		
 		private function openDatabaseConnection():void
 		{
-			var db:File = File.applicationStorageDirectory.resolvePath("mimica.db");
 			sqlConnection.addEventListener(SQLEvent.OPEN, onSQLOpen);
 			sqlConnection.addEventListener(SQLErrorEvent.ERROR, onSQLError);
-			sqlConnection.openAsync(db);
+			sqlConnection.openAsync(storageDB);
 		}
 		
 		private function onSQLOpen(e:SQLEvent):void
@@ -101,6 +111,25 @@ package data
 			
 			status = ST_READY;
 			
+			updateDataBase = false;
+			
+			if ( updateDataBase ) {
+				
+				migrateDatabaseFromApplicationToStorage();
+				
+			} else {
+				onInitialize();
+			}
+			
+		}
+		
+		public function migrateDatabaseFromApplicationToStorage():void
+		{
+			migrateDatabaseFromApplicationToStorage_onComplete();
+		}
+		
+		public function migrateDatabaseFromApplicationToStorage_onComplete():void
+		{
 			onInitialize();
 		}
 		

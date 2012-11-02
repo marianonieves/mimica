@@ -12,6 +12,8 @@ package data
 	import flash.filesystem.FileMode;
 	import flash.filesystem.FileStream;
 	
+	import utils.Settings;
+	
 	public class DataManager
 	{
 		//
@@ -22,11 +24,13 @@ package data
 		public const Q_GET_RANDOM_MOVIE:String = "SELECT * FROM movies ORDER BY RANDOM() LIMIT 1";
 		public const Q_GET_ALL_TEAMS:String = "SELECT * FROM teams";
 		public const Q_GET_ALL_PLAYERS:String = "SELECT * FROM players";
+		public const Q_GET_SETTINGS:String = "SELECT * FROM settings";
 				
 		//
 		// COMPOSED QUERIES, eg: doSQLcall(Q_GET_ALL_PLAYERS_BY_TEAM_ID,{teamId:1});
 		//
 		public const Q_GET_ALL_PLAYERS_BY_TEAM_ID:String = "SELECT * FROM players WHERE teamId = <teamId>";
+		public const Q_UPDATE_SETTINGS:String = "update settings set lang = '<lang>'";
 		
 		public var onInitialize:Function;
 
@@ -73,7 +77,17 @@ package data
 		{
 			SQLiteManager.getInstance().doSQLcall(Q_GET_RANDOM_MOVIE,null,callback);
 		}
-
+		
+		public function getSettings(callback:Function):void
+		{
+			SQLiteManager.getInstance().doSQLcall(Q_GET_SETTINGS,null,callback);
+		}
+		
+		public function updateSettings(callback:Function):void
+		{
+			SQLiteManager.getInstance().doSQLcall( Q_UPDATE_SETTINGS, {lang:Settings.lang}, callback );
+		}
+		
 		
 /*
 		*****

@@ -72,8 +72,8 @@ package screens
 				case menu.ACTION_NAVIGATE_RULES:
 					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "rules"}, true));
 					break;
-				case menu.ACTION_NAVIGATE_CREDITS:
-					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "credits"}, true));
+				case menu.ACTION_NAVIGATE_SETTINGS:
+					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "settings"}, true));
 					break;
 				default:
 				{
