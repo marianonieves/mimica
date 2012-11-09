@@ -1,5 +1,9 @@
 package screens
 {
+	import data.MatchData;
+	
+	import navigation.NavigationEvent;
+	
 	import starling.display.Sprite;
 	import starling.events.Event;
 	
@@ -12,6 +16,9 @@ package screens
 		private var background:Background;		
 		private var logo:Logo;
 		private var displayTeams:DisplayTeams;
+		
+		public static const ACTION_CONTINUE:String="ACTION_CONTINUE";
+		public static const ACTION_END:String="ACTION_END";
 		
 		public function TeamsScreen()
 		{
@@ -35,16 +42,51 @@ package screens
 			logo = new Logo();
 			addChild(logo);
 			
-			// TODO: add display to choose how many teams are going to play the match.
 			// add Teams
 			displayTeams = new DisplayTeams();
 			displayTeams.y = 80;
+			displayTeams.onAction = onAction;
 			addChild(displayTeams);
-
 			
 			this.visible = true;
 		}
 
+		public function onAction(action:String=""):void
+		{
+			trace("[LOG] GameScreen.onAction", action);
+			switch(action)
+			{
+				case ACTION_CONTINUE:
+				{
+					onContinue();
+					break;
+				}
+				case ACTION_END:
+				{
+					onEnd();
+					break;
+				}
+				default:
+				{
+					trace("[#ERROR#] GameScreen.onAction(), NO ACTION: ", action);
+					break;
+				}
+			}			
+		}
+		
+		public function onContinue():void
+		{
+			Assets.getSound("Click").play();
+			this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "play"}, true));
+		}
+		
+		public function onEnd():void
+		{
+			Assets.getSound("Click").play();
+			MatchData.initialize();
+			this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "welcome"}, true));
+		}
+		
 		public function disposeTemporarily():void
 		{
 			this.visible = false;

@@ -25,6 +25,11 @@ package navigation
 		private var screenRules:RulesScreen;
 		private var screenSettings:SettingsScreen;
 		
+		public static const ACTION_NAVIGATE_PLAY:String="ACTION_NAVIGATE_PLAY";
+		public static const ACTION_NAVIGATE_TEAMS:String="ACTION_NAVIGATE_TEAMS";
+		public static const ACTION_NAVIGATE_GESTURES:String="ACTION_NAVIGATE_GESTURES";
+		public static const ACTION_NAVIGATE_RULES:String="ACTION_NAVIGATE_RULES";
+		public static const ACTION_NAVIGATE_SETTINGS:String="ACTION_NAVIGATE_SETTINGS";
 		
 		public function NavigationManager()
 		{

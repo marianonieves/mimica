@@ -29,7 +29,7 @@ package embeds
 		public static var MENU_MOVIECARD_PAUSE_ES:String="PAUSA";
 		
 		public static var MENU_MOVIECARD_GUESSED_EN:String="GUESSED";
-		public static var MENU_MOVIECARD_GUESSED_ES:String="ADIVINO";
+		public static var MENU_MOVIECARD_GUESSED_ES:String="CORRECTO";
 		
 		public static var MENU_MOVIECARD_RESUME_EN:String="RESUME";
 		public static var MENU_MOVIECARD_RESUME_ES:String="VOLVER";
@@ -37,14 +37,14 @@ package embeds
 		public static var MENU_MOVIECARD_PENALTY_EN:String="PENALTY";
 		public static var MENU_MOVIECARD_PENALTY_ES:String="PENALIZAR";
 		
-		public static var MENU_GAME_NEXT_EN:String="NEXT";
+		public static var MENU_GAME_NEXT_EN:String="CONTINUE";
 		public static var MENU_GAME_NEXT_ES:String="CONTINUAR";
 		
-		public static var MENU_GESTURES_NEXT_EN:String="NEXT";
-		public static var MENU_GESTURES_NEXT_ES:String="SIGUIENTE";
+		public static var MENU_GESTURES_NEXT_EN:String="[ -> ]";
+		public static var MENU_GESTURES_NEXT_ES:String="[ -> ]";
 		
-		public static var MENU_GESTURES_PREV_EN:String="PREVIOUS";
-		public static var MENU_GESTURES_PREV_ES:String="ANTERIOR";
+		public static var MENU_GESTURES_PREV_EN:String="[ <- ]";
+		public static var MENU_GESTURES_PREV_ES:String="[ <- ]";
 
 		public static var MENU_SETTINGS_CHANGE_LANGUAGE_EN:String="[CHANGE LANGUAGE]";
 		public static var MENU_SETTINGS_CHANGE_LANGUAGE_ES:String="[CAMBIAR IDIOMA]";
@@ -52,11 +52,17 @@ package embeds
 		public static var MENU_SETTINGS_MATCH_TIME_EN:String="MATCH TIME";
 		public static var MENU_SETTINGS_MATCH_TIME_ES:String="TIEMPO DE PARTIDA";
 		
-		public static var MENU_SETTINGS_TIME_MORE_EN:String="[+]";
-		public static var MENU_SETTINGS_TIME_MORE_ES:String="[+]";
+		public static var MENU_SETTINGS_TIME_MORE_EN:String="[ + ]";
+		public static var MENU_SETTINGS_TIME_MORE_ES:String="[ + ]";
 		
-		public static var MENU_SETTINGS_TIME_LESS_EN:String="[-]";
-		public static var MENU_SETTINGS_TIME_LESS_ES:String="[-]";
+		public static var MENU_SETTINGS_TIME_LESS_EN:String="[ - ]";
+		public static var MENU_SETTINGS_TIME_LESS_ES:String="[ - ]";
+		
+		public static var MENU_TEAMS_CONTINUE_EN:String="CONTINUE";
+		public static var MENU_TEAMS_CONTINUE_ES:String="CONTINUAR";
+		
+		public static var MENU_TEAMS_END_EN:String="ABORT";
+		public static var MENU_TEAMS_END_ES:String="FINALIZAR";		
 		
 		public static var GESTURE_CONTENT1_EN:String="To act out a phrase, one usually starts by indicating what category the phrase is in, and how many words are in the phrase. From then on, the usual procedure is to act out the words one at a time (although not necessarily in the order that they appear in the phrase). In some cases, however, it may make more sense to try to act out the 'entire concept' of the phrase at once.";
 		public static var GESTURE_CONTENT2_EN:String="NUMBER OF WORDS IN THE TITLE: Hold up the number of fingers.";

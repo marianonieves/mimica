@@ -5,6 +5,7 @@ package screens
 	import embeds.LocalizatedTexts;
 	
 	import navigation.NavigationEvent;
+	import navigation.NavigationManager;
 	
 	import starling.display.Button;
 	import starling.display.Image;
@@ -60,19 +61,19 @@ package screens
 			trace("menu_onAction:",action);					
 			switch (action)
 			{
-				case menu.ACTION_NAVIGATE_PLAY:
-					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "play",game:"game1"}, true));
+				case NavigationManager.ACTION_NAVIGATE_PLAY:
+					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "play"}, true));
 					break;
-				case menu.ACTION_NAVIGATE_TEAMS:
-					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
+				case NavigationManager.ACTION_NAVIGATE_TEAMS:
+					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams",gameId:"new"}, true));
 					break;
-				case menu.ACTION_NAVIGATE_GESTURES:
+				case NavigationManager.ACTION_NAVIGATE_GESTURES:
 					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "gestures"}, true));
 					break;
-				case menu.ACTION_NAVIGATE_RULES:
+				case NavigationManager.ACTION_NAVIGATE_RULES:
 					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "rules"}, true));
 					break;
-				case menu.ACTION_NAVIGATE_SETTINGS:
+				case NavigationManager.ACTION_NAVIGATE_SETTINGS:
 					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "settings"}, true));
 					break;
 				default:

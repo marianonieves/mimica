@@ -81,6 +81,7 @@ package
         {
 			sSounds["Click"] = new EmbedSounds.Click();   
 			sSounds["Alarm"] = new EmbedSounds.Alarm();   
+			sSounds["Whistle"] = new EmbedSounds.Whistle();
         }
         
         private static function prepareAtlas():void

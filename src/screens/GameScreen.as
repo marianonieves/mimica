@@ -1,6 +1,7 @@
 package screens
 {	
 	import data.DataManager;
+	import data.MatchData;
 	
 	import navigation.NavigationEvent;
 	
@@ -79,12 +80,6 @@ package screens
 			this.visible = true;
 		}
 		
-		public function onAction(action:String=""):void
-		{
-			trace("[LOG] GameScreen.onAction", action)
-			
-		}
-		
 		private function dataManager_onInitialize():void
 		{
 			gameStart();
@@ -92,13 +87,47 @@ package screens
 				
 		public function gameStart():void
 		{
-			trace("[LOG] Game Start");
+			trace("[LOG] GameScreen.gameStart()");
 			displayMovieCard.getRandomMovie();
 		}
-		
-		public function gameFinish():void
+
+		public function onAction(action:String,score:int=0):void
 		{
-			trace("[LOG] Game Finish");
+			trace("[LOG] GameScreen.onAction", action);
+			switch(action)
+			{
+				case ACTION_TURN_WON:
+				{
+					onTurnWon(score);
+					break;
+				}
+				case ACTION_TURN_LOST:
+				{
+					onTurnLost();
+					break;
+				}
+				default:
+				{
+					trace("[#ERROR#] GameScreen.onAction(), NO ACTION: ", action);
+					break;
+				}
+			}			
+		}
+		
+		public function onTurnWon(score:int):void
+		{
+			trace("[LOG] GameScreen.onTurnWon()");
+			
+			// SUM remain seconds to Score
+			MatchData.updateScore(score);
+				
+			this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
+		}
+		
+		public function onTurnLost():void
+		{
+			trace("[LOG] GameScreen.onTurnLost()");
+			this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
 		}
 						
 		public function disposeTemporarily():void

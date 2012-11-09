@@ -1,6 +1,7 @@
 package ui
 {
 	import data.DataManager;
+	import data.MatchData;
 	import data.MovieData;
 	
 	import embeds.LocalizatedTexts;
@@ -24,6 +25,7 @@ package ui
 		public var onAction:Function;
 		
 		private var menuMovieCard:MenuMovieCard;
+		private var currentTeamDisplay:DisplayCurrentTeam;
 		
 		public function DisplayMovieCard()
 		{
@@ -41,6 +43,10 @@ package ui
 			menuMovieCard.onAction = menuGameCard_onAction;
 			menuMovieCard.setMode(MenuMovieCard.MODE_CHOOSE_MOVIE);
 			addChild(menuMovieCard);
+			
+			currentTeamDisplay = new DisplayCurrentTeam();
+			currentTeamDisplay.y = 220;
+			addChild(currentTeamDisplay);
 		}	
 		
 		public function menuGameCard_onAction(action:String):void
@@ -79,7 +85,7 @@ package ui
 				}					
 				default:
 				{
-					trace("[#ERROR#] DisplayMovieCard.menuMovieCard_onAction(), NO ACTION");
+					trace("[#ERROR#] DisplayMovieCard.menuMovieCard_onAction(), NO ACTION: ",action);
 					break;
 				}
 			}
@@ -114,7 +120,7 @@ package ui
 		public function onGuessed():void
 		{
 			trace("[LOG] DisplayMoviecard.onGuessed()");
-			onAction( GameScreen.ACTION_TURN_WON );
+			onAction( GameScreen.ACTION_TURN_WON, clock.clicks );
 		}
 		
 		public function onTimeFinish():void
@@ -127,11 +133,13 @@ package ui
 		{
 			trace("[LOG] DisplayMoviecard.onReady()");
 			clock.restart();
+			Assets.getSound("Whistle").play();
 			menuMovieCard.setMode(MenuMovieCard.MODE_GUESSING);
 		}
 		
 		public function getRandomMovie():void
 		{
+			currentTeamDisplay.team = MatchData.currentTeam;
 			DataManager.getInstance().getRandomMovie(dataManager_onGetRandomMovie);
 		}
 		
@@ -151,6 +159,7 @@ package ui
 			clock.disposeTemporarily();
 			titleDisplay.disposeTemporarily();
 			menuMovieCard.disposeTemporarily();
+			currentTeamDisplay.disposeTemporarily();
 		}
 	}
 }

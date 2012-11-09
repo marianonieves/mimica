@@ -14,7 +14,6 @@ package ui
 	public class DisplayClock extends Sprite implements IUIElement 
 	{
 		private var dataTimer:DataTimer;
-		private var clicks:int=0;
 		private var lastClick:int=0;
 		private var time:Date;
 
@@ -22,13 +21,14 @@ package ui
 		private var background:Image;
 		private var callbackAlarm:Function = new Function();
 
+		public var clicks:int=0;
 		public var MAX_TICS:int = 300;
 		
 		public function DisplayClock(callback:Function)
 		{
 			callbackAlarm = callback;
 			
-			timeTF = new TextField(320,80,"......","Verdana",60,0x00ff00,true);
+			timeTF = new TextField(320,70,"......","Verdana",60,0x00ff00,true);
 			addChild(timeTF);
 			
 			dataTimer = new DataTimer(1000, tic);

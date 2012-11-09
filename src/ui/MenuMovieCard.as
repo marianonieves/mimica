@@ -44,37 +44,37 @@ package ui
 			btnOther.visible = false;
 			addChild(btnReady);
 			
+			btnGuessed = new Button( Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_MOVIECARD_GUESSED"));
+			btnGuessed.name = GameScreen.ACTION_GUESSED;
+			btnGuessed.x = 0; 
+			btnGuessed.y = 0;
+			btnGuessed.addEventListener(Event.TRIGGERED, onButtonTriggered);			
+			btnGuessed.visible = false;
+			addChild(btnGuessed);
+
 			btnPause = new Button( Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_MOVIECARD_PAUSE"));
 			btnPause.name = GameScreen.ACTION_PAUSE;
-			btnPause.x = 0; 
+			btnPause.x = btnGuessed.x + btnPause.width + 20;
 			btnPause.y = 0;
 			btnPause.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			btnPause.visible = false;
 			addChild(btnPause);
 			
-			btnGuessed = new Button( Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_MOVIECARD_GUESSED"));
-			btnGuessed.name = GameScreen.ACTION_GUESSED;
-			btnGuessed.x = btnPause.x + btnGuessed.width + 20;
-			btnGuessed.y = 0;
-			btnGuessed.addEventListener(Event.TRIGGERED, onButtonTriggered);			
-			btnGuessed.visible = false;
-			addChild(btnGuessed);
-			
-			btnResume = new Button( Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_MOVIECARD_RESUME"));
-			btnResume.name = GameScreen.ACTION_RESUME;
-			btnResume.x = 0; 
-			btnResume.y = 0;
-			btnResume.addEventListener(Event.TRIGGERED, onButtonTriggered);			
-			btnResume.visible = false;
-			addChild(btnResume);
-			
 			btnPenalty = new Button( Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_MOVIECARD_PENALTY"));
 			btnPenalty.name = GameScreen.ACTION_PENALTY;
-			btnPenalty.x = btnResume.x + btnResume.width + 20;
+			btnPenalty.x = 0; 
 			btnPenalty.y = 0;
 			btnPenalty.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			btnPenalty.visible = false;
 			addChild(btnPenalty);
+
+			btnResume = new Button( Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_MOVIECARD_RESUME"));
+			btnResume.name = GameScreen.ACTION_RESUME;
+			btnResume.x = btnPenalty.x + btnResume.width + 20;
+			btnResume.y = 0;
+			btnResume.addEventListener(Event.TRIGGERED, onButtonTriggered);			
+			btnResume.visible = false;
+			addChild(btnResume);
 			
 		}
 				

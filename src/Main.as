@@ -1,6 +1,7 @@
 package 
 {
 	import data.DataManager;
+	import data.MatchData;
 	
 	import embeds.LocalizatedTexts;
 	
@@ -54,6 +55,9 @@ package
 			this.addEventListener(navigation.NavigationEvent.CHANGE_SCREEN, screenManager.onChangeScreen);
 			
 			DataManager.getInstance().initialize( getSettings );
+			
+			MatchData.initialize();
+
         }
 		
 		private function getSettings():void
