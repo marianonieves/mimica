@@ -15,7 +15,7 @@ package ui
 		private var btnGame2:Button;
 		private var btnGame3:Button;
 		private var btnGame4:Button;
-		private var btnGame5:Button;
+		private var btnGameSettings:Button;
 		private var btnGameLang:ButtonTwoStates;
 		
 		public const ACTION_NAVIGATE_PLAY:String="ACTION_NAVIGATE_PLAY";
@@ -37,6 +37,29 @@ package ui
 			btnGame1.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			addChild(btnGame1);
 			
+			btnGame3 = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_GESTURES"));
+			btnGame3.name = ACTION_NAVIGATE_GESTURES;
+			btnGame3.x = 0;
+			btnGame3.y = 80;
+			btnGame3.addEventListener(Event.TRIGGERED, onButtonTriggered);			
+			addChild(btnGame3);
+			
+			btnGame4 = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_RULES"));
+			btnGame4.name = ACTION_NAVIGATE_RULES;
+			btnGame4.x = 0;
+			btnGame4.y = 160;
+			btnGame4.addEventListener(Event.TRIGGERED, onButtonTriggered);			
+			addChild(btnGame4);
+			
+			btnGameSettings = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_SETTINGS"));
+			btnGameSettings.name = ACTION_NAVIGATE_SETTINGS;
+			btnGameSettings.x = 0;
+			btnGameSettings.y = 240;
+			btnGameSettings.addEventListener(Event.TRIGGERED, onButtonTriggered);			
+			addChild(btnGameSettings);
+			
+			
+/*			
 			btnGame2 = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_TEAMS"));
 			btnGame2.name = ACTION_NAVIGATE_TEAMS;
 			btnGame2.x = 0;
@@ -44,34 +67,7 @@ package ui
 			btnGame2.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			addChild(btnGame2);
 			
-			btnGame3 = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_GESTURES"));
-			btnGame3.name = ACTION_NAVIGATE_GESTURES;
-			btnGame3.x = 0;
-			btnGame3.y = btnGame2.y + btnGame1.height + buttonSeparator;
-			btnGame3.addEventListener(Event.TRIGGERED, onButtonTriggered);			
-			addChild(btnGame3);
-			
-			btnGame4 = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_RULES"));
-			btnGame4.name = ACTION_NAVIGATE_RULES;
-			btnGame4.x = 0;
-			btnGame4.y = btnGame3.y + btnGame1.height + buttonSeparator;
-			btnGame4.addEventListener(Event.TRIGGERED, onButtonTriggered);			
-			addChild(btnGame4);
-			
-			btnGame5 = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_SETTINGS"));
-			btnGame5.name = ACTION_NAVIGATE_SETTINGS;
-			btnGame5.x = 0;
-			btnGame5.y = btnGame4.y + btnGame1.height + buttonSeparator;
-			btnGame5.addEventListener(Event.TRIGGERED, onButtonTriggered);			
-			addChild(btnGame5);			
-			
-/*			btnGameLang = new ButtonTwoStates(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_LANG"));
-			btnGameLang.name = ACTION_NAVIGATE_SETTINGS;
-			btnGameLang.x = 0;
-			btnGameLang.y = btnGame4.y + btnGame1.height + buttonSeparator;
-			btnGameLang.addEventListener(Event.TRIGGERED, onButtonTriggered);			
-			addChild(btnGameLang);	*/		
-			
+*/			
 		}
 
 		public function onButtonTriggered(event:Event):void
@@ -86,7 +82,7 @@ package ui
 			this.visible = false;
 			
 			if (btnGame1.hasEventListener(Event.TRIGGERED)) btnGame1.removeEventListener(Event.TRIGGERED, onButtonTriggered);
-			if (btnGame2.hasEventListener(Event.TRIGGERED)) btnGame2.removeEventListener(Event.TRIGGERED, onButtonTriggered);
+			if (btnGameSettings.hasEventListener(Event.TRIGGERED)) btnGameSettings.removeEventListener(Event.TRIGGERED, onButtonTriggered);
 			if (btnGame3.hasEventListener(Event.TRIGGERED)) btnGame3.removeEventListener(Event.TRIGGERED, onButtonTriggered);
 			if (btnGame4.hasEventListener(Event.TRIGGERED)) btnGame4.removeEventListener(Event.TRIGGERED, onButtonTriggered);
 		}

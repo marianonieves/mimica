@@ -9,6 +9,7 @@ package ui
 	import starling.text.TextField;
 	
 	import utils.DataTimer;
+	import utils.Settings;
 	
 	public class DisplayClock extends Sprite implements IUIElement 
 	{
@@ -38,7 +39,19 @@ package ui
 		private function tic(event:TimerEvent=null):void
 		{
 			clicks--;
-			timeTF.text = formatTime(clicks);
+			
+			updateDisplay();
+			
+			if(clicks==0) 
+			{
+				alarm();
+				pause();
+			}
+		}
+		
+		public function updateDisplay():void
+		{
+			timeTF.text = Settings.formatTime(clicks);
 			
 			if(clicks<MAX_TICS/3)
 			{	
@@ -51,13 +64,8 @@ package ui
 			} else {
 				timeTF.color = 0x00ff00;
 			}
-			
-			if(clicks==0) 
-			{
-				alarm();
-				pause();
-			}
 		}
+		
 		
 		public function alarm():void
 		{
@@ -66,12 +74,6 @@ package ui
 			callbackAlarm();
 		}
 		
-		private function formatTime(c:int):String
-		{
-			var s:int = c%60;
-			var m:int = (c-s)/60;
-			return m+":"+s;
-		}
 		
 		public function restart():void
 		{
@@ -81,6 +83,7 @@ package ui
 		
 		public function reset():void
 		{
+			MAX_TICS = Settings.time;
 			dataTimer.pauseTimer();
 			lastClick=clicks;
 			clicks=MAX_TICS+1;
@@ -95,6 +98,12 @@ package ui
 		public function pause():void
 		{
 			dataTimer.pauseTimer();
+		}
+		
+		public function removeTimeInSecs(n:int):void
+		{
+			if( clicks-n>=10 ) clicks -= n;
+			updateDisplay();
 		}
 				
 		public function disposeTemporarily():void

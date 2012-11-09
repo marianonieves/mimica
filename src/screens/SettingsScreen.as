@@ -5,8 +5,10 @@ package screens
 	import embeds.LocalizatedTexts;
 	
 	import starling.display.Button;
+	import starling.display.Image;
 	import starling.display.Sprite;
 	import starling.events.Event;
+	import starling.text.TextField;
 	
 	import ui.Background;
 	import ui.DisplayTextSlides;
@@ -18,9 +20,22 @@ package screens
 	{
 		private var background:Background;
 		private var logo:Logo;
-		private var displayTextArea:DisplayTextSlides;
+		
+		private var textBackground:Image;
+		private var txtLang:TextField;
+		
+		private var txtTimeLabel:TextField;
+		private var txtTimeToPlay:TextField;
+
 		private var btnLang:Button;
+		private var btnMoreTime:Button;
+		private var btnLessTime:Button;
+		
+		private var updating:Boolean = false;
+		
 		public const ACTION_CHANGE_LANG:String="ACTION_CHANGE_LANG";
+		public const ACTION_MORE_TIME:String="ACTION_MORE_TIME";
+		public const ACTION_LESS_TIME:String="ACTION_LESS_TIME";
 		
 		public function SettingsScreen()
 		{
@@ -44,19 +59,54 @@ package screens
 			logo = new Logo();
 			addChild(logo);	
 			
-			displayTextArea = new DisplayTextSlides();
-			displayTextArea.y = 80;
-			addChild(displayTextArea);
+			textBackground = new Image(Assets.getAtlasTexture("backgroundbutton"));
+			textBackground.y = 80;
+			textBackground.width = 320;
+			textBackground.height = 250;
+			addChild(textBackground);
 			
-			btnLang = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_WELCOME_SETTINGS"));
+			// LANGUAGE
+			btnLang = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_SETTINGS_CHANGE_LANGUAGE"));
 			btnLang.name = ACTION_CHANGE_LANG;
-			btnLang.x = 0;
-			btnLang.y = 200;
+			btnLang.x = 80;
+			btnLang.y = 120;
 			btnLang.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			addChild(btnLang);
 			
+			txtLang = new TextField(300,40,"...","Verdana",16);
+			txtLang.x = 10;
+			txtLang.y = 90;
+			addChild(txtLang);			
 			
-			setText();
+			
+			// TIME
+			txtTimeLabel = new TextField(300,20,"...","Verdana",12);
+			txtTimeLabel.y = 200;
+			txtTimeLabel.x = 10;
+			txtTimeLabel.text = LocalizatedTexts.getLocalizatedTextByKey("MENU_SETTINGS_MATCH_TIME");
+			addChild(txtTimeLabel);			
+			
+			txtTimeToPlay = new TextField(300,20,"...","Verdana",16);
+			txtTimeToPlay.y = 220;
+			txtTimeToPlay.x = 10;
+			txtTimeToPlay.text = "";
+			addChild(txtTimeToPlay);			
+			
+			btnMoreTime = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_SETTINGS_TIME_MORE"));
+			btnMoreTime.name = ACTION_MORE_TIME;
+			btnMoreTime.x = 200;
+			btnMoreTime.y = 240;
+			btnMoreTime.addEventListener(Event.TRIGGERED, onButtonTriggered);			
+			addChild(btnMoreTime);
+			
+			btnLessTime = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_SETTINGS_TIME_LESS"));
+			btnLessTime.name = ACTION_LESS_TIME;
+			btnLessTime.x = 0;
+			btnLessTime.y = 240;
+			btnLessTime.addEventListener(Event.TRIGGERED, onButtonTriggered);			
+			addChild(btnLessTime);
+			
+			updateDisplay();
 			
 			this.visible = true;			
 		}
@@ -64,9 +114,52 @@ package screens
 		public function onButtonTriggered(event:Event):void
 		{
 			Assets.getSound("Click").play();
-			toggleLang();
-		}	
-				
+			var btnTmp:Button = Button(event.target);
+			switch(btnTmp.name)
+			{
+				case ACTION_CHANGE_LANG:
+				{
+					toggleLang();
+					break;
+				}
+				case ACTION_LESS_TIME:
+				{
+					lessTime();
+					break;
+				}
+				case ACTION_MORE_TIME:
+				{
+					moreTime();
+					break;
+				}
+				default:
+				{
+					trace("[#ERROR#] SettingsScreen_onButtonTriggered, NO ACTION ", btnTmp.name );
+					break;
+				}
+			}
+		}
+		
+		private function lessTime():void
+		{
+			trace("[LOG] SettingsScreen.lessTime " + Settings.time);
+
+			if( Settings.time-60<=0 ) return;
+			Settings.time -= 60;
+			
+			updateSettings();
+		}
+		
+		private function moreTime():void
+		{
+			trace("[LOG] SettingsScreen.moreTime " + Settings.time);			
+			
+			if( Settings.time+60>600 ) return;
+			Settings.time += 60;
+			
+			updateSettings();
+		}
+		
 		private function toggleLang():void
 		{
 			if( Settings.lang == Settings.LANG_EN ) 
@@ -74,19 +167,32 @@ package screens
 			else 
 				Settings.lang = Settings.LANG_EN;
 			
-			trace("toggleLang to " + Settings.lang);
+			trace("[LOG] SettingsScreen.toggleLang to " + Settings.lang);
 			
-			DataManager.getInstance().updateSettings(DataManager_onUpdateSettings);
+			updateSettings();
+		}
+		
+		private function updateSettings():void
+		{
+			if(!updating)
+			{
+				DataManager.getInstance().updateSettings(DataManager_onUpdateSettings);
+				updating = true;
+			} else {
+				trace("[#WARNING#] SettingScreen.updateSettings was called two times in a row");
+			}
 		}
 		
 		private function DataManager_onUpdateSettings(action:String=""):void
 		{
-			setText();
+			updateDisplay();
 		}
 		
-		private function setText():void
+		private function updateDisplay():void
 		{
-			displayTextArea.text = Settings.lang;
+			txtLang.text = Settings.lang;
+			txtTimeToPlay.text = Settings.formatTime(Settings.time);
+			updating = false;
 		}
 		
 		public function disposeTemporarily():void
@@ -94,10 +200,12 @@ package screens
 			this.visible = false;
 			
 			btnLang.removeEventListener(Event.TRIGGERED, onButtonTriggered);
+			btnMoreTime.removeEventListener(Event.TRIGGERED, onButtonTriggered);
+			btnLessTime.removeEventListener(Event.TRIGGERED, onButtonTriggered);
 			
 			background.disposeTemporarily();
 			logo.disposeTemporarily();
-			displayTextArea.disposeTemporarily();
+
 			
 		}
 		

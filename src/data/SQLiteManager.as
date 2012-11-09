@@ -69,21 +69,11 @@ package data
 			{    
 				trace("[ERROR] DB Not Found in the applicationDirectory");
 				return;
-				
-			} else if (!storageDB.exists) {
-				
-				createDatabaseFromApplicationToStorage();
-				
 			}
-			
-			openDatabaseConnection();
-		}
 				
-		private function createDatabaseFromApplicationToStorage():void
-		{
 			try
 			{
-				if (!storageDB.exists ) {            
+				if (!storageDB.exists) {            
 					trace("[LOG] the DB was created");
 					applicationDB.copyTo(storageDB);
 				} else {
@@ -94,8 +84,10 @@ package data
 			{  
 				trace(err);
 			}
+			
+			openDatabaseConnection();
 		}
-		
+						
 		private function openDatabaseConnection():void
 		{
 			sqlConnection.addEventListener(SQLEvent.OPEN, onSQLOpen);
@@ -143,6 +135,8 @@ package data
 
 			if( callback!=null ) onResultCallback = callback;
 			if( params!=null ) query = replaceParamsInQuery(query,params);
+			
+			trace("SQLiteManager.doSQLcall() ",query)
 			
 			SQLcall.text = query;
 			SQLcall.execute();

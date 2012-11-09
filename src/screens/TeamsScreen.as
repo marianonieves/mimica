@@ -4,12 +4,14 @@ package screens
 	import starling.events.Event;
 	
 	import ui.Background;
+	import ui.DisplayTeams;
 	import ui.Logo;
 	
 	public class TeamsScreen extends Sprite implements IScreen
 	{
 		private var background:Background;		
 		private var logo:Logo;
+		private var displayTeams:DisplayTeams;
 		
 		public function TeamsScreen()
 		{
@@ -33,12 +35,20 @@ package screens
 			logo = new Logo();
 			addChild(logo);
 			
+			// TODO: add display to choose how many teams are going to play the match.
+			// add Teams
+			displayTeams = new DisplayTeams();
+			displayTeams.y = 80;
+			addChild(displayTeams);
+
+			
 			this.visible = true;
 		}
 
 		public function disposeTemporarily():void
 		{
 			this.visible = false;
+			displayTeams.disposeTemporarily();
 			logo.disposeTemporarily();
 		}
 		

@@ -1,6 +1,6 @@
 package data
 {
-	public class DataMovie
+	public class MovieData
 	{
 		
 		public var movieId:int=0;
@@ -11,7 +11,7 @@ package data
 		public var tagline:String="";
 		public var code:String="";
 		
-		public function DataMovie()
+		public function MovieData()
 		{
 			
 		}

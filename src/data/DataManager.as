@@ -30,7 +30,7 @@ package data
 		// COMPOSED QUERIES, eg: doSQLcall(Q_GET_ALL_PLAYERS_BY_TEAM_ID,{teamId:1});
 		//
 		public const Q_GET_ALL_PLAYERS_BY_TEAM_ID:String = "SELECT * FROM players WHERE teamId = <teamId>";
-		public const Q_UPDATE_SETTINGS:String = "update settings set lang = '<lang>'";
+		public const Q_UPDATE_SETTINGS:String = "UPDATE settings SET lang = '<lang>', time = <time> WHERE version = 1";
 		
 		public var onInitialize:Function;
 
@@ -85,7 +85,7 @@ package data
 		
 		public function updateSettings(callback:Function):void
 		{
-			SQLiteManager.getInstance().doSQLcall( Q_UPDATE_SETTINGS, {lang:Settings.lang}, callback );
+			SQLiteManager.getInstance().doSQLcall( Q_UPDATE_SETTINGS, {lang:Settings.lang,time:Settings.time}, callback );
 		}
 		
 		
@@ -120,7 +120,13 @@ package data
 		}
 */
 		
+	
+		public function disposeTemporarily():void
+		{
+		}
+		
 	}
+	
 }
 
 class AccessRestriction {}

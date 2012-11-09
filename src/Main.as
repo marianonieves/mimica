@@ -65,6 +65,7 @@ package
 		{
 			trace("Main.dataManager_onGetSettings: ",settingsRecord[0].lang)
 			Settings.lang = settingsRecord[0].lang;
+			Settings.time = settingsRecord[0].time;
 			initialize();
 		}
 		

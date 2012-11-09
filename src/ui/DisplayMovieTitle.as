@@ -53,7 +53,17 @@ package ui
 			taglineTF.y = 100;
 			addChild(taglineTF);
 		}
-
+		
+		public function hide():void
+		{
+			this.visible = false;
+		}
+		
+		public function show():void
+		{
+			this.visible = true;
+		}
+		
 		public function disposeTemporarily():void
 		{
 			this.visible = false;
