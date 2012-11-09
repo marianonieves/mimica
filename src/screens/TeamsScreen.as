@@ -18,7 +18,7 @@ package screens
 		private var displayTeams:DisplayTeams;
 		
 		public static const ACTION_CONTINUE:String="ACTION_CONTINUE";
-		public static const ACTION_END:String="ACTION_END";
+		public static const ACTION_EXIT:String="ACTION_EXIT";
 		
 		public function TeamsScreen()
 		{
@@ -61,9 +61,9 @@ package screens
 					onContinue();
 					break;
 				}
-				case ACTION_END:
+				case ACTION_EXIT:
 				{
-					onEnd();
+					onExit();
 					break;
 				}
 				default:
@@ -80,10 +80,9 @@ package screens
 			this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "play"}, true));
 		}
 		
-		public function onEnd():void
+		public function onExit():void
 		{
 			Assets.getSound("Click").play();
-			MatchData.initialize();
 			this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "welcome"}, true));
 		}
 		

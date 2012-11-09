@@ -44,7 +44,7 @@ package ui
 			addChild(txtTeam2);			
 			
 			btnEnd = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_TEAMS_END"));
-			btnEnd.name = TeamsScreen.ACTION_END;
+			btnEnd.name = TeamsScreen.ACTION_EXIT;
 			btnEnd.x = 0;
 			btnEnd.y = 240;
 			btnEnd.addEventListener(Event.TRIGGERED, onButtonTriggered);			

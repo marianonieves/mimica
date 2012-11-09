@@ -126,6 +126,9 @@ package screens
 		
 		public function onTurnLost():void
 		{
+			// SUM remain seconds to Score
+			MatchData.updateScore(0);
+			
 			trace("[LOG] GameScreen.onTurnLost()");
 			this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id: "teams"}, true));
 		}

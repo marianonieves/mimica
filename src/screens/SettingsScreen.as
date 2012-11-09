@@ -1,6 +1,7 @@
 package screens
 {
 	import data.DataManager;
+	import data.MatchData;
 	
 	import embeds.LocalizatedTexts;
 	
@@ -30,12 +31,14 @@ package screens
 		private var btnLang:Button;
 		private var btnMoreTime:Button;
 		private var btnLessTime:Button;
+		private var btnResetMatch:Button;
 		
 		private var updating:Boolean = false;
 		
 		public const ACTION_CHANGE_LANG:String="ACTION_CHANGE_LANG";
 		public const ACTION_MORE_TIME:String="ACTION_MORE_TIME";
 		public const ACTION_LESS_TIME:String="ACTION_LESS_TIME";
+		public const ACTION_RESET_MATCH:String="ACTION_RESET_MATCH";
 		
 		public function SettingsScreen()
 		{
@@ -76,8 +79,7 @@ package screens
 			txtLang = new TextField(300,40,"...","Verdana",16);
 			txtLang.x = 10;
 			txtLang.y = 90;
-			addChild(txtLang);			
-			
+			addChild(txtLang);
 			
 			// TIME
 			txtTimeLabel = new TextField(300,20,"...","Verdana",12);
@@ -106,6 +108,13 @@ package screens
 			btnLessTime.addEventListener(Event.TRIGGERED, onButtonTriggered);			
 			addChild(btnLessTime);
 			
+			btnResetMatch = new Button(Assets.getAtlasTexture("backgroundbutton"),LocalizatedTexts.getLocalizatedTextByKey("MENU_SETTINGS_RESET_MATCH"));
+			btnResetMatch.name = ACTION_RESET_MATCH;
+			btnResetMatch.x = 80;
+			btnResetMatch.y = 340;
+			btnResetMatch.addEventListener(Event.TRIGGERED, onButtonTriggered);			
+			addChild(btnResetMatch);
+			
 			updateDisplay();
 			
 			this.visible = true;			
@@ -132,12 +141,22 @@ package screens
 					moreTime();
 					break;
 				}
+				case ACTION_RESET_MATCH:
+				{
+					resetMatchData();
+					break;
+				}
 				default:
 				{
 					trace("[#ERROR#] SettingsScreen_onButtonTriggered, NO ACTION ", btnTmp.name );
 					break;
 				}
 			}
+		}
+		
+		private function resetMatchData():void
+		{
+			MatchData.initialize();
 		}
 		
 		private function lessTime():void
