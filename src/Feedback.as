@@ -1,6 +1,6 @@
 package
 {	
-	import com.testflightapp.sdk.TestFlight;
+//	import com.testflightapp.sdk.TestFlight;
 
 	public class Feedback
 	{		
@@ -11,7 +11,7 @@ package
 		public function initialize(TEAM_NAME:String,TEAM_TOKEN:String):void
 		{
 			
-			trace("TestFlight.isSupported: " + TestFlight.isSupported );
+/*			trace("TestFlight.isSupported: " + TestFlight.isSupported );
 			// Only required function, but see below...
 			TestFlight.takeOff(TEAM_TOKEN);
 			
@@ -23,23 +23,23 @@ package
 			TestFlight.setDeviceIdentifier();
 			
 			// Lastly, you can tweak TestFlight internal settings
-			TestFlight.setOptions({ logToConsole: true });			
+			TestFlight.setOptions({ logToConsole: true });			*/
 		}
 		
 		
 		public function passCheckpoint(checkpoint:String):void
 		{
-			// You may register checkpoint
-			TestFlight.passCheckpoint(checkpoint);
+/*			// You may register checkpoint
+			TestFlight.passCheckpoint(checkpoint);*/
 		}
 		
 		public function submitFeedback(message:String):void
 		{
 			// Or launch the feedback view
-			TestFlight.openFeedbackView();
+/*			TestFlight.openFeedbackView();
 			// Alternatively, supply your own feedback string
 			TestFlight.submitFeedback(message);
-		}
+*/		}
 		
 	}
 }

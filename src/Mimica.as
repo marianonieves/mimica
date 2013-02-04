@@ -61,17 +61,22 @@ package
 			//
 			// (Note that we *cannot* embed the "Default*.png" images, because then they won't
 			//  be copied into the package any longer once they are embedded.)
-			var startupImage:Sprite = createStartupImage(viewPort, screenWidth > 320);
-			addChild(startupImage);
+			// startupImage = createStartupImage(viewPort, screenWidth > 320);
+			// this.addChild(startupImage);
 			
 			// Set up Starling
+			Starling.handleLostContext = true;
 			mStarling = new Starling(Main, stage, viewPort);
-			mStarling.stage3D.addEventListener(Event.CONTEXT3D_CREATE, function(e:Event):void 
-			{
-				// Starling is ready! We remove the startup image and start the game.
-				removeChild(startupImage);
-				mStarling.start();
-			});
+			mStarling.stage3D.addEventListener(Event.CONTEXT3D_CREATE, starling_onContext3dCreated);
+		}
+			
+		private var startupImage:Sprite;
+		
+		private function starling_onContext3dCreated(e:Event):void 
+		{
+			// Starling is ready! We remove the startup image and start the game.
+			// this.removeChild(startupImage);
+			mStarling.start();
 			
 			// When the game becomes inactive, we pause Starling; otherwise, the enter frame event
 			// would report a very long 'passedTime' when the app is reactivated. 

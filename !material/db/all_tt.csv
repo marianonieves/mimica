@@ -1,0 +1,1114 @@
+	var movies = ["tt0211915","tt0088763","tt0046359","tt0365748","tt0449059","tt0425112","tt0027977","tt0053291","tt0032553","tt0264464","tt0053604","tt0017925","tt0012349","tt0014429","tt0021749","tt0107048","tt0023969","tt0120382","tt1119646","tt0018773","tt0190590","tt0095705","tt0829482","tt0446029","tt1570728","tt0084805","tt0443453","tt0057187","tt0032339","tt0286112","tt0109686","tt0362227","tt0099785","tt0104431","tt1149361","tt1178663","tt0129387","tt0838221","tt1605630","tt0416960","tt0078841","tt1411697","tt1605783","tt0290002","tt0477347","tt0315327","tt0107614","tt0396269","tt0207201","tt0119528","tt0386588","tt1375670","tt0163651","tt0252866","tt0337741","tt0110475","tt0942385","tt0208003","tt0369441","tt0112281","tt0122933","tt0099492","tt0328828","tt0413099","tt1068680","tt0175142","tt0257106","tt0306047","tt0362120","tt0116852","tt0183505","tt0368578","tt0087928","tt0838232","tt0810913","tt0109040","tt0102059","tt0107144","tt0119715","tt0110622","tt0102510","tt0118689","tt1385867","tt1045778","tt0335245","tt0453451","tt0119654","tt0295178","tt0367594","tt1478338","tt0486946","tt1114740","tt0795421","tt0467406","tt0343660","tt0045152","tt0075686","tt0057012","tt1675434","tt0118849","tt0114709","tt0120363","tt0435761","tt0070608","tt0382932","tt0317705","tt0910970","tt1049413","tt0191043","tt1323594","tt0298148","tt0266543","tt0033563","tt0318403","tt0441773","tt1192628","tt0317219","tt0198781","tt0015864","tt0110357","tt0414853","tt0126029","tt0438097","tt0327084","tt0351283","tt0892769","tt0479952","tt0432283","tt0983193","tt0443536","tt1302011","tt0101414","tt1080016","tt1436562","tt1216475","tt0093342","tt0844471","tt0892791","tt0103639","tt0485601","tt0970179","tt1277953","tt0120630","tt0083866","tt0112445","tt0245429","tt0892782","tt0398286","tt0448694","tt1667889","tt0121164","tt1028532","tt0120917","tt0268380","tt0029583","tt0413267","tt0307453","tt0400717","tt0308644","tt1217209","tt0389790","tt0397892","tt0845046","tt0397313","tt0116583","tt0120855","tt0385880","tt0366777","tt0312004","tt0268397","tt0299172","tt0113497","tt0338348","tt0120794","tt0112642","tt0059742","tt0166813","tt0451079","tt0241527","tt1430607","tt0088323","tt1067106","tt0358082","tt1001526","tt0371606","tt0048280","tt0032138","tt0042332","tt0120587","tt0120623","tt0092991","tt0083907","tt0106308","tt0762073","tt0361668","tt0112922","tt0144084","tt0101700","tt0304262","tt0103905","tt0111149","tt0082010","tt0103873","tt0290329","tt1632547","tt0312843","tt0342492","tt0063633","tt0109592","tt0089885","tt1465522","tt0462322","tt0407236","tt0228687","tt0407621","tt0216800","tt0269743","tt0188503","tt0116163","tt0103743","tt0296042","tt0410730","tt0281686","tt0310357","tt0162661","tt0129332","tt0862856","tt0303361","tt0308152","tt1259521","tt1316536","tt0439815","tt0457572","tt1401143","tt0072431","tt0089175","tt0114608","tt0422401","tt0437857","tt0464196","tt0465430","tt0758786","tt0365289","tt0780622","tt0210070","tt0116367","tt0779982","tt0280609","tt1023500","tt1156398","tt1478964","tt0464154","tt0374639","tt0099052","tt0100814","tt0426459","tt0091083","tt0094793","tt0083624","tt0094057","tt0169299","tt0092610","tt0091630","tt0095444","tt0089907","tt0083767","tt0076162","tt0073629","tt0115819","tt0091419","tt0040068","tt0023293","tt0061655","tt0056943","tt0070791","tt0071994","tt0058606","tt0052655","tt0054033","tt0096734","tt0087332","tt0087363","tt0098068","tt0083869","tt0111127","tt0104070","tt0094721","tt0101272","tt0116365","tt0120338","tt0213847","tt0120731","tt0344510","tt0118694","tt0109830","tt0059113","tt1125849","tt0233841","tt0907657","tt0421715","tt0107822","tt0338013","tt0095250","tt0159365","tt0044081","tt0426931","tt0246677","tt0031381","tt1010048","tt0048028","tt0332280","tt0034583","tt0070849","tt0066011","tt1655442","tt0112471","tt0485947","tt0783233","tt0976051","tt0155722","tt0473753","tt0416320","tt0099653","tt1022603","tt0352248","tt0404203","tt0056193","tt1193138","tt0047437","tt0072684","tt0314331","tt0420223","tt0053472","tt0401711","tt0203009","tt0825236","tt1120985","tt0959337","tt0443543","tt1263670","tt0376541","tt0112579","tt0497986","tt0241303","tt0103855","tt0047522","tt0061722","tt0352343","tt0108394","tt0106226","tt0076095","tt0100935","tt0497465","tt0114808","tt0120632","tt0381681","tt0298845","tt0032904","tt0098635","tt0491747","tt0070460","tt0058385","tt0478311","tt0117615","tt1375666","tt0103064","tt0181689","tt0499549","tt0133093","tt0062622","tt0434409","tt0114746","tt0088247","tt0212720","tt0884328","tt0234215","tt0075860","tt0066921","tt0121766","tt0078748","tt0848228","tt0083658","tt1399103","tt0076759","tt0414993","tt0407304","tt0272152","tt0107290","tt0069293","tt1077258","tt0088846","tt0206634","tt0119925","tt0289879","tt0376994","tt0945513","tt1446714","tt0242653","tt0080684","tt0090605","tt0119116","tt0099088","tt1219289","tt0074486","tt1527186","tt0138704","tt0096754","tt0121765","tt0086190","tt0399201","tt0123755","tt1060277","tt0017136","tt1650062","tt0093870","tt0411477","tt0433035","tt0114898","tt0286106","tt0371746","tt0363547","tt0343818","tt0120903","tt0453467","tt0181852","tt1182345","tt0386741","tt1598778","tt0167190","tt0120915","tt0259711","tt1092026","tt0480249","tt1318514","tt0861689","tt0286716","tt1104001","tt0118929","tt0163025","tt0800080","tt0216216","tt0238380","tt0118583","tt0118884","tt1055369","tt0409847","tt0096874","tt0401729","tt0116629","tt0120591","tt0103644","tt0119567","tt1190080","tt0418279","tt0432021","tt0346156","tt1139797","tt0365376","tt1029234","tt1038988","tt0435625","tt0289043","tt0463854","tt0072271","tt1588170","tt0157016","tt0099763","tt0165623","tt0123948","tt0119167","tt1020530","tt1189073","tt0235198","tt1590089","tt0250258","tt0266308","tt0856288","tt1273235","tt1646959","tt0440803","tt0298130","tt0256009","tt0230600","tt0264616","tt0110631","tt0074811","tt0081505","tt0091064","tt0084787","tt0093773","tt0077651","tt0096163","tt0077914","tt0189998","tt1437358","tt1629377","tt0468820","tt0472458","tt0416315","tt0808276","tt0338095","tt0830558","tt1714208","tt1226681","tt0063350","tt0077402","tt0395584","tt0454841","tt0324216","tt1127180","tt0468492","tt0780571","tt0054215","tt0056869","tt0086541","tt0082933","tt0098253","tt0076786","tt0099871","tt0070917","tt0063522","tt0075005","tt0070047","tt0100157","tt0013086","tt0022100","tt0030341","tt0032976","tt0034248","tt0035279","tt0035753","tt0036855","tt0037008","tt0037635","tt0038109","tt0037515","tt0040746","tt0040823","tt0047396","tt0046911","tt0048424","tt0049470","tt0052357","tt0054167","tt0055018","tt0056218","tt0056687","tt0057427","tt0057495","tt0057129","tt0058213","tt0058329","tt0059043","tt0059646","tt0060268","tt0060176","tt0062467","tt0065143","tt0067800","tt0067588","tt0069281","tt0068611","tt0069995","tt0071360","tt0073582","tt0075314","tt0074860","tt0074285","tt0081455","tt0082085","tt0084777","tt0085407","tt0091605","tt0091474","tt0090756","tt0092563","tt0095174","tt0094964","tt0101410","tt0102926","tt0101540","tt0106856","tt0114369","tt0117883","tt0117381","tt0119174","tt0116922","tt0118564","tt0125659","tt0118636","tt0154506","tt0167404","tt0137523","tt0139809","tt0137363","tt0134119","tt0209958","tt0180093","tt0219699","tt0217869","tt0209144","tt0268978","tt0261983","tt0246578","tt0166924","tt0289765","tt0278731","tt0265459","tt0278504","tt0309698","tt0364569","tt0292506","tt0327056","tt0363988","tt0387564","tt0419677","tt0368447","tt0361862","tt0387898","tt0366627","tt0396171","tt0450340","tt0482571","tt1016301","tt0450385","tt0292963","tt0480669","tt0443706","tt0961728","tt0780536","tt1258197","tt1139328","tt1130884","tt1314655","tt0947798","tt1242460","tt1568346","tt0094737","tt0100436","tt0110950","tt0114388","tt0118799","tt0147800","tt0265930","tt0414387","tt0462590","tt0431308","tt0445922","tt1023481","tt1001508","tt1142988","tt1193631","tt1403981","tt0119738","tt0758752","tt1411238","tt1067583","tt0490084","tt1041829","tt0077631","tt0832266","tt0183790","tt0092099","tt1216492","tt0457939","tt1212436","tt1230414","tt1046947","tt0181875","tt0116695","tt0119822","tt0988595","tt0163978","tt0110322","tt0251127","tt0119643","tt0391304","tt0125439","tt0098258","tt0223897","tt0427229","tt0356680","tt0343135","tt0108160","tt0120211","tt0146882","tt0108451","tt0401445","tt0276751","tt0259446","tt0120888","tt0240890","tt0230838","tt0118842","tt0093737","tt0094889","tt0097044","tt0101787","tt0105415","tt0105323","tt0110737","tt0118001","tt0114924","tt0166485","tt0124298","tt0120596","tt0218967","tt0171433","tt0209475","tt0243155","tt0244970","tt0253867","tt0305711","tt0361841","tt0347048","tt0368709","tt0388125","tt0809504","tt1135503","tt0113855","tt0115798","tt0107977","tt0117705","tt0448011","tt1320253","tt0113481","tt0120912","tt0116996","tt0266915","tt0111301","tt0450345","tt0110989","tt0120685","tt0245674","tt0112896","tt0120434","tt0364751","tt0251075","tt0112508","tt0118688","tt0120725","tt0240462","tt0120765","tt0107050","tt0083284","tt0110478","tt0105812","tt0116483","tt0142342","tt0092675","tt0082517","tt0182789","tt0250687","tt0106697","tt0285531","tt0251114","tt0111070","tt0181739","tt0274166","tt0132347","tt0481369","tt0191397","tt0291341","tt0133152","tt0116778","tt0118880","tt0097428","tt1764651","tt0125454","tt1386588","tt1014759","tt0799934","tt0250223","tt0120657","tt0106611","tt0067525","tt0075222","tt0184894","tt0102057","tt0110353","tt0118708","tt0106701","tt0112462","tt0117038","tt0105698","position","tt0015648","tt0015624","tt0018578","tt0020629","tt0028950","tt0035884","tt0036323","tt0037824","tt0036868","tt0044072","tt0043265","tt0045793","tt0046816","tt0050490","tt0050212","tt0050825","tt0051790","tt0051808","tt0052618","tt0054331","tt0054953","tt0056111","tt0056172","tt0056197","tt0057115","tt0058777","tt0058083","tt0059274","tt0058946","tt0061578","tt0063227","tt0063056","tt0065938","tt0066473","tt0066206","tt0066078","tt0073341","tt0075968","tt0074695","tt0075784","tt0077416","tt0078788","tt0080437","tt0082432","tt0082096","tt0083944","tt0087553","tt0091251","tt0089881","tt0091763","tt0092965","tt0093058","tt0093105","tt0096969","tt0097441","tt0097499","tt0100133","tt0099810","tt0104691","tt0107007","tt0108052","tt0112740","tt0114287","tt0112573","tt0120815","tt0120863","tt0120188","tt0172495","tt0187393","tt0215750","tt0265086","tt0253474","tt0325710","tt0311113","tt0386064","tt0363163","tt0320661","tt0424205","tt0472043","tt0416449","tt0462504","tt0498380","tt0416044","tt1034303","tt0887912","tt0985699","tt1234548","tt0361748","tt0955308","tt1568911","tt0019901","tt0022835","tt0024184","tt0028358","tt0043456","tt0044876","tt0044121","tt0046534","tt0047573","tt0047034","tt0049223","tt0049366","tt0050539","tt0051622","tt0053137","tt0054443","tt0054387","tt0056119","tt0058700","tt0060390","tt0060397","tt0063442","tt0066434","tt0066769","tt0069280","tt0067756","tt0070723","tt0070909","tt0069945","tt0074812","tt0075931","tt0077745","tt0079501","tt0079944","tt0080745","tt0080360","tt0082869","tt0081633","tt0082340","tt0082694","tt0084726","tt0084827","tt0085426","tt0087182","tt0087803","tt0088172","tt0089869","tt0089092","tt0088933","tt0092007","tt0096256","tt0094625","tt0100802","tt0112682","tt0117731","tt0119177","tt0120201","tt0186151","tt0134847","tt0379786","tt0756683","tt0448134","tt1136608","tt0796366","tt1276104","tt0010323","tt0013442","tt0016220","tt0016847","tt0021884","tt0021814","tt0023649","tt0024216","tt0026138","tt0034398","tt0034587","tt0036027","tt0037415","tt0037988","tt0045888","tt0046876","tt0050976","tt0051554","tt0051418","tt0051744","tt0054067","tt0055824","tt0058430","tt0073195","tt0078908","tt0079641","tt0080923","tt0080761","tt0080516","tt0084516","tt0085333","tt0087800","tt0087909","tt0088993","tt0091209","tt0093777","tt0093177","tt0094862","tt0102511","tt0103874","tt0104029","tt0113409","tt0110148","tt0117571","tt0178868","tt0360486","tt0384537","tt0408236","tt1591095","tt0319061","tt0111161","tt0281358","tt0395169","tt0454921","tt0824747","tt0814314","tt0162222","tt0372784","tt0468569","tt0463998","tt0113277","tt0375679","tt0092005","tt0340377","tt0412922","tt0405159","tt0083987","tt0410297","tt0159273","tt0978762","tt0138097","tt0060196","tt0046250","tt0822832","tt0169547","tt0100405","tt0110413","tt0817177","tt0078346","tt0857191","tt0090021","tt0327597","tt1205489","tt0936501","tt0105695","tt0094226","tt0758758","tt0381849","tt0452623","tt0450259","tt0399146","tt0460740","tt0329575","tt0431197","tt0195685","tt0443274","tt0115956","tt0822854","tt0117500","tt0407887","tt0119217","tt0095953","tt0106965","tt0452694","tt0099077","tt0878804","tt0422783","tt0465602","tt0120660","tt0914798","tt0118556","tt0099487","tt0140352","tt0328107","tt0074452","tt0065207","tt0081059","tt0485851","tt0096895","tt0103776","tt0111503","tt0412080","tt0454848","tt0258463","tt0372183","tt0440963","tt0340163","tt0089880","tt0095016","tt0111257","tt0088944","tt0120746","tt0114887","tt0118971","tt0988045","tt0427470","tt0116329","tt0088011","tt0397101","tt1155056","tt0145487","tt0316654","tt0413300","tt0113189","tt0476964","tt1197624","tt0408790","tt0356910","tt0473308","tt0829297","tt0245844","tt0219854","tt0266697","tt0378194","tt0365485","tt0038650","tt0449467","tt0452608","tt0337921","tt0138749","tt0486822","tt0099582","tt0120737","tt0167261","tt0167260","tt0317740","tt1148204","tt0758774","tt0145681","tt1250777","tt1057500","tt0477080","tt0473705"];
+	
+	tt0211915;Amelie;Le fabuleux destin d'Amélie Poulain;2001;Comedy-Romance;She'll change your life.
+tt0088763;Volver al futuro;Back to the Future;1985;Adventure-Comedy-Sci-Fi;He's the only kid ever to get into trouble before he was born. [UK]
+tt0046359;Traidor en el infierno;Stalag 17;1953;Comedy-Drama-Thriller-War;Hilarious, heart-tugging! You'll laugh...you'll cry...you'll cheer William Holden in his great Academy Award role! (from reissue print ad)
+tt0365748;Shaun of the Dead;;2004;Comedy-Horror;Ever felt like you were surrounded by zombies?
+tt0449059;Pequeña Miss Sunshine;Little Miss Sunshine;2006;Adventure-Comedy-Drama;Welcome to Hell
+tt0425112;Arma fatal;Hot Fuzz;2007;Action-Comedy;They are going to bust your arse
+tt0027977;Tiempos modernos;Modern Times;1936;Comedy-Drama-Family;Laugh . . . Cry and Thrill To his Genius . . !
+tt0053291;Una Eva y dos Adanes;Some Like It Hot;1959;Comedy;The movie too HOT for words!
+tt0032553;El gran dictador;The Great Dictator;1940;Comedy-Drama-War;The Comedy Masterpiece!
+tt0264464;Atrápame si puedes;Catch Me If You Can;2002;Biography-Comedy-Crime-Drama;Die wahre Story einer genialen Täschung. (The true story of an ingenious deception.)
+tt0053604;Piso de soltero;The Apartment;1960;Romance-Comedy-Drama;Movie-wise, there has never been anything like it - laugh-wise, love-wise, or otherwise-wise!
+tt0012349;The Kid;;1921;Comedy-Drama-Family;This is the great film he has been working on for a whole year
+tt0017925;The General;;1926;Action-Adventure-Comedy-Romance-War;Love, Locomotives and Laughs
+tt0014429;Safety Last!;;1923;Comedy-Romance-Thriller;
+tt0021749;Luces de la ciudad;City Lights;1931;Comedy-Drama-Romance;
+tt0107048;Hechizo del tiempo;Groundhog Day;1993;Comedy-Drama-Fantasy-Romance;He's having the worst day of his life... over, and over...
+tt0023969;Duck Soup;;1933;Comedy-Musical;
+tt0120382;The Truman Show;;1998;Comedy-Drama-Sci-Fi;We like to watch!
+tt1119646;¿Qué pasó ayer?;The Hangover;2009;Comedy;What happened last night?
+tt0018773;El circo;The Circus;1928;Comedy-Romance;HIS LATEST! CHARLIE CHAPLIN in "THE CIRCUS" (original print ad - almost all caps)
+tt0190590;Dónde estás, hermano?;O Brother, Where Art Thou?;2000;Comedy-Adventure-Crime-Music;Sometimes, you have to lose your way to get back home
+tt0095705;La pistola desnuda;The Naked Gun: From the Files of Police Squad!;1988;Action-Comedy-Crime-Romance;The Villain. Even Mother Teresa wanted him dead.
+tt0829482;Super cool;Superbad;2007;Comedy;Come and Get Some
+tt0446029;Scott Pilgrim vs. the World;;2010;Action-Comedy-Fantasy-Romance;An epic of epic epicness.
+tt1570728;Loco y estúpido amor;Crazy, Stupid, Love.;2011;Comedy-Drama-Romance;This Is Crazy
+tt0084805;Tootsie;;1982;Comedy-Drama-Romance;This Christmas everyone will know that she's Dustin Hoffman and he's Tootsie.
+tt0443453;Borat: El segundo mejor reportero del glorioso país Kazajistán viaja a América;Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan;2006;Comedy;Come to Kazakhstan, It's Nice!
+tt0057187;Irma, la dulce;Irma la Douce;1963;Comedy-Romance;A story of passion, bloodshed, desire and death... everything, in fact, that makes life worth living
+tt0032339;A Chump at Oxford;;1940;Comedy;
+tt0286112;Siu lam juk kau;;2001;Action-Comedy-Sport;The sensation that swept Asia is coming to theaters!
+tt0109686;Tonto y retonto;Dumb & Dumber;1994;Comedy;If they each had half a brain, together they would still only have half a brain.
+tt0362227;La terminal;The Terminal;2004;Comedy-Drama;Life is waiting.
+tt0099785;Mi pobre angelito;Home Alone;1990;Adventure-Comedy-Family;When Kevin's Family Left For Vacation, They Forgot One Minor Detail: Kevin. But Don't Worry... He Cooks. He Cleans. He Kicks Some Butt.
+tt0104431;Mi pobre angelito 2: perdido en Nueva York;Home Alone 2: Lost in New York;1992;Adventure-Comedy-Crime-Family;Yikes! I did it again!
+tt1149361;Micmacs à tire-larigot;;2009;Comedy;
+tt1178663;Que la cosa funcione;Whatever Works;2009;Comedy-Drama-Romance;
+tt0129387;Loco por Mary;There's Something About Mary;1998;Comedy-Romance;There's Just Something About Her...
+tt0838221;Viaje a Darjeeling;The Darjeeling Limited;2007;Adventure-Comedy-Drama;
+tt0416960;Marmoulak;;2004;Comedy;
+tt1605630;American Pie: El reencuentro;American Reunion;2012;Comedy;Hello my name is American Reunion
+tt0078841;Desde el jardín;Being There;1979;Drama-Comedy;Life is a state of mind.
+tt1411697;¿Qué pasó ayer? Parte II;The Hangover Part II;2011;Comedy;"I have a demon in me."
+tt1605783;Medianoche en París;Midnight in Paris;2011;Comedy-Fantasy-Romance;
+tt0477347;Una noche en el museo;Night at the Museum;2006;Action-Adventure-Comedy-Family-Fantasy;Where History Comes To Life
+tt0290002;Los fockers: La familia de mi esposo;Meet the Fockers;2004;Comedy-Romance;And you thought your parents were embarrassing.
+tt0315327;Todopoderoso;Bruce Almighty;2003;Comedy-Drama-Fantasy;The guy next door just became the guy upstairs.
+tt0107614;Papá por siempre;Mrs. Doubtfire;1993;Comedy-Drama;She will rock your world.
+tt0396269;Los rompebodas;Wedding Crashers;2005;Comedy-Romance;On July 15th, they're coming to your wedding...with or without invitations.
+tt0207201;Lo que ellas quieren;What Women Want;2000;Comedy-Fantasy-Romance;He has the power to hear everything women are thinking. Finally... a man is listening.
+tt0119528;Mentiroso Mentiroso;Liar Liar;1997;Comedy-Family;Would I lie to you?
+tt0386588;Hitch: Especialista en seducción;Hitch;2005;Comedy-Romance;The cure for the common man.
+tt1375670;Son como niños;Grown Ups;2010;Comedy;Some guys need a little extra time to mature.
+tt0252866;American Pie 2;;2001;Comedy-Romance;Times Change. People Change. But Friends & Family Are Forever.
+tt0163651;American Pie;;1999;Comedy-Romance;Come again!
+tt0337741;Alguien tiene que ceder;Something's Gotta Give;2003;Comedy-Romance;
+tt0110475;La máscara;The Mask;1994;Action-Comedy-Crime-Fantasy-Romance;From zero to hero
+tt0208003;Mi abuela es un peligro;Big Momma's House;2000;Action-Comedy-Crime;It ain't over 'til the fat lady sings!
+tt0369441;Las locuras de Dick y Jane;Fun with Dick and Jane;2005;Comedy-Crime;Giving Big Businesses a Run For Their Money!
+tt0942385;Una guerra de película;Tropic Thunder;2008;Action-Adventure-Comedy;Get Some
+tt0112281;Ace Ventura, un loco en África;Ace Ventura: When Nature Calls;1995;Action-Adventure-Comedy-Mystery;The great plains of Africa, the cradle of civilization. A place where there exists a balance between nature and man. So ancient, so sacred, no man would dare to disturb it. No man but Ace Ventura.
+tt0122933;Analízame;Analyze This;1999;Comedy-Crime;New York's most powerful gangster is about to get in touch with his feelings. YOU try telling him his 50 minutes are up.
+tt0099492;Ejareh-Nesheenha;;1986;Comedy;
+tt0328828;American pie: La boda;American Wedding;2003;Comedy-Romance;"Jim's finally taking her up the aisle"
+tt0413099;Regreso del todopoderoso;Evan Almighty;2007;Comedy-Family-Fantasy;Evan help us
+tt1068680;¡Sí señor!;Yes Man;2008;Comedy-Romance;The era of yes has begun.
+tt0175142;Una película de miedo;Scary Movie;2000;Comedy;Obey The Rules... Or Die Laughing.
+tt0257106;Scary movie 2: Otra película de miedo;Scary Movie 2;2001;Comedy;Taking the Piss Out of Sequels!
+tt0306047;Scary movie 3: No hay dos sin 3;Scary Movie 3;2003;Comedy;Great trilogies come in threes.
+tt0362120;Scary movie 4 - Descuartizados de miedo;Scary Movie 4;2006;Comedy;Longer... Raunchier... Funnier!
+tt0116852;Leily Ba Man Ast;;1996;Adventure-Comedy-War;
+tt0183505;Irene, yo y mi otro yo;Me, Myself & Irene;2000;Comedy;From gentle to mental
+tt0368578;Are We There Yet?;;2005;Adventure-Comedy-Drama-Family-Romance;To win over their mother, he's driving them across country. What could possibly go wrong?
+tt0087928;Locademia de policía;Police Academy;1984;Comedy-Crime;Be a police officer. All you do is join the farce.
+tt0838232;La pantera rosa 2;The Pink Panther 2;2009;Adventure-Comedy-Crime-Mystery;Steve Martin revient dans le rôle de l'Inspecteur Clouseau (Steve Martin is back as Inspector Clouseau)
+tt0810913;Jack y Jill;Jack and Jill;2011;Comedy;His twin sister is coming for the holidays... ...and it ain't pretty.
+tt0109040;Ace Ventura, un detective diferente;Ace Ventura: Pet Detective;1994;Comedy;He's the best there is! (Actually, he's the only one there is.)
+tt0102059;Locos del aire;Hot Shots!;1991;Action-Comedy-War;There's something funny in the air.
+tt0107144;Loca academia de pilotos 2;Hot Shots! Part Deux;1993;Action-Comedy-War;Just Deux it.
+tt0119715;Mousehunt;;1997;Comedy-Family;The funniest movie of the year!
+tt0110622;La pistola desnuda 33 1/3: El insulto final;Naked Gun 33 1/3: The Final Insult;1994;Action-Comedy-Crime;Mostly All New Jokes
+tt0102510;La pistola desnuda 2 1/2: El aroma del miedo;The Naked Gun 2½: The Smell of Fear;1991;Action-Comedy-Crime;If you see only one movie this year...you ought to get out more often.
+tt0118689;Bean, la película del desastre;Bean;1997;Comedy-Family;One Man. One Masterpiece. One Very Big Mistake.
+tt1385867;Dos inútiles en patrulla;Cop Out;2010;Action-Comedy-Crime;Rock out with your Glock out
+tt1045778;Año uno;Year One;2009;Adventure-Comedy;This June Evolution Begins
+tt0335245;El Quinteto de la muerte;The Ladykillers;2004;Comedy-Crime-Thriller;Winner takes all. Spring.
+tt0453451;Las vacaciones de Mr. Bean;Mr. Bean's Holiday;2007;Comedy-Family;Disaster has a passport
+tt0119654;Hombres de negro;Men in Black;1997;Comedy-Sci-Fi;Protecting the earth from the scum of the universe
+tt0295178;Austin Powers en Goldmember;Austin Powers in Goldmember;2002;Action-Comedy-Crime;The grooviest movie of the summer has a secret, baby!
+tt1478338;Damas en guerra;Bridesmaids;2011;Comedy-Romance;
+tt0367594;Charlie y la fábrica de chocolate;Charlie and the Chocolate Factory;2005;Adventure-Comedy-Family-Fantasy;Charlie Is lucky to be there
+tt0486946;Rebeldes con causa;Wild Hogs;2007;Action-Adventure-Comedy;Ride hard... or stay home!
+tt1114740;Paul Blart: Mall Cop;;2009;Action-Comedy-Crime;Now, Help Is On The Way. Until Then, There's Paul Blart.
+tt0795421;Mamma Mia!;;2008;Comedy-Musical-Romance;On July 18th, The Wedding Celebration Begins.
+tt0467406;La joven vida de Juno;Juno;2007;Comedy-Drama-Romance;A comedy about growing up... and the bumps along the way.
+tt0343660;Como si fuera la primera vez;50 First Dates;2004;Comedy-Romance;The ultimate bachelor will face the ultimate challenge.
+tt0045152;Cantando bajo la lluvia;Singin' in the Rain;1952;Comedy-Musical-Romance;Singin' Swingin' Glorious Feelin' Technicolor Musical
+tt0075686;Dos extraños amantes;Annie Hall;1977;Comedy-Drama-Romance;A nervous romance.
+tt0057012;Dr. Insólito o: Como aprendí a dejar de preocuparme y amar la bomba;Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb;1964;Comedy-War;the hot-line suspense comedy
+tt1675434;Amigos intocables;Intouchables;2011;Biography-Comedy-Drama;One man brought a family together...and changed their lives forever.
+tt0118849;Niños del cielo;Bacheha-Ye aseman;1997;Drama;A Little Secret...Their Biggest Adventure!
+tt0114709;Toy Story;;1995;Animation-Adventure-Comedy-Family-Fantasy;Watch out for little green men.
+tt0070608;Robin Hood;;1973;Animation-Adventure-Comedy-Family-Romance;The way it REALLY happened...
+tt0435761;Toy Story 3;;2010;Animation-Adventure-Comedy-Family-Fantasy;No toy gets left behind.
+tt0120363;Toy Story 2;;1999;Animation-Adventure-Comedy-Family-Fantasy;The toys are back!
+tt0382932;Ratatouille;;2007;Animation-Comedy-Family-Fantasy;A comedy with great taste.
+tt0317705;Los increíbles;The Incredibles;2004;Animation-Action-Adventure-Family;No gut, no glory
+tt0910970;WALL·E;;2008;Animation-Adventure-Family-Romance-Sci-Fi;In Space, No One Can Hear You Clean
+tt1049413;Up - Una aventura de altura;Up;2009;Animation-Adventure-Comedy-Drama-Family-Fantasy;
+tt0191043;El color del paraíso;Rang-e khoda;1999;Drama-Family;
+tt1323594;Mi villano favorito;Despicable Me;2010;Animation-Comedy-Crime-Family;Superbad. Superdad.
+tt0298148;Shrek 2;;2004;Animation-Adventure-Comedy-Family-Fantasy;Not so far, far away...
+tt0266543;Buscando a Nemo;Finding Nemo;2003;Animation-Adventure-Comedy-Family;Wet Yourself!
+tt0033563;Dumbo;;1941;Animation-Family-Musical;The One...The Only...The FABULOUS...
+tt0318403;El rey león 3: Hakuna matata;The Lion King 1½;2004;Animation-Comedy-Family-Adventure;The circle of life will never be the same.
+tt0441773;Kung Fu Panda;;2008;Animation-Action-Adventure-Comedy-Family;Experience the pandamonium in IMAX
+tt1192628;Rango;;2011;Animation-Adventure-Comedy-Family-Western;
+tt0317219;Cars;;2006;Animation-Adventure-Comedy-Family-Sport;Life is a journey. Enjoy the trip.
+tt0015864;La quimera del oro;The Gold Rush;1925;Adventure-Comedy-Family-Romance-Western;
+tt0198781;Monsters, Inc.;;2001;Animation-Adventure-Comedy-Family-Fantasy;Monsters, Inc. : We Scare Because We Care
+tt0414853;La granja;Barnyard;2006;Animation-Comedy-Family;What happens in the barn stays in the barn
+tt0110357;El rey león;The Lion King;1994;Animation-Adventure-Comedy-Drama-Family-Musical;Life's greatest adventure is finding your place in the Circle of Life.
+tt0126029;Shrek;;2001;Animation-Adventure-Comedy-Family-Fantasy;Its Big!
+tt0438097;La era de hielo 2;Ice Age: The Meltdown;2006;Animation-Action-Adventure-Comedy-Family-Fantasy-Romance;He Never Thaw It Coming (UK)
+tt0327084;Vecinos invasores;Over the Hedge;2006;Animation-Adventure-Comedy-Family;Get Over It.
+tt0351283;Madagascar;;2005;Animation-Adventure-Comedy-Family;Someone's got a zoo loose.
+tt0892769;Cómo entrenar a tu dragón;How to Train Your Dragon;2010;Animation-Adventure-Comedy-Drama-Family-Fantasy;
+tt0479952;Madagascar 2;Madagascar: Escape 2 Africa;2008;Animation-Action-Adventure-Comedy-Family;Still together. Still lost!
+tt0432283;El fantástico Sr. Zorro;Fantastic Mr. Fox;2009;Animation-Adventure-Comedy-Family;Michael Gambon is The Scoundrel
+tt0983193;Las aventuras de Tintín - El secreto del Unicornio;The Adventures of Tintin;2011;Animation-Action-Adventure-Family-Mystery;This year, discover how far adventure will take you.
+tt0443536;La verdadera historia de Caperucita Roja;Hoodwinked!;2005;Animation-Comedy-Family;A Granny Who Kicks Fanny
+tt1302011;Kung Fu Panda 2;;2011;Animation-Action-Adventure-Comedy-Family;Ska2oosh!
+tt0101414;La bella y la bestia;Beauty and the Beast;1991;Animation-Family-Fantasy-Musical-Romance;The most beautiful love story ever told as it has never been seen before. [IMAX version]
+tt1080016;La era de hielo 3;Ice Age: Dawn of the Dinosaurs;2009;Animation-Action-Adventure-Comedy-Family-Romance;The sub-zero heroes are back, on an incredible adventure... for the ages.
+tt1436562;Rio;;2011;Animation-Adventure-Comedy-Family-Musical;Party fowl (character poster)
+tt1216475;Cars 2;;2011;Animation-Adventure-Comedy-Family;
+tt0093342;¿Dónde está la casa de mi amigo?;Khane-ye doust kodjast?;1987;Drama-Family;
+tt0844471;Lluvia de hamburguesas;Cloudy with a Chance of Meatballs;2009;Animation-Comedy-Family-Fantasy;Prepare to get served
+tt0103639;Aladdin;;1992;Animation-Adventure-Comedy-Family-Fantasy-Musical-Romance;Wish granted! (DVD re-release)
+tt0892791;Shrek para siempre;Shrek Forever After;2010;Animation-Action-Adventure-Comedy-Family-Fantasy;Waffles in the face of danger
+tt0485601;El secreto de los Kells;The Secret of Kells;2009;Animation-Family-Fantasy;
+tt0970179;La invención de Hugo Cabret;Hugo;2011;Adventure-Drama-Family-Mystery;One of the most legendary directors of our time takes you on an extraordinary adventure.
+tt1277953;Madagascar 3: Los fugitivos;Madagascar 3: Europe's Most Wanted;2012;Animation-Adventure-Comedy-Family;The world is sick. And we are the doctors.
+tt0120630;Pollitos en fuga;Chicken Run;2000;Animation-Family-Comedy;This Ain't No Chick Flick!
+tt0112445;El globo blanco;Badkonake sefid;1995;Drama-Family;
+tt0083866;E.T., el extraterrestre;E.T. the Extra-Terrestrial;1982;Adventure-Drama-Family-Fantasy-Sci-Fi;He is afraid. He is alone. He is three million light years from home.
+tt0245429;El viaje de Chihiro;Sen to Chihiro no kamikakushi;2001;Animation-Adventure-Family-Fantasy;(The tunnel led Chihiro to a mysterious town...)
+tt0892782;Monstruos vs. Aliens;Monsters vs Aliens;2009;Animation-Action-Adventure-Comedy-Family-Sci-Fi;Saving the day the monster way.
+tt0398286;Enredados;Tangled;2010;Animation-Comedy-Family-Fantasy-Musical-Romance;Get tangled up.
+tt0448694;Gato con botas;Puss in Boots;2011;Animation-Adventure-Comedy-Family;He's been a bad kitty.
+tt1667889;La era de hielo 4;Ice Age: Continental Drift;2012;Animation-Adventure-Comedy-Family;
+tt0121164;El cadáver de la novia;Corpse Bride;2005;Animation-Fantasy-Musical-Romance;The love of his life.
+tt1028532;Siempre a su lado;Hachi: A Dog's Tale;2009;Drama-Family;A true story of faith, devotion and undying love.
+tt0120917;Las locuras del emperador;The Emperor's New Groove;2000;Animation-Adventure-Comedy-Family-Fantasy;Beware the groooooooooove!
+tt0268380;La era de hielo;Ice Age;2002;Animation-Adventure-Comedy-Family;Sub-Zero Heroes
+tt0029583;Blancanieves y los siete enanos;Snow White and the Seven Dwarfs;1937;Animation-Family-Fantasy-Musical-Romance;The best loved musical of all time.
+tt0413267;Shrek tercero;Shrek the Third;2007;Animation-Adventure-Comedy-Family-Fantasy;Cookies that talk. Trees that walk. Donkeys on deck. It must be... Shrek!
+tt0307453;El espanta tiburones;Shark Tale;2004;Animation-Adventure-Comedy-Family;Behind every little fish is a great white lie.
+tt0400717;Open season - amigos salvajes;Open Season;2006;Animation-Adventure-Comedy-Family;The Season is Changing.
+tt0308644;Descubriendo el país de Nunca Jamás;Finding Neverland;2004;Biography-Drama-Family;Where will your imagination take you?
+tt1217209;Valiente;Brave;2012;Animation-Action-Adventure-Comedy-Family-Fantasy;Change your fate.
+tt0389790;Bee movie, la historia de una abeja;Bee Movie;2007;Animation-Adventure-Comedy-Family;Honey just got funny.
+tt0397892;Bolt - Un perro fuera de serie;Bolt;2008;Animation-Adventure-Comedy-Family;Fully Awesome 2008
+tt0845046;Son of Rambow;;2007;Action-Adventure-Comedy-Drama-Family;Make Believe. Not War.
+tt0397313;Rescate en la Antártida;Eight Below;2006;Adventure-Drama-Family;The Most Amazing Story Of Survival, Friendship, And Adventure Ever Told.
+tt0116583;El jorobado de Notre Dame;The Hunchback of Notre Dame;1996;Animation-Drama-Family-Musical-Romance;
+tt0385880;Monster house - La casa de los sustos;Monster House;2006;Animation-Comedy-Family-Fantasy-Mystery;It's up to them to save the neighbourhood
+tt0366777;Millones;Millions;2004;Comedy-Crime-Drama-Family-Fantasy;Can anyone be truly good?
+tt0312004;Wallace y Gromit - La batalla de los vegetales;Wallace & Gromit in The Curse of the Were-Rabbit;2005;Animation-Adventure-Comedy-Family;Something bunny is going on...
+tt0268397;Jimmy Neutron: El niño genio;Jimmy Neutron: Boy Genius;2001;Animation-Action-Adventure-Comedy-Family-Sci-Fi;He may be small, but he's got a big brain!
+tt0299172;Vacas vaqueras;Home on the Range;2004;Animation-Family-Music-Western;Bust a Moo.
+tt0113497;Jumanji;;1995;Adventure-Family-Fantasy-Thriller;It's a jungle in there!
+tt0338348;El expreso polar;The Polar Express;2004;Animation-Adventure-Family-Fantasy;Don't miss the holiday film of the season.
+tt0120794;El príncipe de Egipto;The Prince of Egypt;1998;Animation-Adventure-Drama-Family-History-Musical;The Power Is Real
+tt0112642;Casper;;1995;Comedy-Family-Fantasy;Seeing is believing
+tt0059742;La novicia rebelde;The Sound of Music;1965;Biography-Drama-Family-Musical-Romance;RADIANCE THAT FLOODS THE SCREEN...AND WARMS THE HEART!
+tt0166813;Spirit: El corcel indomable;Spirit: Stallion of the Cimarron;2002;Animation-Adventure-Comedy-Family-Romance-Western;Some legends can never be tamed.
+tt0451079;Horton y el mundo de los Quién;Horton Hears a Who!;2008;Animation-Adventure-Comedy-Family-Fantasy;Who-mongous!
+tt1430607;Operación Regalo;Arthur Christmas;2011;Animation-Comedy-Drama-Family;Ever wonder how 2 Billion presents get delivered all in 1 night?
+tt0241527;Harry Potter y la piedra filosofal;Harry Potter and the Sorcerer's Stone;2001;Adventure-Family-Fantasy;The Magic Begins November 16th.
+tt0088323;La historia sin fin;Die unendliche Geschichte;1984;Adventure-Drama-Family-Fantasy;A boy who needs a friend finds a world that needs a hero in a land beyond imagination!
+tt1067106;Los fantasmas de Scrooge;A Christmas Carol;2009;Animation-Comedy-Drama-Family-Fantasy;Season's Greedings
+tt0358082;Robots;;2005;Animation-Adventure-Comedy-Family-Romance-Sci-Fi;The biggest comedy ever assembled!
+tt1001526;Megamente;Megamind;2010;Animation-Action-Comedy-Family-Sci-Fi;Bad. Blue. Brilliant.
+tt0048280;La dama y el vagabundo;Lady and the Tramp;1955;Animation-Family-Music-Romance;The most delightful characters in a dog's age!
+tt0042332;La cenicienta;Cinderella;1950;Animation-Family-Fantasy-Musical-Romance;Greatest Since Snow White
+tt0032138;El mago de Oz;The Wizard of Oz;1939;Adventure-Family-Fantasy-Musical;Let's go "Over the Rainbow" with Judy in her greatest hit! (1955 re-release)
+tt0371606;Chicken Little;;2005;Animation-Adventure-Comedy-Family-Sci-Fi;Panic
+tt0120587;Antz;;1998;Animation-Adventure-Comedy-Family;The General.
+tt0092991;Evil Dead 2: Noche Alucinante;Evil Dead II;1987;Horror;Kiss Your Nerves Good-Bye!
+tt0120623;Bichos: una aventura en miniatura;A Bug's Life;1998;Animation-Adventure-Comedy-Family;An epic of miniature proportions.
+tt0083907;Evil Dead: Diabólico;The Evil Dead;1981;Horror;Can They Be Stopped?
+tt0106308;Evil Dead 3: El Ejército de las Tinieblas;Army of Darkness;1992;Comedy-Fantasy-Horror;Sound the trumpets, Raise the drawbridge, and drop the Oldsmobile
+tt0762073;Bakjwi;;2009;Horror;
+tt0361668;Gokudô kyôfu dai-gekijô: Gozu;;2003;Crime-Drama-Horror-Mystery-Thriller;
+tt0112922;El día de la bestia;;1995;Action-Comedy-Crime-Horror-Thriller;A devilishly dark comedy
+tt0144084;Psicópata americano;American Psycho;2000;Crime-Drama;Killer looks.
+tt0101700;Delicatessen;;1991;Comedy-Fantasy-Sci-Fi;A futuristic comic feast
+tt0304262;Katakuri-ke no kôfuku;;2001;Comedy-Horror-Musical-Romance-Thriller;Love, Music, Horror, Volcanos. Cinema was never meant to be like this! (UK Release)
+tt0103905;Sucedió cerca de su casa;C'est arrivé près de chez vous;1992;Comedy-Crime-Drama;A Killer Comedy
+tt0111149;Tumba al ras de la tierra;Shallow Grave;1994;Crime-Thriller;The award winning thriller that'll bury you with laughs.
+tt0082010;Un hombre lobo americano en Londres;An American Werewolf in London;1981;;
+tt0103873;Muertos de miedo;Braindead;1992;Comedy-Horror;Some things won't stay down... even after they die.
+tt0290329;Bijitâ Q;;2001;Comedy-Drama-Horror-Thriller;The only thing stranger than this family is... Visitor Q.
+tt1632547;Tsumetai nettaigyo;;2010;Drama-Horror-Thriller;How far will you be pushed?
+tt0312843;El club de los suicidas;Jisatsu sâkuru;2001;Crime-Drama-Horror-Mystery-Thriller;Sore de wa minasan, sayonara [Well then, goodbye everybody.]
+tt0342492;De grønne slagtere;;2003;Comedy-Drama;Pick Your Cut!
+tt0063633;Spalovac mrtvol;;1969;Comedy-Drama-Horror-Thriller;
+tt0109592;Dellamorte Dellamore;;1994;Comedy-Horror;Zombies, guns, and sex, OH MY!!!
+tt0089885;Re-Animator;;1985;Horror-Sci-Fi;Herbert West Has A Very Good Head On His Shoulders... And Another One In A Dish On His Desk
+tt1465522;Tucker and Dale vs Evil;;2010;Comedy-Horror;The perfect love story... with a high body count...
+tt0462322;Grindhouse;;2007;Action-Horror-Thriller;See! Two great movies for one low price! Together in one smash explosive show
+tt0407236;Insania;Sílení;2005;Comedy-Horror;
+tt0228687;Otesánek;;2000;Comedy-Drama-Fantasy-Thriller;
+tt0407621;Calvaire;;2004;Drama-Horror;Some people would kill for company.
+tt0216800;Harry, un amigo que te quiere bien;Harry, un ami qui vous veut du bien;2000;Comedy-Drama-Mystery-Thriller;Who needs enemies?
+tt0269743;Perro que ladra no muerde;Flandersui gae;2000;Comedy;
+tt0188503;Choyonghan kajok;;1998;Comedy-Crime-Horror;
+tt0116163;Yi boh lai beng duk;;1996;Comedy-Horror;
+tt0103743;Bat sin fan dim ji yan yuk cha siu bau;;1993;Comedy-Crime-Drama-Horror-Thriller;
+tt0296042;Koroshiya 1;;2001;Action-Comedy-Crime-Drama-Horror-Thriller;Ai wa, kanari itai. (Love really hurts.)
+tt0410730;Taxidermia;;2006;Comedy-Drama-Horror;Three stories. Three generations. Three men. One bizarre and shocking universe.
+tt0281686;Bubba Ho-Tep;;2002;Comedy-Drama-Fantasy-Horror-Mystery;You know the legends... Now learn the truth.
+tt0310357;Willard;;2003;Drama-Horror-Thriller;This Spring Stand Up And Bite Back
+tt0162661;La leyenda del jinete sin cabeza;Sleepy Hollow;1999;Horror-Mystery;You can lock the doors. You can bolt the windows. But can you survive the night?
+tt0129332;Voraz;Ravenous;1999;Drama-History-Horror-Thriller-War-Western;You are who you eat
+tt0303361;May;;2002;Drama-Horror-Thriller;If you can't find a friend... make one.
+tt0862856;Terror en Halloween;Trick 'r Treat;2007;Comedy-Horror-Thriller;You better watch out, I'm telling you why. Sam is coming to town...
+tt0308152;Dead End;;2003;Horror-Mystery-Thriller-Comedy;Read the signs.
+tt1259521;The Cabin in the Woods;;2011;Horror-Mystery-Thriller;If something is chasing you... split up.
+tt1316536;The Loved Ones;;2009;Crime-Drama-Horror-Thriller;You don't have to die to go to hell
+tt0457572;Fido;;2006;Comedy-Drama-Horror-Romance;Good dead are hard to find
+tt0439815;Slither;;2006;Comedy-Horror-Sci-Fi;Feed the fear.
+tt1401143;Rare Exports;;2010;Action-Comedy-Fantasy;This Christmas everyone will believe in Santa Claus
+tt0072431;El joven Frankenstein;Young Frankenstein;1974;Comedy-Sci-Fi;The scariest comedy of all time!
+tt0089175;La hora del espanto;Fright Night;1985;Comedy-Horror-Thriller;There are good reasons to be afraid of the dark.
+tt0114608;Cuentos de la cripta: La noche del diablo;Tales from the Crypt: Demon Knight;1995;Comedy-Horror-Thriller;Ready for your deadtime story ?
+tt0422401;Hatchet;;2006;Comedy-Horror;Victor Crowley Lives
+tt0437857;Behind the Mask: The Rise of Leslie Vernon;;2006;Comedy-Horror-Thriller;Jason, Freddy, Myers. We All Need Someone To Look Up To.
+tt0464196;Recorte sangriento;Severance;2006;Comedy-Horror-Thriller;The Company Is Making Cutbacks
+tt0465430;The Cottage;;2008;Comedy-Crime-Horror-Thriller;Sleeps six bloody comfortably.
+tt0758786;Stuck;;2007;Comedy-Drama-Thriller;Two Destinies Are About To Collide
+tt0365289;Grimm;;2003;Comedy-Drama-Horror-Mystery;
+tt0780622;Teeth;;2007;Comedy-Horror-Thriller;Every rose has its thorns.
+tt0210070;Ginger Snaps;;2000;Comedy-Drama-Horror;Ginger Snaps....AND Bites
+tt0116367;Del crepúsculo al amanecer;From Dusk Till Dawn;1996;Action-Crime-Horror-Thriller;How far can Too Far go?
+tt0779982;Muerte en la granja;Black Sheep;2006;Comedy-Horror;Get the flock out of here!
+tt0280609;Dog Soldiers;;2002;Action-Horror-Thriller;Six soldiers. Full moon. No chance.
+tt1023500;Doghouse;;2009;Comedy-Horror;The battle of the sexes just got bloody..........
+tt1156398;Tierra de zombies;Zombieland;2009;Comedy-Horror;Our land is their land.
+tt1478964;Ataque extraterrestre;Attack the Block;2011;Action-Comedy-Sci-Fi;Inner City vs. Outer Space
+tt0374639;Incident at Loch Ness;;2004;Adventure-Comedy-Horror;This fall... There's something in the water
+tt0464154;Piraña;Piranha;2010;Comedy-Horror;Don't Scream...Just Swim!
+tt0099052;Aracnofobia;Arachnophobia;1990;Comedy-Sci-Fi-Thriller-Horror;The suspense of Alien! The excitement of Jaws! The fun of Back To The Future!
+tt0100814;Tremors;;1990;Comedy-Horror-Sci-Fi;They say there's nothing new under the sun. But under the ground...
+tt0426459;Feast;;2005;Action-Comedy-Horror-Thriller;They're Hungry. You're Dinner.
+tt0091083;From Beyond;;1986;Horror-Sci-Fi;Everythinng is alive...and hungry.
+tt0094793;Brain Damage;;1988;Comedy-Horror;It's A Headache From Hell!
+tt0083624;Basket Case;;1982;Comedy-Horror;Its mother conceived it... You won't believe it...
+tt0094057;Street Trash;;1987;Comedy-Horror;It melts
+tt0169299;Terror Firmer;;1999;Comedy-Horror-Thriller;Let's Make Some Art!
+tt0092610;Mal gusto;Bad Taste;1987;Comedy-Horror-Sci-Fi;Crumb's Crunchy Delights.
+tt0091630;El terror llama a su puerta;Night of the Creeps;1986;Comedy-Horror-Sci-Fi-Thriller;They don't bother to knock
+tt0095444;Killer Klowns from Outer Space;;1988;Horror-Sci-Fi-Comedy;Horrific Harlequins with an appetite for close encounters!
+tt0089907;El Regreso de los Muertos Vivos;The Return of the Living Dead;1985;Comedy-Horror-Sci-Fi;They're Back From The Grave and Ready To Party!
+tt0083767;Creepshow: El festín del terror;Creepshow;1982;Comedy-Horror;The Most Fun You'll Ever Have... BEING SCARED!
+tt0076162;Hausu;;1977;Comedy-Fantasy-Horror;
+tt0115819;Alferd Packer: The Musical;;1993;Biography-Comedy-Musical-Thriller-Western;In the tradition of Friday the 13th Part 2... and Oklahoma comes the first intelligent movie about cannibalism!
+tt0091419;La tiendita del horror;Little Shop of Horrors;1986;Comedy-Musical;A Singing Plant. A Daring Hero. A Sweet Girl. A Demented Dentist.
+tt0073629;Orgía de horror y locura;The Rocky Horror Picture Show;1975;Comedy-Musical;A Different Set Of Jaws.
+tt0040068;Abbott y Costello contra Frankenstein;Bud Abbott Lou Costello Meet Frankenstein;1948;Comedy-Horror-Sci-Fi;The LAUGHS are MONSTERous! Bud and Lou are in a stew when they tangle with the TITANS of TERROR!
+tt0023293;The Old Dark House;;1932;Comedy-Horror;Beware the night!
+tt0061655;La danza de los vampiros;Dance of the Vampires;1967;Comedy-Horror;Who says Vampires are no laughing matter?
+tt0056943;The Comedy of Terrors;;1963;Comedy-Horror;A macabre romp featuring 4 great names from the Horror Hall of Fame!
+tt0070791;Theatre of Blood;;1973;Comedy-Mystery-Horror;It's curtains for his critics!
+tt0071994;El fantasma del paraíso;Phantom of the Paradise;1974;Comedy-Fantasy-Horror-Music-Musical-Sci-Fi-Thriller;The Most Highly Acclaimed Horror Phantasy Of Our Time.
+tt0058606;Spider Baby or, The Maddest Story Ever Told;;1968;Comedy-Horror-Sci-Fi-Thriller;Do YOU dare see it!
+tt0052655;A Bucket of Blood;;1959;Comedy-Horror;A Comedy of Errors! A Comedy of Terrors!
+tt0054033;La tiendita del horror;The Little Shop of Horrors;1960;Comedy-Fantasy-Horror;The funniest picture this year!
+tt0096734;S.O.S. vecinos al ataque;The 'Burbs;1989;Comedy-Horror-Thriller;He's a man of peace in a savage land... Suburbia.
+tt0087332;Los cazafantasmas;Ghost Busters;1984;Comedy-Family-Fantasy;Let's Get Slimed One More Time. [re-release]
+tt0087363;Gremlins;;1984;Comedy-Horror;We're Back! (1985 re-release)
+tt0098068;Parents;;1989;Comedy-Drama-Horror-Mystery;There's A New Name For Terror...
+tt0083869;Comiendose a Raúl;Eating Raoul;1982;Comedy-Horror;An outrageous comedy of sex and murder [Australia Theatrical]
+tt0111127;Mamá, asesina serial;Serial Mom;1994;Comedy-Crime-Thriller;Every Mom Wants to Be Wanted, But Not For Murder One!
+tt0104070;La muerte le sienta bien;Death Becomes Her;1992;Comedy-Fantasy-Horror;In one small bottle... The fountain of youth. The secret of eternal life. The power of an ancient potion. Sometimes it works... sometimes it doesn't.
+tt0094721;Beetlejuice el super fantasma;Beetle Juice;1988;Comedy-Fantasy;In This House... If You've Seen One Ghost... You Haven't Seen Them All.
+tt0101272;Los locos Addams;The Addams Family;1991;Comedy-Fantasy;Creepy. Kooky. Spooky. Ooky.
+tt0116365;Muertos de miedo;The Frighteners;1996;Comedy-Horror;Frightening, isn't it?
+tt0213847;Malena;Malèna;2000;Comedy-Drama-Romance-War;An intimate portrait and an epic story of the courage we discover, the innocence we surrender, and the memories we cherish.....forever.
+tt0120731;La leggenda del pianista sull'oceano;;1998;Drama-Music-Romance;A beatiful story of a man who could do anything... except be ordinary.
+tt0120338;Titanic;;1997;Drama-Romance;Nothing On Earth Could Come Between Them.
+tt0344510;Amor eterno;Un long dimanche de fiançailles;2004;Drama-Mystery-Romance-War;Never let go
+tt0118694;Con ánimo de amar;Fa yeung nin wa;2000;Drama-Romance;Feel the heat, keep the feeling burning, let the sensation explode.
+tt0109830;Forrest Gump;;1994;Drama-Romance;The world will never be the same once you've seen it through the eyes of Forrest Gump.
+tt0059113;Doctor Zhivago;;1965;Drama-History-Romance-War;A Love Caught in the Fire of Revolution
+tt0233841;Baran;;2001;Drama-Romance;
+tt1125849;El luchador;The Wrestler;2008;Drama-Romance-Sport;Love. Pain. Glory.
+tt0907657;Once;;2006;Drama-Music-Romance;How often do you find the right person?
+tt0107822;La lección de piano;The Piano;1993;Drama-Romance;
+tt0421715;El curioso caso de Benjamin Button;The Curious Case of Benjamin Button;2008;Drama-Fantasy-Mystery-Romance;Life isn't measured in minutes, but in moments
+tt0338013;Eterno resplandor de una mente sin recuerdos;Eternal Sunshine of the Spotless Mind;2004;Drama-Romance-Sci-Fi;Do I know you?
+tt0095250;Azul profundo;Le grand bleu;1988;Adventure-Drama-Romance;N'y Allez Pas, Ça Dure Trois Heures! [version longue]
+tt0159365;Regreso a Cold Mountain;Cold Mountain;2003;Drama-Romance-War;Find the strength. Find the courage. No matter what it takes... find the way home.
+tt0044081;Un tranvía llamado deseo;A Streetcar Named Desire;1951;Drama;THE PULITZER PRIZE PLAY of New Orleans' Latin Quarter...of a Lonely Girl...of Emotions Gone Savage!
+tt0426931;Mi nombre es August Rush;August Rush;2007;Drama-Music;An incredible journey moving at the speed of sound
+tt0246677;En el cielo;Heaven;2002;Crime-Drama-Romance-Thriller;When you take justice into your own hands, what are the consequences?
+tt1010048;Slumdog millionaire - ¿Quién quiere ser millonario?;Slumdog Millionaire;2008;Drama-Romance-Thriller;What does it take to find a lost love? A. Money B. Luck C. Smarts D. Destiny
+tt0031381;Lo que el viento se llevó;Gone with the Wind;1939;Drama-Romance-War;Winner of Ten Academy Awards [reissue]
+tt0048028;Al este del paraíso;East of Eden;1955;Drama-Romance;Of what a girl did . . . what a boy did ... of ecstasy and revenge!
+tt0332280;Diario de una pasión;The Notebook;2004;Drama-Romance;Behind every great love is a great story.
+tt0070849;Last Tango in Paris;Ultimo tango a Parigi;1972;Drama-Romance;
+tt0066011;Love Story;;1970;Drama-Romance;Love means never having to say you're sorry
+tt0034583;Casablanca;;1942;Drama-Romance-War;As exciting as the landing at Casablanca! (NY Premiere Poster Ad)
+tt1655442;El artista;The Artist;2011;Comedy-Drama-Romance;
+tt0112471;Antes del amanecer;Before Sunrise;1995;Drama-Romance;... When love can come as a complete surprise
+tt0485947;Sr. Nadie;Mr. Nobody;2009;Drama-Fantasy-Romance-Sci-Fi;Nothing is real, everything is possible.
+tt0783233;Expiación, deseo y pecado;Atonement;2007;Drama-Mystery-Romance-War;Torn apart by betrayal. Separated by war. Bound by love
+tt0976051;The Reader;;2008;Drama-Romance;How far would you go to protect a secret?
+tt0155722;Gloomy Sunday;Gloomy Sunday - Ein Lied von Liebe und Tod;1999;Romance-Drama;
+tt0473753;Angel-A;;2005;Comedy-Fantasy-Romance;
+tt0416320;Match Point;;2005;Crime-Drama-Thriller;Passion Temptation Obsession
+tt0099653;Ghost: La sombra del amor;Ghost;1990;Drama-Fantasy-Mystery-Romance-Thriller;A love that will last forever.
+tt1022603;500 días con ella;(500) Days of Summer;2009;Comedy-Drama-Romance;Boy meets girl. Boy falls in love. Girl doesn't.
+tt0404203;Secretos íntimos;Little Children;2006;Drama;
+tt0056193;Lolita;;1962;Drama-Romance;How did they ever make a movie of Lolita?
+tt0352248;El luchador;Cinderella Man;2005;Biography-Drama-Romance-Sport;When America was on its knees, he brought us to our feet.
+tt1193138;Amor sin escalas;Up in the Air;2009;Drama-Romance;From Paramount Pictures comes the story of a man ready to make a connection
+tt0047437;Sabrina;;1954;Comedy-Drama-Romance;All's fair in love . . . with Sabrina Fair and her men!
+tt0072684;Barry Lyndon;;1975;Adventure-Drama-Romance-War;At long last Redmond Barry became a gentleman -- and that was his tragedy.
+tt0314331;Realmente amor;Love Actually;2003;Comedy-Drama-Romance;Coming soon actually.
+tt0420223;Más extraño que la ficción;Stranger Than Fiction;2006;Comedy-Drama-Fantasy-Romance;Harold Crick isn't ready to go. Period.
+tt0053472;Sin aliento;À bout de souffle;1960;Crime-Drama;The film that was banned for 4 years. Why..? (original Finnish poster tagline)
+tt0401711;Paris, je t'aime;;2006;Drama-Romance;Stories of Love. From the City of Love.
+tt0825236;Caramel;Sukkar banat;2007;Comedy-Drama-Romance;
+tt0203009;Moulin Rouge!;;2001;Drama-Musical-Romance;Above All Things This Story Is About Love
+tt1120985;Blue Valentine - Una historia de amor;Blue Valentine;2010;Drama-Romance;Nobody Baby But You And Me.
+tt0959337;Sólo un sueño;Revolutionary Road;2008;Drama-Romance;
+tt0443543;El ilusionista;The Illusionist;2006;Drama-Mystery-Romance-Thriller;Nothing is what it seems
+tt1263670;Loco corazón;Crazy Heart;2009;Drama-Music-Romance;The harder the life, the sweeter the song.
+tt0112579;Los puentes de Madison;The Bridges of Madison County;1995;Drama-Romance;
+tt0376541;Closer: Llevados por el deseo;Closer;2004;Drama-Romance;If you believe in love at first sight, you never stop looking.
+tt0497986;El tiempo;Shi gan;2006;Drama-Romance;
+tt0241303;Chocolate;Chocolat;2000;Drama-Romance;One Taste Is All It Takes
+tt0103855;El guardaespaldas;The Bodyguard;1992;Drama-Music-Romance-Thriller;Never let her out of your sight. Never let your guard down. Never fall in love.
+tt0047522;Nace una estrella;A Star Is Born;1954;Drama-Musical-Romance;"THE ENTIRE PICTURE IS AN UNFORGETTABLE EXPERIENCE! I WAS SORRY IT ENDED!" Ed Sullivan
+tt0061722;El graduado;The Graduate;1967;Comedy-Drama-Romance;This is Benjamin. He's a little worried about his future.
+tt0352343;La ventana de enfrente;La finestra di fronte;2003;Drama-Romance;Desire knows no bounds.
+tt0108394;Bleu;Trois couleurs: Bleu;1993;Drama-Music-Mystery-Romance;
+tt0106226;La edad de la inocencia;The Age of Innocence;1993;Drama-Romance;In a world of tradition. In an age of innocence. They dared to break the rules.
+tt0076095;La chica del adiós;The Goodbye Girl;1977;Comedy-Romance;Thank you Neil Simon for making us laugh at falling in love...again.
+tt0100935;Corazón salvaje;Wild at Heart;1990;Crime-Thriller;
+tt0497465;Vicky Cristina Barcelona;;2008;Drama-Romance;Life is the ultimate work of art
+tt0114808;Fabricante de estrellas;L'uomo delle stelle;1995;Drama-Romance;In the golden age of cinema, everyone dreams of becoming a star. One man promises to make all their dreams come true...
+tt0381681;Antes del atardecer;Before Sunset;2004;Drama-Romance;What if you had a second chance with the one that got away?
+tt0120632;Un ángel enamorado;City of Angels;1998;Drama-Fantasy-Romance-Thriller;What if angels walked amoung us, and one of them fell in love with us?
+tt0298845;Tierra de sueños;In America;2002;Drama;
+tt0032904;Pecadora equivocada;The Philadelphia Story;1940;Comedy-Romance;Broadway's howling year-run comedy hit of the snooty society beauty who slipped and fell - IN LOVE!
+tt0098635;Cuando Harry conoció a Sally;When Harry Met Sally...;1989;Comedy-Drama-Romance;Can men and women be friends or does always sex get in the way?
+tt0491747;Lejos de ella;Away from Her;2006;Drama;It's never too late to become what you might have been
+tt0070460;La noche americana;La nuit américaine;1973;Comedy-Drama-Romance;A movie for people who loves movies.
+tt0478311;Ligeramente embarazada;Knocked Up;2007;Comedy-Drama-Romance;Expected in cinemas soon.
+tt0058385;Mi bella dama;My Fair Lady;1964;Drama-Family-Musical-Romance;The most loverly motion picture event of all!
+tt0117615;Bailamos?;Shall we dansu?;1996;Comedy-Drama-Music-Romance;He's an overworked accountant. She's an accomplished dancer. Passion is about to find two unlikely partners.
+tt1375666;El origen;Inception;2010;Action-Adventure-Mystery-Sci-Fi-Thriller;Your mind is the scene of the crime
+tt0103064;Terminator 2: el juicio final;Terminator 2: Judgment Day;1991;Action-Sci-Fi-Thriller;It's nothing personal
+tt0181689;Minority report: Sentencia previa;Minority Report;2002;Action-Mystery-Sci-Fi-Thriller;Count to 3 and get ready to run...
+tt0133093;Matrix;The Matrix;1999;Action-Adventure-Sci-Fi;Remember there is no spoon
+tt0499549;Avatar;;2009;Action-Adventure-Fantasy-Sci-Fi;Return to Pandora
+tt0114746;12 monos;Twelve Monkeys;1995;Mystery-Sci-Fi-Thriller;The future is history.
+tt0062622;2001, una odisea del espacio;2001: A Space Odyssey;1968;Adventure-Sci-Fi;An epic drama of adventure and exploration
+tt0434409;V de venganza;V for Vendetta;2005;Action-Sci-Fi-Thriller;Freedom! Forever!
+tt0088247;Terminator;The Terminator;1984;Action-Sci-Fi;Your future is in his hands.
+tt0212720;A.I. Inteligencia Artificial;Artificial Intelligence: AI;2001;Adventure-Drama-Sci-Fi;David is 11 years old. He weighs 60 pounds. He is 4 feet, 6 inches tall. He has brown hair. His love is real. But he is not.
+tt0884328;La niebla;The Mist;2007;Horror-Sci-Fi-Thriller;Belief divides them, mystery surrounds Them, but fear changes everything
+tt0075860;Encuentros cercanos del tercer tipo;Close Encounters of the Third Kind;1977;Adventure-Drama-Sci-Fi;Now There Is More (USA 1980 special edition re-release)
+tt0234215;Matrix recargado;The Matrix Reloaded;2003;Action-Sci-Fi;Reload in IMAX: Think big.
+tt0066921;La naranja mecánica;A Clockwork Orange;1971;Crime-Drama-Sci-Fi;The Breakthrough Presentation Of Stanley Kubrick's Clockwork Orange For The Millions Who Were Not Allowed To See It Until Now!
+tt0078748;Alien - El octavo pasajero;Alien;1979;Horror-Sci-Fi;In space no one can hear you scream... This Halloween in theatres, everyone will hear you scream (Re-Release)
+tt0121766;Star wars: Episodio III - La venganza de los sith;Star Wars: Episode III - Revenge of the Sith;2005;Action-Adventure-Fantasy-Sci-Fi;The saga is complete.
+tt0083658;Blade Runner;;1982;Drama-Sci-Fi-Thriller;A Futuristic Vision Perfected [2007 Final Cut]
+tt1399103;Transformers: El lado oscuro de la luna;Transformers: Dark of the Moon;2011;Action-Adventure-Sci-Fi;The invasion we always feared. An enemy we never expected.
+tt0848228;The Avengers: Los Vengadores;The Avengers;2012;Action;
+tt0414993;La fuente de la vida;The Fountain;2006;Drama-Romance-Sci-Fi;What if you could love forever?
+tt0076759;La guerra de las galaxias;Star Wars;1977;Action-Adventure-Fantasy-Sci-Fi;It's Back! (re-release)
+tt0407304;Guerra de los mundos;War of the Worlds;2005;Action-Adventure-Drama-Sci-Fi-Thriller;They're already here.
+tt0107290;Jurassic Park;;1993;Adventure-Family-Sci-Fi;The most phenomenal discovery of our time... becomes the greatest adventure of all time.
+tt0069293;Solaris;Solyaris;1972;Drama-Mystery-Sci-Fi;
+tt0272152;K-PAX;;2001;Drama-Sci-Fi;Is he crazy?...or is he light years ahead of us?
+tt1077258;Planet Terror;;2007;Action-Horror-Sci-Fi;Fully Loaded
+tt0088846;Brazil;;1985;Drama-Fantasy-Sci-Fi;It's about flights of fantasy. And the nightmare of reality. Terrorist bombings. And late night shopping. True Love. And creative plumbing.
+tt0206634;Niños del hombre;Children of Men;2006;Adventure-Drama-Sci-Fi-Thriller;The last one to die please turn out the light.
+tt0119925;The Postman;;1997;Action-Adventure-Drama-Sci-Fi;It is 2013. War has crippled the Earth. Technology has been erased. Our only hope is an unlikely hero.
+tt0289879;El efecto mariposa;The Butterfly Effect;2004;Sci-Fi-Thriller;Change one thing, Change everything.
+tt0945513;8 minutos antes de morir;Source Code;2011;Mystery-Sci-Fi-Thriller;Make every second count
+tt0376994;X-men - La batalla final;X-Men: The Last Stand;2006;Action-Adventure-Sci-Fi-Thriller;Take a Stand
+tt1446714;Prometeo;Prometheus;2012;Adventure-Sci-Fi;The search for our beginning could lead to our end
+tt0242653;Matrix revoluciones;The Matrix Revolutions;2003;Action-Adventure-Sci-Fi;Everything that has a beginning has an end.
+tt0080684;El imperio contraataca;Star Wars: Episode V - The Empire Strikes Back;1980;Action-Adventure-Sci-Fi;The battle continues...
+tt0090605;Aliens: El regreso;Aliens;1986;Action-Adventure-Sci-Fi-Thriller;The bitch is back.
+tt0119116;El quinto elemento;The Fifth Element;1997;Action-Adventure-Sci-Fi;Time is not important, only life is important
+tt0099088;Volver al futuro III;Back to the Future Part III;1990;Adventure-Comedy-Sci-Fi-Western;They've saved the best trip for last... But this time they may have gone too far.
+tt1219289;Sin Límites;Limitless;2011;Mystery-Sci-Fi-Thriller;What if a pill could make you rich and powerful?
+tt0074486;Eraserhead;;1977;Fantasy-Horror-Sci-Fi;A dream of dark and troubling things
+tt1527186;Melancholia;;2011;Drama-Sci-Fi;It will change everything.
+tt0138704;Pi;;1998;Drama-Sci-Fi-Thriller;3.1415926535897932384626433832795
+tt0096754;El abismo;The Abyss;1989;Adventure-Drama-Sci-Fi-Thriller;Deep below the blue surface, there lies a place no one has ever dreamed of.....
+tt0121765;Star wars: Episodio II - El ataque de los clones;Star Wars: Episode II - Attack of the Clones;2002;Action-Adventure-Fantasy-Sci-Fi;The Clones Are Coming
+tt0086190;El regreso del Jedi;Star Wars: Episode VI - Return of the Jedi;1983;Action-Adventure-Fantasy-Sci-Fi;Coming May 25, 1983 to your galaxy. [Second Advance poster]
+tt0399201;La isla;The Island;2005;Action-Sci-Fi-Thriller;You have Been Chosen
+tt0123755;El cubo;Cube;1997;Horror-Mystery-Sci-Fi-Thriller;Don't Look For A Reason... Look For A Way Out
+tt1060277;Cloverfield - Monstruo;Cloverfield;2008;Horror-Sci-Fi-Thriller;Some Thing Has Found Us
+tt0017136;Metrópolis;Metropolis;1927;Drama-Sci-Fi;Fritz Lang's 1927 Masterpiece Now With 25 Minutes of Lost Footage (2010 re-release)
+tt1650062;Super 8;;2011;Mystery-Sci-Fi-Thriller;It arrives.
+tt0093870;RoboCop;;1987;Action-Crime-Sci-Fi-Thriller;Part man. Part machine. All cop. The future of law enforcement.
+tt0411477;Hellboy - El ejército dorado;Hellboy II: The Golden Army;2008;Action-Adventure-Fantasy-Sci-Fi;Good never looked so bad.
+tt0433035;Gigantes de acero;Real Steel;2011;Drama-Sci-Fi-Sport;If you get one shot, make it real.
+tt0114898;Waterworld;;1995;Action-Adventure-Sci-Fi-Thriller;Beyond the horizon lies the secret to a new beginning.
+tt0286106;Señales;Signs;2002;Drama-Mystery-Sci-Fi-Thriller;Don't see it alone.
+tt0363547;El amanecer de los muertos;Dawn of the Dead;2004;Action-Horror-Sci-Fi-Thriller;When the undead rise, civilization will fall.
+tt0371746;Iron man - El hombre de hierro;Iron Man;2008;Action-Adventure-Sci-Fi;Heroes aren't born. They're built.
+tt0343818;Yo, robot;I, Robot;2004;Action-Mystery-Sci-Fi-Thriller;What will you do with yours?
+tt0120903;X-Men;;2000;Action-Adventure-Sci-Fi;We're Not What You Think
+tt0453467;Deja Vu;;2006;Action-Sci-Fi-Thriller;If you thought it was just a trick of the mind, prepare yourself for the truth.
+tt1182345;En la luna;Moon;2009;Drama-Sci-Fi;The last place you'd ever expect to find yourself
+tt0181852;Terminator 3: La rebelión de las máquinas;Terminator 3: Rise of the Machines;2003;Action-Sci-Fi-Thriller;The Machines Will Rise
+tt0386741;Renaissance;;2006;Animation-Action-Sci-Fi-Thriller;Paris 2054. Live forever or die trying.
+tt1598778;Contagio;Contagion;2011;Drama-Sci-Fi-Thriller;Nothing spreads like fear
+tt0167190;Hellboy;;2004;Action-Adventure-Fantasy-Sci-Fi;From the Dark Side to Our Side
+tt0259711;Vanilla Sky;;2001;Mystery-Romance-Sci-Fi-Thriller;Looks Can Be Deceiving!
+tt0120915;Star wars: Episodio I - La amenaza fantasma;Star Wars: Episode I - The Phantom Menace;1999;Action-Adventure-Fantasy-Sci-Fi;Every generation has a legend. Every journey has a first step. Every saga has a beginning.
+tt0480249;Soy leyenda;I Am Legend;2007;Drama-Sci-Fi-Thriller;Welcome to earth. Population 1.
+tt1092026;Paul;;2011;Adventure-Comedy-Sci-Fi;Ever felt a little alien? (UK poster)
+tt1318514;El planeta de los simios:;Rise of the Planet of the Apes;2011;Action-Drama-Sci-Fi-Thriller;Evolution Becomes Revolution
+tt0861689;Ceguera;Blindness;2008;Drama-Mystery-Sci-Fi-Thriller;Love is blind.
+tt0286716;Hulk;;2003;Action-Sci-Fi;Rage. Power. Freedom.
+tt0118929;Dark City;;1998;Mystery-Sci-Fi;They built the city to see what makes us tick. Last night one of us went off.
+tt0800080;Hulk: El hombre increíble;The Incredible Hulk;2008;Action-Sci-Fi-Thriller;On June 13, get ready to unleash the beast.
+tt0216216;El 6º día;The 6th Day;2000;Action-Sci-Fi-Thriller;You've cloned the wrong man
+tt0163025;Jurassic Park III;;2001;Adventure-Sci-Fi-Thriller;Only the Strongest Survive
+tt0238380;Equilibrium;;2002;Action-Drama-Sci-Fi-Thriller;The only thing more powerful than the system, is the man that will overthrow it.
+tt1104001;Tron: El legado;TRON: Legacy;2010;Action-Adventure-Sci-Fi;The only way to win is to survive.
+tt0118884;Contacto;Contact;1997;Drama-Mystery-Sci-Fi-Thriller;Get ready for human's biggest discovery ever!
+tt0118583;Alien resurrección;Alien: Resurrection;1997;Action-Sci-Fi-Thriller;It's already too late.
+tt0409847;Cowboys & Aliens;;2011;Action-Sci-Fi-Thriller-Western;First contact. Last stand.
+tt1055369;Transformers - La venganza de los caídos;Transformers: Revenge of the Fallen;2009;Action-Adventure-Sci-Fi-Thriller;The battle for Earth begins in theatres and IMAX 6.24.09
+tt0096874;Volver al futuro II;Back to the Future Part II;1989;Adventure-Comedy-Sci-Fi;Synchronize your watches. The future's coming back...
+tt0401729;John Carter - Entre dos mundos;John Carter;2012;Action-Adventure-Fantasy-Sci-Fi;Lost in Our World. Found in Another.
+tt0116629;Día de la Independencia;Independence Day;1996;Action-Adventure-Sci-Fi-Thriller;On July 2nd, they arrive. On July 3rd, they strike. On July 4th, we fight back.
+tt0120591;Armageddon;;1998;Action-Adventure-Sci-Fi-Thriller;Prepare to Fight Like There's No Tomorrow.
+tt0103644;Alien 3;Alien³;1992;Action-Sci-Fi-Thriller;Our worst fears have come true. It's back!
+tt0119567;El mundo perdido: Jurassic Park;The Lost World: Jurassic Park;1997;Adventure-Sci-Fi-Thriller;They're Walking Our Streets
+tt1190080;2012;;2009;Action-Adventure-Drama-Sci-Fi-Thriller;Mankind's earliest civilization warned us this day would come...
+tt0432021;Resident Evil 3: Extinción;Resident Evil: Extinction;2007;Action-Horror-Sci-Fi-Thriller;A zombie needs only one thing....The Living
+tt0418279;Transformers;;2007;Action-Sci-Fi-Thriller;Their war. Our world.
+tt1139797;Criatura de la noche;Låt den rätte komma in;2008;Drama-Horror-Romance;Eli is 12 years old. She's been 12 for over 200 years and, she just moved in next door.
+tt0346156;Capitán Sky y el mundo del mañana;Sky Captain and the World of Tomorrow;2004;Action-Adventure-Mystery-Sci-Fi-Thriller;Without Warning. Without Mercy.
+tt0365376;Janghwa, Hongryeon;;2003;Drama-Horror-Mystery-Thriller;Fairytales have never been this Grimm
+tt1029234;Martyrs;;2008;Drama-Horror-Thriller;They did not finish to be alive...
+tt1038988;[Rec];;2007;Horror-Thriller;Just One Witness.... A Video Camera
+tt0435625;El descenso;The Descent;2005;Adventure-Horror;Scream your last breath.
+tt0289043;Exterminio;28 Days Later...;2002;Horror-Sci-Fi-Thriller;The Days Are Numbered
+tt0463854;Exterminio 2;28 Weeks Later;2007;Horror-Sci-Fi-Thriller;When days turn to weeks, the horror returns.
+tt0072271;El Loco de la Motosierra: La Masacre de Texas;The Texas Chain Saw Massacre;1974;Horror-Thriller;The idyllic summer's day that became a nightmare of fear and blood... [UK Video]
+tt1588170;Akmareul boatda;;2010;Crime-Drama-Thriller;Evil lives inside.
+tt0157016;Solo contra todos;Seul contre tous;1998;Crime-Drama;In the bowels of France
+tt0099763;Henry: Portrait of a Serial Killer;;1986;Biography-Crime-Drama-Horror-Thriller;before "The Silence of the Lambs" comes the most highly acclaimed and controversial film of the year."
+tt0165623;Angst;;1983;Crime-Drama-Horror;
+tt0123948;Cure;;1997;Crime-Horror-Mystery-Thriller;With just one word, you will do anything.
+tt0119167;Funny Games;;1997;Crime-Drama-Thriller;Schockierend wie "Clockwork Orange", kontrovers wie "Natural Born Killers"
+tt1020530;Eden Lake;;2008;Horror-Thriller;A weekend by the lake, with views to die for.
+tt1189073;La piel que habito;;2011;Thriller;
+tt0235198;Audition;Ôdishon;1999;Horror-Thriller;She always gets a part
+tt1590089;Kokuhaku;;2010;Drama-Mystery-Thriller;
+tt0250258;El experimento;Das Experiment;2001;Drama-Thriller;Hikensha motomu [Japan]
+tt0266308;Batalla real;Batoru rowaiaru;2000;Action-Adventure-Drama-Thriller;Today, I killed my best friend.
+tt0856288;À l'intérieur;;2007;Horror-Thriller;
+tt1273235;Srpski film;;2010;Horror-Mystery-Thriller;Not all films have a happy ending. (USA 2011)
+tt0440803;Están entre nosotros;Shutter;2004;Horror-Mystery-Thriller;The most terrifying images are the ones that are real.
+tt1646959;Endemoniada;Kim Bok-nam salinsageonui jeonmal;2010;Crime-Drama-Thriller;Nothing is more deadly than a woman seeking revenge.
+tt0298130;La llamada;The Ring;2002;Horror-Mystery-Thriller;Before you die, you see the ring
+tt0256009;El espinazo del diablo;;2001;Drama-Horror;What is a ghost?
+tt0230600;Los otros;The Others;2001;Drama-Mystery-Thriller;How do you keep them out, when they've already invited themselves in?
+tt0264616;Frailty;;2001;Crime-Drama-Thriller;Only demons should fear me.... and you're not a demon, are you?
+tt0110631;Nattevagten;;1994;Thriller;De søger en nattevagt, Martin er ikke mørkeræd, han har kun et problem... han får jobbet !
+tt0074811;Le locataire;;1976;Thriller;How could he escape from his nightmares?
+tt0081505;El resplandor;The Shining;1980;Horror-Mystery;The tide of terror that swept America IS HERE[UK Poster]
+tt0091064;La mosca;The Fly;1986;Horror-Sci-Fi;There is a limit, even to the imagination, where our greatest creations meet our deepest fears. Doctor Seth Brundle is about to go beyond that limit...and he's bringing you for the ride.
+tt0084787;La cosa;The Thing;1982;Horror-Mystery-Sci-Fi-Thriller;Look closely at your neighbours. Don't trust anybody. [UK video box]
+tt0093773;Depredador;Predator;1987;Action-Adventure-Sci-Fi;We cannot see it, but it sees the heat of our bodys and the heat of our fear
+tt0077651;Halloween;;1978;Horror;Happy Halloween!
+tt0096163;Spoorloos;;1988;Mystery-Thriller;
+tt0077914;Martin, el amante del terror;Martin;1976;Drama-Horror;He could be the boy next door...
+tt0189998;La sombra del vampiro;Shadow of the Vampire;2000;Drama-Horror;An Unspeakable Horror. A Creative Genius. Captured For Eternity.
+tt1437358;Mientras duermes;;2011;Horror-Thriller;
+tt1629377;Secuestrados;;2010;Horror-Thriller;Take your last breath.
+tt0468820;Noriko no shokutaku;;2005;Drama-Horror;The family that eats together stays together.
+tt0472458;Jiao zi;;2004;Drama-Horror;
+tt0416315;El cazador de Wolf Creek;Wolf Creek;2005;Horror;90 % of them are found in a month.
+tt0808276;Fritt vilt;;2006;Drama-Horror-Mystery-Thriller;You'll Catch Your Death.
+tt0338095;Alta tensión;Haute tension;2003;Horror-Mystery-Thriller;Hearts will bleed.
+tt0830558;The Girl Next Door;;2007;Crime-Drama-Horror-Thriller;Inspired By Actual Events
+tt1714208;The Woman;;2011;Crime-Drama-Horror-Thriller;Not every monster lives in the wild.
+tt1226681;Pontypool;;2008;Horror-Sci-Fi-Thriller;Words lose their meaning when you repeat them.
+tt0063350;La noche de los muertos vivos;Night of the Living Dead;1968;Horror-Sci-Fi;They won't stay dead.
+tt0077402;El amanecer de los muertos;Dawn of the Dead;1978;Horror-Sci-Fi;In 1968, George Romero brought us "Night of the Living Dead." It became the classic horror film of its time. Now, George Romero brings us the most intensely shocking motion picture experience for all time.
+tt0395584;The Devil's Rejects;;2005;Horror;The new film by Rob Zombie.
+tt0454841;Despertar del diablo;The Hills Have Eyes;2006;Horror-Thriller;The lucky ones die first.
+tt0324216;La masacre de Texas;The Texas Chainsaw Massacre;2003;Horror-Thriller;You want scary? THIS is scary!
+tt1127180;Arrástrame al infierno;Drag Me to Hell;2009;Horror-Thriller;Christine Brown has a good job, a great boyfriend, and a bright future. But in three days, she's going to hell.
+tt0468492;The Host;Gwoemul;2006;Horror-Sci-Fi-Thriller;Man has made his newest predator
+tt0780571;Mr. Brooks;;2007;Crime-Drama-Mystery-Thriller;The man who has everything has everything to hide.
+tt0056869;Los pájaros;The Birds;1963;Horror-Thriller;It could be the most terrifying motion picture I have ever made!
+tt0086541;Cuerpos invadidos;Videodrome;1983;Horror-Sci-Fi;A terrifying new weapon.
+tt0054215;Psicosis;Psycho;1960;Horror-Mystery-Thriller;The Essential Alfred Hitchcock.
+tt0082933;Una mujer poseída;Possession;1981;Drama-Horror;She created a monster as her secret lover!
+tt0098253;Santa sangre;;1989;Thriller;Forget Everything You Have Ever Seen
+tt0076786;Suspiria;;1977;Horror-Thriller;The Only Thing More Terrifying Than The Last 12 Minutes Of This Film Are The First 92.
+tt0099871;Jacob's Ladder;;1990;Drama-Horror-Mystery;The most frightening thing about Jacob Singer's nightmare is that he isn't dreaming.
+tt0070917;The Wicker Man;;1973;Horror-Musical-Mystery;The residents of Summerisle invited Sergeant Howie to their traditional May Day festival. He didn't expect to meet...The Wicker Man
+tt0063522;El bebé de Rosemary;Rosemary's Baby;1968;Drama-Horror-Mystery;Pray for Rosemary's Baby
+tt0075005;La profecía;The Omen;1976;Horror;If Something Frightening Happens To You Today, Think About It. It May Be "The Omen".
+tt0070047;El Exorcista;The Exorcist;1973;Drama-Horror;Now... Open your eyes to... (1976 re-release)
+tt0100157;Misery;;1990;Thriller;The Tide Has Come.
+tt0013086;El doctor Mabuse;Dr. Mabuse, der Spieler - Ein Bild der Zeit;1922;Crime-Mystery-Thriller;
+tt0022100;El vampiro negro;M;1931;Drama-Film-Noir-Thriller;
+tt0030341;La dama desaparece;The Lady Vanishes;1938;Comedy-Mystery-Thriller;Spies! Playing the game of love - and sudden death!
+tt0032976;Rebeca, una mujer inolvidable;Rebecca;1940;Drama-Mystery-Romance-Thriller;The shadow of a remembered woman came between their lips... but these two had the courage to hope... and to live their love!
+tt0034248;La sospecha;Suspicion;1941;Film-Noir-Mystery-Romance-Thriller;Love in his Heart . . . Tragedy in his Mind ! The stars of "Penny Serenade" and "Rebecca" in this most thrilling mystery . . .
+tt0035279;Saboteador;Saboteur;1942;Action-Thriller;Unmasking the man behind your back!
+tt0035753;Le corbeau;;1943;Crime-Drama-Mystery-Thriller;Une petite ville, ici ou ailleurs. [Post War Version]
+tt0036855;Gaslight;;1944;Crime-Drama-Film-Noir-Mystery-Thriller;Strange drama of a captive sweetheart!
+tt0037008;Laura;;1944;Film-Noir-Mystery-Romance-Thriller;The story of a love that became the most fearful thing that ever happened to a woman!
+tt0037635;Dead of Night;;1945;Horror-Thriller;
+tt0038109;Cuéntame tu vida;Spellbound;1945;Film-Noir-Mystery-Romance-Thriller;Strange . . . Strange . . . Their Irresistible Love! Dark . . . Dark . . . Their Inescapable Fears !
+tt0037515;And Then There Were None;;1945;Crime-Drama-Mystery-Thriller;
+tt0040746;Rope;;1948;Crime-Drama-Mystery-Thriller;It's his most nerve-stretching thriller!
+tt0040823;Sorry, Wrong Number;;1948;Drama-Film-Noir-Thriller;Tangled Wires... Whispering of Murder! Tangled Lives... Fighting to Escape!
+tt0047396;La ventana indiscreta;Rear Window;1954;Mystery-Thriller;Seeing isn't always believing. (1983 re-release)
+tt0046911;Les diaboliques;;1955;Horror-Mystery-Thriller;See it, be amazed at it, but... BE QUIET ABOUT IT! (original Finnish poster tagline)
+tt0048424;La noche del cazador;The Night of the Hunter;1955;Drama-Film-Noir-Thriller;The Hands Of ROBERT MITCHUM in "The Night of the Hunter"
+tt0049470;El hombre que sabía demasiado;The Man Who Knew Too Much;1956;Thriller;A little knowledge can be a deadly thing!
+tt0054167;Tres rostros para el miedo;Peeping Tom;1960;Horror-Thriller;Han fotograferede sine smukke ofre i dødsøjeblikket! [Denmark]
+tt0052357;Vértigo;Vertigo;1958;Mystery-Romance-Thriller;Alfred Hitchcock engulfs you in a whirlpool of terror and tension!
+tt0055018;The Innocents;;1961;Horror;Apparitions? Evils? Corruptions?
+tt0056218;El embajador del miedo;The Manchurian Candidate;1962;Drama-Mystery-Romance-Thriller-War;If you come in five minutes after this picture begins, you won't know what it's all about! When you've seen it all, you'll swear there's never been anything like it!
+tt0056687;¿Qué pasó con Baby Jane?;What Ever Happened to Baby Jane?;1962;Drama-Thriller;Sister, sister, oh so fair, why is there blood all over your hair?
+tt0057427;El proceso;Le procès;1962;Crime-Drama-Fantasy-Mystery-Thriller;
+tt0057495;Shock Corridor;;1963;Drama-Mystery;The Medical Jungle Doctors Don't Talk About!
+tt0057129;La casa embrujada;The Haunting;1963;Drama-Horror;You may not believe in ghosts but you cannot deny terror
+tt0058213;Cálmate, dulce Carlota;Hush...Hush, Sweet Charlotte;1964;Drama-Horror-Thriller;Don't Tell Anyone What Happened In The Summer House!
+tt0058329;Marnie;;1964;Drama-Mystery-Romance-Thriller;The more he loved her . . . The more she hated him . . . For trying to unravel her secret!
+tt0059043;El coleccionista;The Collector;1965;Drama-Horror-Thriller;You won't dare open your mouth, but you'll be screaming for her to escape!
+tt0059646;Repulsion;;1965;Drama-Horror-Mystery-Thriller;"A classic chiller of the 'Psycho' school!"
+tt0060268;Cul-de-sac;;1966;Comedy-Drama-Thriller;
+tt0060176;Blowup - Deseo en una mañana de verano;Blowup;1966;Mystery-Thriller;Sometimes reality is the strangest fantasy of all.
+tt0062467;Wait Until Dark;;1967;Crime-Drama-Horror-Thriller;The blinds moving up and down. . .the squeaking shoes. . .and then the knife whistling past her ear. . .
+tt0065143;El pájaro de las plumas de cristal;L'uccello dalle piume di cristallo;1970;Mystery-Thriller;All the screaming in the world won't help!
+tt0067800;Perros de paja;Straw Dogs;1971;Thriller;You can push a guy to the limit...But expect consequences.
+tt0067588;Obsesión mortal;Play Misty for Me;1971;Crime-Drama-Romance-Thriller;...an invitation to terror...
+tt0069281;El detective;Sleuth;1972;Mystery-Thriller;Think of the perfect crime... then go one step further.
+tt0068611;Frenesí;Frenzy;1972;Crime-Thriller;A deadly new twist from the original Hitchcock.
+tt0069995;Venecia rojo shocking;Don't Look Now;1973;Horror-Mystery-Thriller;A psychic thriller.
+tt0071360;La conversación;The Conversation;1974;Mystery-Thriller;Harry Caul is an invader of privacy. The best in the business. He can record any conversation between two people anywhere. So far, three people are dead because of him.
+tt0073582;Rojo profundo;Profondo rosso;1975;Horror-Mystery-Thriller;Flesh Ripped clean to the Bone... And the Blood runs Red...
+tt0075314;Taxi Driver;;1976;Drama;He's a lonely forgotten man desperate to prove that he's alive.
+tt0074860;Maratón de la muerte;Marathon Man;1976;Thriller;One man's dangerous attempts to clear his father's name.
+tt0074285;Carrie;;1976;Drama-Horror;If You've Got A Taste For Terror . . . Take Carrie To The Party. (Great Britian)
+tt0081455;Scanners;;1981;Horror-Sci-Fi;Their thoughts can kill!
+tt0082085;Blow Out;;1981;Thriller;The Blow Out took them to the edge of terror . . . his questions took them way beyond [Video Australia]
+tt0084777;Tinieblas;Tenebre;1982;Horror-Mystery-Thriller;Terror Beyond Belief
+tt0085407;La zona muerta;The Dead Zone;1983;Sci-Fi-Thriller;In his mind, he has the power to see the future. In his hands, he has the power to change it.
+tt0091605;El nombre de la rosa;Der Name der Rose;1986;Drama-Mystery-Thriller-Crime;Who, in the name of God, is getting away with murder?
+tt0091474;Manhunter;;1986;Crime-Mystery-Thriller;Enter the mind of a serial killer... you may never come back.
+tt0090756;Terciopelo azul;Blue Velvet;1986;Crime-Mystery-Thriller;It's a strange world.
+tt0092563;Angel Heart;;1987;Mystery-Thriller;It will scare you to your very soul.
+tt0095174;Búsqueda frenética;Frantic;1988;Crime-Drama-Mystery-Thriller;They've taken his wife. Now he's taking action.
+tt0094964;Pacto de amor;Dead Ringers;1988;Drama-Thriller;Two bodies. Two minds. One soul. Separation can be a terrifying thing.
+tt0101410;Barton Fink;;1991;Drama-Mystery-Thriller;Between Heaven and Hell There's Always Hollywood!
+tt0102926;El silencio de los inocentes;The Silence of the Lambs;1991;Thriller;Dr. Hannibal Lecter. Brilliant. Cunning. Psychotic. In his mind lies the clue to a ruthless killer. - Clarice Starling, FBI. Brilliant. Vulnerable. Alone. She must trust him to stop the killer.
+tt0101540;Cabo de miedo;Cape Fear;1991;Drama-Thriller;There is nothing in the dark that isn't there in the light. Except fear.
+tt0106856;Un día de furia;Falling Down;1993;Crime-Drama-Thriller;A Tale Of Urban Reality
+tt0114369;Pecados capitales;Se7en;1995;Crime-Mystery-Thriller;Let he who is without sin try to survive
+tt0117883;Tesis;;1996;Mystery-Thriller;Me llamo Ángela. Me van a matar. [English Tagline: My name is Angela. They're going to kill me.]
+tt0117381;La verdad desnuda;Primal Fear;1996;Crime-Drama-Mystery-Thriller;Don't believe everything you see...
+tt0119174;Al filo de la muerte;The Game;1997;Drama-Mystery-Thriller;The Game...You Just Lost
+tt0116922;Carretera perdida;Lost Highway;1997;Drama-Mystery-Thriller;
+tt0118564;Días de furia;Affliction;1997;Drama-Mystery-Thriller;Wade Whitehouse is frightened to death of following in his father's footsteps.
+tt0125659;Abre los ojos;;1997;Drama-Mystery-Romance-Sci-Fi-Thriller;
+tt0118636;Apt Pupil;;1998;Drama-Thriller;If you don't believe in the existence of evil, you've got a lot to learn.
+tt0154506;Following;;1998;Crime-Drama-Mystery-Thriller;You're Never Alone.
+tt0167404;Sexto sentido;The Sixth Sense;1999;Drama-Mystery-Thriller;"I see dead people"
+tt0139809;El piso 13;The Thirteenth Floor;1999;Mystery-Sci-Fi-Thriller;Question reality. You can go there even though it doesn't exist.
+tt0137363;Intriga en la calle Arlington;Arlington Road;1999;Thriller;Fear Thy Neighbor
+tt0137523;El club de la pelea;Fight Club;1999;Drama;When you wake up in a different place at a different time, can you wake up as a different person?
+tt0134119;El talentoso Sr. Ripley;The Talented Mr. Ripley;1999;Crime-Drama-Thriller;How far would you go to become someone else.
+tt0209958;The Cell: La celda;The Cell;2000;Sci-Fi-Thriller;His Mind Is Her Prison.
+tt0219699;La premonición;The Gift;2000;Crime-Drama-Fantasy-Mystery-Thriller;The only witness to the crime was not even there
+tt0180093;Réquiem para un sueño;Requiem for a Dream;2000;Drama;From the director of [Pi]
+tt0217869;El protegido;Unbreakable;2000;Drama-Mystery-Sci-Fi-Thriller;Some things are only revealed by accident
+tt0209144;Memento, recuerdos de un crimen;Memento;2000;Mystery-Thriller;Some memories are best forgotten
+tt0261983;Session 9;;2001;Horror-Mystery-Thriller;Fear Is A Place.
+tt0268978;Una mente brillante;A Beautiful Mind;2001;Biography-Drama;The Only Thing Greater Than the Power of the Mind is the Courage of the Heart
+tt0246578;Donnie Darko;;2001;Drama-Mystery-Sci-Fi;You can never go too far.
+tt0166924;El camino de los sueños;Mulholland Dr.;2001;Drama-Mystery-Thriller;A woman in search of stardom. A woman in search of herself - in the city of dreams. A key to a mystery - lies somewhere on Mulholland Drive.
+tt0289765;Dragón rojo;Red Dragon;2002;Thriller;FBI Agent Will Graham Is About to Enter the Mind of a Killer. He Must First Let Hannibal Lecter Inside His Head.
+tt0278731;Spider;;2002;Drama;The only thing worse than losing your mind... is finding it again.
+tt0265459;Retratos de una obsesión;One Hour Photo;2002;Drama-Thriller;There's nothing more dangerous than a familiar face.
+tt0278504;Noches blancas;Insomnia;2002;Crime-Mystery-Thriller;A tough cop. A brilliant killer. An unspeakable crime.
+tt0309698;Identidad;Identity;2003;Mystery-Thriller;Identity is a secret. Identity is a mystery. Identity is a killer.
+tt0364569;Oldboy: Cinco días para vengarse;Oldeuboi;2003;Drama-Mystery-Thriller;Laugh and the world laughs with you; weep, and you weep alone
+tt0292506;El discípulo;The Recruit;2003;Action-Crime-Drama-Thriller;Trust. Betrayal. Deception. In the C.I.A. nothing is what it seems.
+tt0327056;Río místico;Mystic River;2003;Crime-Drama-Mystery-Thriller;The river has many depths. Let it wash over you.
+tt0363988;La ventana secreta;Secret Window;2004;Mystery-Thriller;The most important part of a story is the ending.
+tt0387564;El juego del miedo;Saw;2004;Crime-Horror-Mystery;How do you solve a puzzle with pieces missing? [Australia]
+tt0419677;Dead Man's Shoes;;2004;Crime-Drama-Thriller;He's in all of us.
+tt0368447;La aldea;The Village;2004;Drama-Mystery-Thriller;Run. The truce is ending.
+tt0361862;El maquinista;The Machinist;2004;Drama-Thriller;A little guilt goes a long way...
+tt0387898;Caché - Escondido;Caché;2005;Drama-Mystery-Thriller;
+tt0366627;Regresiones de un hombre muerto;The Jacket;2005;Drama-Mystery-Sci-Fi-Thriller;Terror has a new name.
+tt0396171;Perfume - La historia de un asesino;Perfume: The Story of a Murderer;2006;Drama-Fantasy;He lived to find beauty. He killed to possess it.
+tt0450340;Unknown;;2006;Crime-Drama-Mystery-Thriller;Trust no one. Fear everyone.
+tt0482571;El gran truco;The Prestige;2006;Drama-Mystery-Thriller;Are You Watching Closely?
+tt1016301;La habitación de Fermat;;2007;Mystery-Thriller;Think inside the box
+tt0450385;1408;;2007;Horror-Thriller;Don't stay in 1408.
+tt0292963;Antes que el diablo sepa que estás muerto;Before the Devil Knows You're Dead;2007;Crime-Drama-Thriller;Loyalty. It's all relative.
+tt0480669;Los cronocrímenes;;2007;Drama-Mystery-Sci-Fi-Thriller;
+tt0443706;Zodíaco;Zodiac;2007;Crime-Drama-History-Mystery-Thriller;Based on the true story of America's most notorious serial killer.
+tt0961728;The Escapist;;2008;Crime-Drama-Thriller;5 Men. 4 Walls. 1 Plan.
+tt1258197;Exam;;2009;Mystery-Thriller;How far would you go to win the ultimate job?
+tt0780536;Escondidos en Brujas;In Bruges;2008;Comedy-Crime-Drama-Thriller;Shoot first. Sightsee later.
+tt1139328;El escritor oculto;The Ghost Writer;2010;Mystery-Thriller;Read between the lies.
+tt1130884;La isla siniestra;Shutter Island;2010;Mystery-Thriller;Someone is missing.
+tt1314655;La reunión del diablo;Devil;2010;Horror-Mystery-Thriller;On any ordinary day, our lives are filled with chance encounters and random events. But today everything happens for a reason. This fall, one of these five people is not who they appear to be.
+tt0947798;El cisne negro;Black Swan;2010;Drama-Mystery-Thriller;
+tt1242460;Tenemos que hablar de Kevin;We Need to Talk About Kevin;2011;Drama-Thriller;
+tt1568346;La chica del dragón tatuado;The Girl with the Dragon Tattoo;2011;Crime-Drama-Mystery-Thriller;She's Coming
+tt0094737;Quisiera ser grande;Big;1988;Comedy-Drama-Family-Fantasy-Romance;Have you ever had a really big secret?
+tt0100436;Pump Up the Volume;;1990;Drama-Music;The Voice of a Generation.
+tt0110950;Reality Bites;;1994;Comedy-Drama-Romance;A comedy about love in the '90s.
+tt0114388;Sensatez y sentimientos;Sense and Sensibility;1995;Drama-Romance;Lose your heart and come to your senses.
+tt0118799;La vida es bella;La vita è bella;1997;Comedy-Drama-Romance-War;An unforgettable fable that proves love, family and imagination conquer all.
+tt0147800;10 cosas que odio de ti;10 Things I Hate About You;1999;Comedy-Romance;I pine, I perish!
+tt0265930;El último beso;L'ultimo bacio;2001;Comedy-Drama-Romance;Love. Sex. Surrender.
+tt0414387;Orgullo y prejuicio;Pride & Prejudice;2005;Drama-Romance;A romance ahead of its time.
+tt0462590;Step up - Camino a la fama;Step Up;2006;Crime-Drama-Music-Romance;Every second chance begins with a first step.
+tt0431308;Posdata, te amo;P.S. I Love You;2007;Drama-Romance;Sometimes there's only one thing left to say.
+tt0445922;A través del universo;Across the Universe;2007;Drama-Musical-Romance;From director Julie Taymor comes the most original, exhilarating, spectacular, groundbreaking motion picture of the year.
+tt1023481;Step Up 2: The Streets;;2008;Drama-Music-Romance;It's not where you're from. It's where you're at.
+tt1001508;Simplemente no te quiere;He's Just Not That Into You;2009;Comedy-Drama-Romance;Are you the exception...or the rule?
+tt1142988;La cruda verdad;The Ugly Truth;2009;Comedy-Romance;
+tt1193631;Step Up 3D;;2010;Drama-Music-Romance;Two Worlds. One Dream.
+tt1403981;Recuérdame;Remember Me;2010;Drama-Romance;Live in the moments.
+tt0119738;La boda de mi mejor amigo;My Best Friend's Wedding;1997;Comedy-Romance;Julianne fell in love with her best friend the day he decided to marry someone else.
+tt0758752;De amor y otras adicciones;Love and Other Drugs;2010;Comedy-Drama-Romance;Accros aux nuits sans lendemain ou dépendants l'un de l'autre? (Addicted to one-night stands or dependent on one another?)
+tt1411238;Amigos con derechos;No Strings Attached;2011;Comedy-Romance;Friendship has its benefits
+tt1067583;Agua para elefantes;Water for Elephants;2011;Drama-Romance;Life is the most spectacular show on earth.
+tt0490084;Porque lo digo yo!;Because I Said So;2007;Comedy-Romance;She's just your normal, overprotective, overbearing, over-the-top mother.
+tt1041829;La propuesta;The Proposal;2009;Comedy-Drama-Romance;Here comes the bribe...
+tt0077631;Grease;;1978;Musical-Romance;Grease is the word
+tt0832266;Definitivamente, quizás;Definitely, Maybe;2008;Comedy-Drama-Romance;For Will Hayes, a second look at the past will give him a second chance at the future.
+tt0183790;Corazón de caballero;A Knight's Tale;2001;Action-Adventure-Drama-Romance;From peasant to knight; one man can change his stars
+tt0092099;Top Gun - Reto a la gloria;Top Gun;1986;Action-Drama-Romance;Up there with the best of the best.
+tt1216492;Año bisiesto;Leap Year;2010;Comedy-Romance;Anna planned to propose to her boyfriend on February 29th. This is not her boyfriend.
+tt0457939;El descanso - El amor no se toma vacaciones;The Holiday;2006;Comedy-Romance;
+tt1212436;El plan B;The Back-up Plan;2010;Comedy-Romance;Due April 23
+tt1046947;Tu última oportunidad;Last Chance Harvey;2008;Drama-Romance;When it comes to love, is it ever too late to take a chance?
+tt1230414;Enamorándome de mi ex;It's Complicated;2009;Comedy-Romance;Divorced... with benefits.
+tt0181875;Casi famosos;Almost Famous;2000;Biography-Drama-Music;Experience it. Enjoy it. Just don't fall for it.
+tt0116695;Jerry Maguire - Seducción y desafío;Jerry Maguire;1996;Comedy-Drama-Romance-Sport;The rest of his life begins now.
+tt0119822;Mejor... imposible;As Good as It Gets;1997;Comedy-Drama-Romance;Brace yourself for Melvin.
+tt0988595;27 bodas;27 Dresses;2008;Comedy-Romance;This January, always a bridesmaid, never a bride.
+tt0163978;La playa;The Beach;2000;Adventure-Drama-Romance-Thriller;It really was some kind of paradise
+tt0110322;Leyendas de pasión;Legends of the Fall;1994;Drama-Romance-War-Western;He was a rock they broke themselves against however much he tried to protect them
+tt0251127;Cómo perder a un hombre en 10 días;How to Lose a Guy in 10 Days;2003;Comedy-Romance;One of them is lying. So is the other.
+tt0119643;Meet Joe Black;;1998;Drama-Fantasy-Mystery-Romance;He's Expecting You.
+tt0391304;Muy parecido al amor;A Lot Like Love;2005;Comedy-Drama-Romance;There's nothing better than a great romance... to ruin a perfectly good friendship.
+tt0125439;Notting Hill;;1999;Comedy-Romance;Can the most famous film star in the world fall for just an ordinary guy?
+tt0098258;Digan lo que quieran;Say Anything...;1989;Comedy-Drama-Romance;She's got every thing going for her. He's going for her with every thing he's got.
+tt0223897;Cadena de favores;Pay It Forward;2000;Drama;A movie from the heart that connects with the heart.
+tt0427229;Soltero en casa;Failure to Launch;2006;Comedy-Romance;To leave the nest, some men just need a little push.
+tt0343135;Mi novia Polly;Along Came Polly;2004;Comedy-Romance;For the most cautious man on Earth, life is about to get interesting.
+tt0356680;La joya de la familia;The Family Stone;2005;Comedy-Drama-Romance;Feel The Love.
+tt0108160;Sintonía de amor;Sleepless in Seattle;1993;Comedy-Romance-Drama;What if someone you never met, someone you never saw, someone you never knew was the only someone for you?
+tt0120211;Still Breathing;;1997;Comedy-Drama-Romance-Fantasy;The love of a lifetime can begin with a dream
+tt0146882;Alta fidelidad;High Fidelity;2000;Comedy-Drama-Music-Romance;A comedy about fear of commitment, hating your job, falling in love and other pop favorites.
+tt0401445;Un buen año;A Good Year;2006;Comedy-Drama-Romance;Sometimes it takes a change of scenery to have a change of heart.
+tt0108451;Corazón indomable;Untamed Heart;1993;Drama-Romance-Comedy;
+tt0276751;Un gran chico;About a Boy;2002;Comedy-Drama-Romance;Growing up has nothing to do with age.
+tt0259446;Mi gran casamiento griego;My Big Fat Greek Wedding;2002;Comedy-Romance;Love is here to stay... so is her family.
+tt0120888;La mejor de mis bodas;The Wedding Singer;1998;Comedy-Romance-Music;Before the internet, Before cell phones, Before roller-blades, There was a time... 1985. Don't pretend you don't remember.
+tt0240890;Señales de amor;Serendipity;2001;Comedy-Romance-Fantasy;No name. No address. Just fate.
+tt0230838;Dulce noviembre;Sweet November;2001;Drama-Romance;She Just Needed A Month To Change His Life For Ever.
+tt0118842;La otra cara del amor;Chasing Amy;1997;Comedy-Drama-Romance;It's not who you love. It's how.
+tt0093737;The Pick-up Artist;;1987;Comedy-Crime-Romance;The Pick-Up Artist... has finally met his match.
+tt0094889;Cocktail;;1988;Drama-Romance;They thought he was good, they were wrong... he was the best
+tt0097044;El cielo se equivocó;Chances Are;1989;Comedy-Fantasy-Romance;Alex has a lifetime full of wonderful memories. Unfortunately, they're not his.
+tt0101787;Todo por amor;Dying Young;1991;Drama-Romance;She's giving him something nobody else could. A reason to live.
+tt0105415;Singles;;1992;Comedy-Romance;Love is a game. Easy to start. Hard to finish.
+tt0105323;Perfume de mujer;Scent of a Woman;1992;Drama;Col. Frank Slade has a very special plan for the weekend. It involves travel, women, good food, fine wine, the tango, chauffeured limousines and a loaded forty-five. And he's bringing Charlie along for the ride.
+tt0110737;Sólo tú;Only You;1994;Comedy-Romance;A love story written in the stars
+tt0118001;Loco de amor;Two Much;1995;Comedy-Romance;Two many women ... so little time.
+tt0114924;Mientras dormías;While You Were Sleeping;1995;Comedy-Romance;A story about love at second sight.
+tt0166485;Anna y el rey;Anna and the King;1999;Comedy-Drama-History-Romance;
+tt0124298;Buscando a Eva;Blast from the Past;1999;Comedy-Drama-Romance-Sci-Fi;After 35 years in a bomb shelter, Adam Webber is finally going outside to play.
+tt0218967;Hombre de familia;The Family Man;2000;Comedy-Drama-Romance;What if you made different choices? What if you said yes, instead of no? What if you got a second chance?
+tt0120596;El soltero más codiciado;The Bachelor;1999;Romance-Comedy;One thousand brides. One hundred million dollars. Jimmie Shannon is about to discover the true value of love.
+tt0171433;Divinas tentaciones;Keeping the Faith;2000;Comedy-Drama-Romance;If you have to believe in something, you might as well believe in love.
+tt0209475;Experta en bodas;The Wedding Planner;2001;Comedy-Romance;A romantic comedy about love, destiny and other events you just can't plan for.
+tt0244970;Alguien como tú;Someone Like You...;2001;Comedy-Romance;The story about the one that got away and the one she never saw coming.
+tt0243155;El diario de Bridget Jones;Bridget Jones's Diary;2001;Comedy-Drama-Romance;For anyone who's ever been set up, stood up or felt up.
+tt0253867;La cosa más dulce;The Sweetest Thing;2002;Comedy-Romance;They're looking for a few good men.
+tt0305711;Recién casados;Just Married;2003;Comedy-Romance;It was the perfect honeymoon... Until it began.
+tt0361841;Little Black Book;;2004;Comedy-Romance-Drama;Have you ever been tempted to look inside his...
+tt0347048;Contra la pared;Gegen die Wand;2004;Drama-Romance;
+tt0368709;Todo sucede en Elizabethtown;Elizabethtown;2005;Comedy-Drama-Romance;The Best Place To Find Yourself.
+tt0809504;Marido por accidente;The Accidental Husband;2008;Comedy-Romance;Forget Mr. Right, start looking for Mr. Wrong
+tt0388125;En sus zapatos;In Her Shoes;2005;Comedy-Drama-Romance;Friends. Rivals. Sisters.
+tt1135503;Julie & Julia;;2009;Biography-Drama-Romance;Passion. Ambition. Butter. Do You Have What It Takes?
+tt0113855;Mortal Kombat: La película;Mortal Kombat;1995;Action-Adventure-Fantasy-Sci-Fi-Thriller;Flawless Victory
+tt0115798;El insoportable;The Cable Guy;1996;Comedy-Drama;Are you ready to get wired?
+tt0107977;Las locas, locas aventuras de Robin Hood;Robin Hood: Men in Tights;1993;Adventure-Comedy-Musical;The legend had it coming... Find out where Robin Hood put his Little John, what made Will Scarlet, and what did Friar Tuck into his tights that Maid Marion all of a quiver?
+tt0117705;Space Jam;;1996;Animation-Adventure-Comedy-Family-Sci-Fi-Sport;Get ready to jam
+tt0448011;Cuenta regresiva;Knowing;2009;Drama-Mystery-Sci-Fi-Thriller;Knowing is Everything...
+tt1320253;Los indestructibles;The Expendables;2010;Action-Thriller;Every movie has a hero. This one has them all.
+tt0113481;Johnny Mnemonic;;1995;Action-Sci-Fi;The Ultimate Hard Drive
+tt0120912;Hombres de negro II;Men in Black II;2002;Action-Comedy-Sci-Fi;Coming To Rid Your Earth of the Scum of the Universe... Again!
+tt0116996;¡Marcianos al ataque!;Mars Attacks!;1996;Action-Comedy-Fantasy-Sci-Fi;YIKES! They've Landed!
+tt0266915;Rush Hour 2: La diversión total;Rush Hour 2;2001;Action-Comedy-Crime-Thriller;The Mouth Of The West And The Hands Of The East Are Back!
+tt0111301;Street Fighter, la última batalla;Street Fighter;1994;Action-Comedy-Sci-Fi-Thriller;The fight to save the world begins 12-23-94.
+tt0450345;El culto siniestro;The Wicker Man;2006;Horror-Mystery-Thriller;Some Sacrifices Must Be Made
+tt0110989;Ricky Ricón;Ri¢hie Ri¢h;1994;Comedy-Family;An adventure so big... even the world's richest kid can't afford to miss it!
+tt0120685;Godzilla;;1998;Action-Sci-Fi-Thriller;Something Big Is Happening
+tt0245674;13 fantasmas;Thir13en Ghosts;2001;Horror-Mystery-Thriller;Terror has multiplied.
+tt0112896;Drácula: Muerto pero feliz;Dracula: Dead and Loving It;1995;Comedy-Horror-Thriller;
+tt0120434;Vegas Vacation;;1997;Comedy;This time the Griswolds are on a roll.
+tt0364751;Without a Paddle;;2004;Adventure-Comedy-Mystery;Three lifelong friends... One lost treasure... What could go wrong?
+tt0251075;Evolución;Evolution;2001;Comedy-Sci-Fi;Coming to wipe that silly smile off your planet.
+tt0112508;Billy Madison;;1995;Comedy;Billy Madison's going back to school... Way back.
+tt0118688;Batman & Robin;;1997;Action-Crime-Fantasy;Strength. Courage. Honor. And loyalty. On June 20, it ALL comes together...
+tt0120725;Krippendorf's Tribe;;1998;Comedy-Family;The last undiscovered tribe is about to expose themselves.
+tt0120765;My Giant;;1998;Comedy-Drama-Sport;A comedy of incredible proportions.
+tt0240462;Dr. Dolittle 2;;2001;Comedy-Family-Fantasy-Romance;Dolittle Is Back
+tt0107050;Grumpy Old Men;;1993;Comedy-Drama;A fifty-year fight.
+tt0083284;Victory;;1981;Action-Drama-Sport-War;Their goal was freedom...
+tt0110478;Maverick;;1994;Action-Adventure-Comedy-Thriller-Western;In their hands, a deck of cards was the only thing more dangerous than a gun.
+tt0105812;White Men Can't Jump;;1992;Comedy-Drama-Sport;It ain't easy being this good.
+tt0116483;Happy Gilmore;;1996;Comedy-Romance-Sport;He doesn't play golf... he destroys it.
+tt0092675;El gran dragón blanco;Bloodsport;1988;Action-Biography-Drama-Sport;The secret contest where the world's greatest warriors fight in a battle to the death.
+tt0142342;Un papá genial;Big Daddy;1999;Comedy-Drama;Nature called. Look who answered.
+tt0082517;History of the World: Part I;;1981;Comedy-History-Musical;a little something to offend everyone...
+tt0182789;El hombre bicentenario;Bicentennial Man;1999;Drama-Family-Fantasy-Romance-Sci-Fi;One robot's 200 year journey to become an ordinary man.
+tt0250687;El mundo está loco loco;Rat Race;2001;Adventure-Comedy;563 miles. 9 people. $2 million. 1001 problems!
+tt0106697;El demoledor;Demolition Man;1993;Action-Crime-Sci-Fi-Thriller;The 21st Century's most dangerous cop. The 21st Century's most ruthless criminal.
+tt0285531;El cazador de sueños;Dreamcatcher;2003;Drama-Horror-Sci-Fi-Thriller;A circle of friendship. A web of mystery. A pattern of fear.
+tt0251114;En defensa del honor;Hart's War;2002;Drama-War;Germany 1944. For some the war has ended. For colonel William McNamara, it has not ended. For Lieutenant Thomas Hart... It has just begun.
+tt0111070;The Santa Clause;;1994;Comedy-Drama-Family-Fantasy;This Christmas, the snow hits the fan.
+tt0181739;Osmosis Jones;;2001;Animation-Action-Adventure-Comedy-Family-Fantasy;She's got a jones for Osmosis. Leah. One hot hormone.
+tt0274166;Johnny English;;2003;Action-Adventure-Comedy;He Knows No Fear. He Knows No Danger. He Knows Nothing.
+tt0132347;Hombres misteriosos;Mystery Men;1999;Action-Comedy-Fantasy-Sci-Fi;Universal Pictures presents a new league of heroes that step to a different beat.
+tt0481369;Número 23;The Number 23;2007;Drama-Mystery-Thriller;First it takes hold of your mind...then it takes hold of your life.
+tt0191397;The Replacements;;2000;Comedy-Sport;Throw the ball. Catch the girl. Keep it simple.
+tt0291341;Mean Machine;;2001;Comedy-Drama-Sport;It's Not Just About Football, It's About Pride Inside!
+tt0133152;El planeta de los simios;Planet of the Apes;2001;Action-Adventure-Sci-Fi-Thriller;You'll be sorry you were ever born human
+tt0116778;Kingpin;;1996;Comedy-Sport;You wouldn't want to meet these pinheads in an alley.
+tt0118880;Con Air - Riesgo en el aire;Con Air;1997;Action-Crime-Thriller;Get Ready To Fly
+tt0097428;Ghostbusters II;;1989;Action-Adventure-Comedy-Fantasy-Sci-Fi;Guess who's coming to save the world again?
+tt0125454;Paulie;;1998;Adventure-Comedy-Drama-Family;The journey of a thousand miles begins with a single parrot.
+tt1764651;Los indestructibles 2;The Expendables 2;2012;Action-Thriller;Back for War.
+tt1386588;Policías de repuesto;The Other Guys;2010;Action-Comedy-Crime;
+tt0250223;Astérix & Obélix: Mission Cléopâtre;;2002;Adventure-Comedy-Family-Fantasy;
+tt0799934;Rebobinados;Be Kind Rewind;2008;Comedy-Drama;You name it, we shoot it
+tt0120657;13 guerreros;The 13th Warrior;1999;Action-Adventure-Fantasy-Horror-Mystery-Thriller;An Ordinary Man...An Extraordinary Journey!
+tt0106611;Jamaica bajo cero;Cool Runnings;1993;Adventure-Comedy-Family-Sport;One dream. Four Jamaicans. Twenty below zero.
+tt1014759;Alicia en el país de las maravillas;Alice in Wonderland;2010;Adventure-Family-Fantasy;The Red Queen
+tt0067525;The Omega Man;;1971;Action-Sci-Fi-Thriller;The World Is Dead. One Survivor. Then The Others. Crawling In Darkness. The Strangest Sect Of All. *Hunting The Last Man On Earth.*
+tt0075222;La última locura de Mel Brooks;Silent Movie;1976;Comedy;
+tt0184894;Shanghai Kid;Shanghai Noon;2000;Action-Adventure-Comedy-Western;The old west meets the far east
+tt0102057;Hook;;1991;Adventure-Comedy-Family-Fantasy;What if Peter Pan grew up?
+tt0110353;Lightning Jack;;1994;Comedy-Western;A comedy about two outlaws who just wanted to be wanted.
+tt0118708;Beverly Hills Ninja;;1997;Action-Comedy;He put's the Mortal back in Kombat
+tt0106701;Daniel el travieso;Dennis the Menace;1993;Comedy-Family;America's classic kid in a classic comedy!
+tt0112462;Batman eternamente;Batman Forever;1995;Action-Crime-Fantasy-Romance-Thriller;Courage now, truth always....
+tt0117038;Michael;;1996;Comedy-Drama-Fantasy;He's an angel... Not a saint.
+tt0105698;Soldado universal;Universal Soldier;1992;Action-Drama-Sci-Fi;Genetically enhanced machines.
+tt0015648;El acorazado Potemkin;Bronenosets Potyomkin;1925;Drama-History;
+tt0015624;The Big Parade;;1925;Drama-Romance-War;King Vidor's PICTURIZATION of LAURENCE STALLINGS' GREAT STORY
+tt0018578;Alas;Wings;1927;Drama-Romance-War-Action;The war in the air from both sides of the lines
+tt0020629;Sin novedad en el frente;All Quiet on the Western Front;1930;Drama-War;At last....the motion picture!
+tt0028950;La gran ilusión;La grande illusion;1937;Drama-War;
+tt0035884;Five Graves to Cairo;;1943;Thriller-War;Did a Woman Start the Rout of Rommel?
+tt0036323;Sahara;;1943;Action-Drama-War;A mighty story of adventure, courage and glory in the desert!...tender human emotion...triumphant action...matchless thrills...a memorable entertainment experience!
+tt0037824;Ivan Groznyy;;1944;Biography-History;
+tt0044072;The Steel Helmet;;1951;Action-Drama-War;It's the REAL Korean Story!
+tt0036868;Los mejores años de nuestra vida;The Best Years of Our Lives;1946;Drama-Romance-War;THE SCREEN'S GREATEST LOVE STORY IS THE BEST FILM THIS YEAR FROM HOLLYWOOD!
+tt0043265;La reina africana;The African Queen;1951;Adventure-Romance-War;The greatest adventure a man ever lived...with a woman!
+tt0045793;De aquí a la eternidad;From Here to Eternity;1953;Drama-Romance-War;The Original Pearl Harbor Story (2002 DVD Release)
+tt0046816;The Caine Mutiny;;1954;Drama-Romance-War;Van Johnson as Maryk... whose damning diary sparked "The Caine Mutiny"
+tt0050490;Heaven Knows, Mr. Allison;;1957;Action-Adventure-Drama-War;
+tt0050212;El puente sobre el río Kwai;The Bridge on the River Kwai;1957;Adventure-Drama-History-War;It spans a whole new world of entertainment!
+tt0050825;La patrulla infernal;Paths of Glory;1957;Drama-War;Now the screen blasts open the bombshell story of a Colonel who led his regiment into hell and back - while their maddened General waited for them - with a firing squad!
+tt0051790;Ivan Groznyy: Skaz vtoroy - Boyarskiy zagovor;;1958;Biography-History;
+tt0051808;Kakushi-toride no san-akunin;;1958;Action-Adventure-Drama;
+tt0052618;Ben-Hur;;1959;Action-Adventure-Drama-History-Romance;The World's Most Honored Motion Picture
+tt0054331;Espartaco;Spartacus;1960;Action-Adventure-Biography-Drama-History;It roars with fierce excitement!
+tt0054953;The Guns of Navarone;;1961;Action-Adventure-Drama-War;Still! The Greatest High Adventure Ever Filmed! [re-issue]
+tt0056111;La infancia de Iván;Ivanovo detstvo;1962;Drama-War;
+tt0056172;Lawrence de Arabia;Lawrence of Arabia;1962;Adventure-Biography-Drama-History-War;A Mighty Motion Picture Of Action And Adventure!
+tt0056197;El día más largo del siglo;The Longest Day;1962;Action-Drama-History-War;42 International Stars!
+tt0058777;Zulu;;1964;Action-Drama-History-War;These are the days and nights of fury and honor and courage and cowardice that an entire century of empire-making and film-making can never surpass!
+tt0057115;El gran escape;The Great Escape;1963;Adventure-Drama-History-War;A Glorious Saga Of The R.A.F.
+tt0058083;Fail-Safe;;1964;Adventure-Drama-Thriller-War;The screen zeros in on the most suspenseful adventure drama of our age!
+tt0059274;The Hill;;1965;Drama-War;They went up like men! They came down like animals!
+tt0058946;La battaglia di Algeri;;1966;Crime-Drama-History-War;The Revolt that Stirred the World!
+tt0061578;Doce del patíbulo;The Dirty Dozen;1967;Action-Drama-War;Train them! Excite them! Arm them!...Then turn them loose on the Nazis!
+tt0063227;El león en invierno;The Lion in Winter;1968;Drama-History-Romance-War;The most significant reserved seat attraction of the year!
+tt0063056;Infierno en el pacífico;Hell in the Pacific;1968;Drama-War;They hunted each other as enemies...they tormented each other as savages...they faced each other as men!
+tt0065938;El botín de los valientes;Kelly's Heroes;1970;Action-Adventure-Comedy-War;Never have so few taken so many for so much.
+tt0066473;Tora! Tora! Tora!;;1970;Action-Adventure-Drama-History-War;The incredible attack on Pearl Harbor as told from both the American and Japanese sides.
+tt0066206;Patton;;1970;Biography-Drama-History-War;
+tt0066078;Mihai Viteazul;;1971;Action-Drama-War;
+tt0073341;El hombre que sería Rey;The Man Who Would Be King;1975;Adventure;Adventure in all its glory!
+tt0075968;The Duellists;;1977;Drama;Fencing is a science. Loving is a passion. Duelling is an obsession.
+tt0074695;La cruz de hierro;Cross of Iron;1977;Action-Drama-War;The Power of Peckinpah Has Never Been So Real...Or So Brilliant!
+tt0075784;A Bridge Too Far;;1977;Action-Drama-History-War;Out of the sky comes the screen's most incredible spectacle of men and war!
+tt0077416;El Francotirador;The Deer Hunter;1978;Drama-War;Winner of 5 Academy Awards including Best Picture 1978
+tt0078788;Apocalipsis now;Apocalypse Now;1979;Drama-War;The Horror. . . The Horror. . .
+tt0080437;The Big Red One;;1980;Action-Drama-War;The real glory of war is surviving.
+tt0082432;Gallipoli;;1981;Adventure-Drama-History-War;From a place you've never heard of, comes a story you'll never forget .
+tt0082096;El barco;Das Boot;1981;Action-Adventure-Drama-History-War;Hitler sent out 40,000 men aboard German U-Boats during World War 2. Less than 10,000 returned.
+tt0083944;Rambo;First Blood;1982;Action-Adventure-Drama-Thriller;One war against one man.
+tt0087553;Los gritos del silencio;The Killing Fields;1984;Biography-Drama-History-War;Every so often, there is a film that is destined to be talked about and remembered for years to come.
+tt0091251;Ven y mira;Idi i smotri;1985;Drama-History-War;
+tt0089881;Ran;;1985;Action-Drama-War;
+tt0091763;Pelotón;Platoon;1986;Action-Drama-War;The first casualty of war is innocence.
+tt0092965;El imperio del sol;Empire of the Sun;1987;Biography-Drama-History-War;To survive in a world at war, he must find a strength greater than all the events that surround him.
+tt0093058;Nacido para matar;Full Metal Jacket;1987;Drama-War;Born to Kill
+tt0093105;Buenos días, Vietnam;Good Morning, Vietnam;1987;Comedy-Drama-War;Time to rock it from the Delta to the DMZ!
+tt0096969;Nacido el cuatro de julio;Born on the Fourth of July;1989;Biography-Drama-War;A story of innocence lost and courage found.
+tt0097499;Enrique V;Henry V;1989;Action-Biography-Drama-History-Romance-War;The great adventure of a king who defied the odds to prove himself a man.
+tt0097441;Gloria;Glory;1989;Drama-History-War;Their innocence. Their heritage. Their lives. Nothing would be spared in the fight for their freedom.
+tt0100133;Memphis Belle;;1990;Action-Drama-War;
+tt0099810;La caza al Octubre Rojo;The Hunt for Red October;1990;Action-Adventure-Thriller;Invisible. Silent. Stolen.
+tt0104691;El último de los mohicanos;The Last of the Mohicans;1992;Action-Adventure-Romance-War;The first American hero.
+tt0107007;Gettysburg;;1993;Drama-History-War;Same Land. Same God. Different Dreams.
+tt0108052;La lista de Schindler;Schindler's List;1993;Biography-Drama-History-War;Whoever saves one life, saves the world entire.
+tt0112740;Marea roja;Crimson Tide;1995;Action-Drama-Thriller;Danger runs deep
+tt0114287;Rob Roy;;1995;Action-Biography-Drama-History-Romance-War;Honor made him a man. Courage made him a hero. History made him a Legend
+tt0112573;Corazón valiente;Braveheart;1995;Action-Biography-Drama-History-War;Every man dies, not every man really lives.
+tt0120815;Rescatando al soldado Ryan;Saving Private Ryan;1998;Action-Drama-War;The mission is a man.
+tt0120863;La delgada línea roja;The Thin Red Line;1998;Drama-War;Every man fights his own war.
+tt0120188;Tres reyes;Three Kings;1999;Action-Adventure-Comedy-Drama-War;They're deserters, rebels and thieves but in the nicest way
+tt0215750;Enemigo al acecho;Enemy at the Gates;2001;Drama-History-Thriller-War;Helden wählen ihr Schicksal nie selbst, das Schicksal wählt sie! [German]
+tt0172495;Gladiador;Gladiator;2000;Action-Adventure-Drama;Summer 2000 A.D.
+tt0187393;El patriota;The Patriot;2000;Action-Drama-War;What would you do if they destroyed your home, threatened your family. Where would you draw the line?
+tt0265086;La caída del halcón negro;Black Hawk Down;2001;Drama-History-War;Leave No Man Behind.
+tt0253474;El pianista;The Pianist;2002;Biography-Drama-War;Music was his passion. Survival was his masterpiece.
+tt0325710;El último samurai;The Last Samurai;2003;Action-Adventure-Drama-History-War;In the face of an enemy, in the Heart of One Man, Lies the Soul of a Warrior.
+tt0386064;Taegukgi hwinalrimyeo;;2004;Action-Drama-War;
+tt0363163;La caída;Der Untergang;2004;Biography-Drama-History-War;April 1945, a nation awaits its...
+tt0311113;Capitán de mar y guerra: La costa más lejana del mundo;Master and Commander: The Far Side of the World;2003;Action-Adventure-Drama-War;The Courage To Do The Impossible Lies In The Hearts of Men.
+tt0320661;Cruzada;Kingdom of Heaven;2005;Action-Adventure-Drama-History-War;Be without fear in the face of your enemies. Safeguard the helpless, and do no wrong
+tt0424205;Noche de paz;Joyeux Noël;2005;Drama-History-Music-Romance-War;France 1914. A moment of humanity that made history.
+tt0472043;Apocalypto;;2006;Action-Adventure-Drama;No one can outrun their destiny.
+tt0416449;300;;2006;Action-Fantasy-History-War;Spartans, tonight, we dine in hell!
+tt0462504;Rescue Dawn;;2006;Adventure-Biography-Drama-War;Based on the extraordinary true story of one man's fight for freedom
+tt0498380;Cartas desde Iwo Jima;Letters from Iwo Jima;2006;Drama-History-War;From Clint Eastwood, director of FLAGS OF OUR FATHERS, the battle of Iwo Jima seen through the eyes of the Japanese soldiers.
+tt0416044;Mongol;;2007;Biography-Drama;Don't despise a weak cub, it can appear the son of a tiger.
+tt1034303;Desafío;Defiance;2008;Action-Drama-History-Thriller-War;Freedom begins with an act of defiance!
+tt0887912;Vivir al límite;The Hurt Locker;2008;Drama-Thriller-War;Cut the red wire.
+tt0985699;Operación Valquiria;Valkyrie;2008;Drama-History-Thriller-War;Many saw evil. They dared to stop it.
+tt1234548;Hombres de mentes;The Men Who Stare at Goats;2009;Comedy-War;No goats. No glory.
+tt0955308;Robin Hood;;2010;Action-Adventure-Drama;The untold story behind the legend.
+tt1568911;Caballo de guerra;War Horse;2011;Drama-War;Separated by war. Tested by battle. Bound by friendship.
+tt0019901;Frau im Mond;;1929;Comedy-Drama-Romance-Sci-Fi;
+tt0022835;El hombre y el monstruo;Dr. Jekyll and Mr. Hyde;1931;Drama-Horror-Sci-Fi;Put yourself in her place! The dreaded night when her lover became a madman!
+tt0361748;Bastardos sin gloria;Inglourious Basterds;2009;Adventure-Drama-War;Til Schweiger Is A Basterd
+tt0024184;The Invisible Man;;1933;Drama-Horror-Sci-Fi-Thriller;H.G. Well's Fantastic Sensation
+tt0028358;Lo que vendra;Things to Come;1936;Sci-Fi;The future is here!
+tt0043456;El día que paralizaron la Tierra;The Day the Earth Stood Still;1951;Drama-Horror-Sci-Fi-Thriller;A robot and a man . . . hold the world spellbound with new and startling powers from another planet!
+tt0044876;The Man in the White Suit;;1951;Comedy-Sci-Fi-Drama;Guinness is Back...Working Wonders With Wile, Whimsey and Wit!
+tt0044121;El enigma de otro mundo;The Thing from Another World;1951;Horror-Sci-Fi;Howard Hawks' Astounding Movie
+tt0046534;La Guerra de los Mundos;The War of the Worlds;1953;Action-Horror-Sci-Fi-Thriller;They came to CONQUER the EARTH!
+tt0047573;Them!;;1954;Horror-Sci-Fi;A horror horde of crawl-and-crush giants clawing out of the earth from mile-deep catacombs!
+tt0047034;Gojira;;1954;Drama-Horror-Sci-Fi-Thriller;It's Alive!
+tt0049223;El planeta desconocido;Forbidden Planet;1956;Action-Adventure-Sci-Fi;IT'S OUT OF THIS WORLD! (original print ad - all caps)
+tt0049366;La invasión de los usurpadores de cuerpos;Invasion of the Body Snatchers;1956;Horror-Sci-Fi;The original Black & White classic
+tt0050539;The Incredible Shrinking Man;;1957;Sci-Fi-Thriller;A fascinating adventure into the unknown!
+tt0051622;La mosca;The Fly;1958;Horror-Sci-Fi;The fly with the head of a man...! And the man with the head of a fly!
+tt0053137;On the Beach;;1959;Drama-Sci-Fi;
+tt0054443;Village of the Damned;;1960;Horror-Mystery-Sci-Fi;Beware the stare that will paralyze the will of the world.
+tt0054387;The Time Machine;;1960;Adventure-Romance-Sci-Fi-Thriller;You Will Orbit into the Fantastic Future!
+tt0056119;La jetée;;1962;Short-Drama-Romance-Sci-Fi;
+tt0058700;The Last Man on Earth;;1964;Action-Drama-Horror-Sci-Fi-Thriller;Do you dare to imagine what it would be like to be... the last man on earth... or the last woman?
+tt0060390;Fahrenheit 451;;1966;Drama-Sci-Fi-Thriller;What if you had no right to read?
+tt0060397;Fantastic Voyage;;1966;Adventure-Fantasy-Sci-Fi;Four men and one woman on the most fantastic, spectacular and terrifying journey of their lives...
+tt0066434;THX 1138;;1971;Drama-Mystery-Sci-Fi-Thriller;A Love Story Filmed on Location in the 21st Century
+tt0063442;El planeta de los simios;Planet of the Apes;1968;Action-Mystery-Sci-Fi;Hunted . . . haunted . . . wanted . . . like beasts of prey!
+tt0066769;La amenaza de Andrómeda;The Andromeda Strain;1971;Sci-Fi-Thriller;The picture runs 130 minutes!... The story covers 96 of the most critical hours in man's history!... The suspense will last through your lifetime!
+tt0069280;Matadero cinco;Slaughterhouse-Five;1972;Comedy-Drama-Fantasy-Sci-Fi-War;A Man Becomes Unstuck In Time In The Film That Became A Classic.
+tt0067756;Silent Running;;1972;Adventure-Drama-Sci-Fi;Earth's last battle will be fought in space.
+tt0070723;Soylent Green;;1973;Drama-Horror-Mystery-Sci-Fi-Thriller;What is the secret of Soylent Green?
+tt0070909;Westworld;;1973;Action-Sci-Fi-Thriller-Western;Boy, have we got a vacation for you...
+tt0069945;Estrella oscura;Dark Star;1974;Comedy-Sci-Fi-Thriller;What would you be like after 20 years aboard DARK STAR the spaced-out spaceship. The ultimate cosmic comedy!
+tt0074812;Fuga en el siglo XXIII;Logan's Run;1976;Action-Sci-Fi-Thriller;The only thing you can't have in this perfect world of total pleasure is your 30th birthday . . . Logan is 29.
+tt0075931;La generación de Proteo;Demon Seed;1977;Horror-Sci-Fi-Thriller;Julie Christie carries the "Demon Seed." Fear for her.
+tt0077745;Los usurpadores de cuerpos;Invasion of the Body Snatchers;1978;Horror-Sci-Fi;You'll never close your eyes again.
+tt0079501;Mad Max;;1979;Action-Adventure-Thriller;The Film That Started It All
+tt0079944;La zona;Stalker;1979;Adventure-Drama-Fantasy-Mystery-Sci-Fi;
+tt0080745;Flash Gordon;;1980;Action-Adventure-Sci-Fi-Thriller;He'll save every one of us!
+tt0080360;Altered States;;1980;Drama-Fantasy-Horror-Sci-Fi-Thriller;When he heard his cry for help it wasn't human
+tt0082869;Atmósfera cero;Outland;1981;Action-Crime-Sci-Fi-Thriller;On Jupiter's moon he's the only law.
+tt0081633;Time Bandits;;1981;Adventure-Comedy-Family-Fantasy-Mystery-Sci-Fi-Thriller;...they didn't make history, they stole it!
+tt0082340;Escape de Nueva York;Escape from New York;1981;Action-Sci-Fi;New York City has Become the Only Maximum Security Prison for the Entire Country. Once You go In, You don't Come Out... Until Today.
+tt0082694;Mad Max 2;;1981;Action-Adventure-Thriller;Only one man can make the differance
+tt0084726;Viaje a las estrellas 2: La ira de Khan;Star Trek: The Wrath of Khan;1982;Action-Adventure-Sci-Fi-Thriller;Beyond the darkness...beyond the human evolution...is Khan. A genetically superior tyrant. Exhiled to a barren planet; banished by a Starship Commander he is destined to destroy. Left for dead, Khan has survived.
+tt0084827;Tron;TRON;1982;Action-Adventure-Sci-Fi;The Electronic Gladiator
+tt0085426;El último combate;Le dernier combat;1983;Sci-Fi;A high volume film in black and white cinemascope
+tt0087182;Duna;Dune;1984;Action-Adventure-Sci-Fi;The Motion Picture Event For 1984
+tt0087803;Premonición 1984;Nineteen Eighty-Four;1984;Drama-Romance-Sci-Fi-Thriller;George Orwell's Terrifying Vision Comes To The Screen.
+tt0088172;Starman;;1984;Adventure-Drama-Romance-Sci-Fi;In 1977 Voyager II was launched into space, inviting all lifeforms in the universe to visit our planet. Get ready. Company's coming.
+tt0089869;The Quiet Earth;;1985;Drama-Sci-Fi-Mystery;
+tt0089092;Enemy Mine;;1985;Action-Adventure-Drama-Sci-Fi;Enemies because they were taught to be. Survivors because they had to be.
+tt0088933;Cocoon;;1985;Sci-Fi;Beyond the innocence of youth, and the wisdom of age, lies the wonder of... Cocoon
+tt0092007;Viaje a las estrellas 4: Misión: Salvar la tierra;Star Trek IV: The Voyage Home;1986;Adventure-Comedy-Sci-Fi;Beaming down to Earth December 12 1986
+tt0096256;They Live;;1988;Action-Horror-Sci-Fi-Thriller;You see them on the street. You watch them on TV. You might even vote for one this fall. You think they're people just like you. You're wrong. Dead wrong.
+tt0094625;Akira;;1988;Animation-Fantasy-Sci-Fi;Neo-Tokyo is about to E.X.P.L.O.D.E.
+tt0100802;El vengador del futuro;Total Recall;1990;Action-Adventure-Mystery-Sci-Fi-Thriller;What would you do if someone stole your mind?
+tt0112682;La cité des enfants perdus;;1995;Adventure-Comedy-Drama-Fantasy-Sci-Fi;Some people follow their dreams. Others steal them.
+tt0117731;Star Trek: Primer contacto;Star Trek: First Contact;1996;Action-Adventure-Sci-Fi-Thriller;There is no thrill like First Contact
+tt0119177;Gattaca;;1997;Drama-Romance-Sci-Fi-Thriller;Only the strong succeed
+tt0120201;Invasión;Starship Troopers;1997;Action-Adventure-Sci-Fi-Thriller;A new kind of enemy. A new kind of war.
+tt0186151;Frequency;;2000;Crime-Drama-Sci-Fi-Thriller;The Future Is Listening
+tt0134847;Pitch Black;;2000;Action-Sci-Fi-Thriller;It's getting Dark
+tt0379786;Serenity;;2005;Action-Adventure-Sci-Fi-Thriller;The future is worth fighting for.
+tt0756683;The Man from Earth;;2007;Drama-Sci-Fi;From one of the acclaimed writers of Star Trek and The Twilight Zone comes a story that transcends both time and space...
+tt0448134;Sunshine: Alerta solar;Sunshine;2007;Adventure-Sci-Fi-Thriller;Dark days are coming.
+tt1136608;Sector 9;District 9;2009;Action-Sci-Fi-Thriller;For humans only. Non-humans banned!
+tt1276104;Looper;;2012;Action-Sci-Fi-Thriller;Face your future. Fight your past.
+tt0010323;El gabinete del Dr. Caligari;Das Cabinet des Dr. Caligari.;1920;Horror;A THRILLING FANTASTIC PHOTO-PLAY
+tt0796366;Star Trek - El futuro comienza;Star Trek;2009;Action-Adventure-Sci-Fi;The future begins.
+tt0013442;Nosferatu;Nosferatu, eine Symphonie des Grauens;1922;Horror;
+tt0016220;The Phantom of the Opera;;1925;Horror;A masterpiece of horror that shocked cinema for decades!
+tt0016847;Fausto;Faust - Eine deutsche Volkssage;1926;Drama-Fantasy-Horror;
+tt0021884;Frankenstein;;1931;Horror-Sci-Fi;The man who made a monster
+tt0021814;Drácula;Dracula;1931;Horror;The story of the strangest passion the world has ever known!
+tt0023649;Vampyr;;1932;Horror;
+tt0024216;King Kong;;1933;Adventure-Fantasy-Horror;Out-leaping the maddest imaginings! Out-thrilling the wildest thrills!
+tt0026138;La Novia de Frankenstein;Bride of Frankenstein;1935;Horror-Sci-Fi;Warning! The Monster demands a Mate!
+tt0034587;La marca de la pantera;Cat People;1942;Horror-Mystery-Romance-Thriller;LOVELY WOMAN...GIANT KILLER-CAT...THE SAME "PERSON"!...IT'S SUPER-SENSATIONAL! (1954 re-release poster)
+tt0034398;El Hombre Lobo;The Wolf Man;1941;Drama-Horror;"His hideous howl a dirge of death!"
+tt0036027;Yo dormí con un fantasma;I Walked with a Zombie;1943;Horror;Who said the dead don't walk?
+tt0037415;The Uninvited;;1944;Fantasy-Horror-Mystery-Romance;From the Most Popular Mystery Romance since "Rebecca"!
+tt0037988;The Picture of Dorian Gray;;1945;Drama-Fantasy-Horror-Romance-Thriller;Why did women talk about Dorian Gray in whispers?
+tt0045888;Terror en el museo de cera;House of Wax;1953;Horror;The Wax Figures Also Looked Like Other People - People Who Had Disappeared..........
+tt0046876;El monstruo de la Laguna Negra;Creature from the Black Lagoon;1954;Adventure-Horror-Sci-Fi;Creature from a million years ago!... every man his mortal enemy... and a woman's beauty his prey!
+tt0050976;El séptimo sello;Det sjunde inseglet;1957;Drama-Fantasy;
+tt0051554;Drácula;Dracula;1958;Horror;Who Will Be His Bride Tonight?
+tt0051418;La Mancha Voraz;The Blob;1958;Horror-Sci-Fi;Indescribable... indestructible... insatiable
+tt0051744;Mansión siniestra;House on Haunted Hill;1959;Drama-Horror-Thriller;See it with someone with warm hands!
+tt0054067;Domingo Negro;La maschera del demonio;1960;Horror;Once every 100 years the undead of hell terrorize the world in an orgy of stark horror
+tt0055824;Cape Fear;;1962;Thriller;Unparalleled suspense... as one becomes a target for nightmare.. the other becomes his target for execution! (insert)
+tt0058430;Onibaba, el mito del sexo;Onibaba;1964;Horror;
+tt0073195;Tiburón;Jaws;1975;Thriller;If you forgot what terror was like...its back.
+tt0078908;The Brood;;1979;Horror-Sci-Fi;They're Waiting... For You!
+tt0079641;Nosferatu;Nosferatu: Phantom der Nacht;1979;Horror;
+tt0080923;Inferno;;1980;Horror;Come face to face with hell
+tt0080761;Martes 13;Friday the 13th;1980;Horror-Mystery-Thriller;A 24-hour nightmare of terror.
+tt0080516;El intermediario del diablo;The Changeling;1980;Horror-Thriller;"How did you die, Joseph...? Did you die in this house...? Why do you remain...?"
+tt0084516;Poltergeist;;1982;Horror;The first real ghost story.
+tt0085333;Christine;;1983;Drama-Horror-Mystery-Thriller;Body by Plymouth. Soul by Satan.
+tt0087800;Pesadilla;A Nightmare on Elm Street;1984;Horror;A scream that wakes you up, might be your own...
+tt0087909;Phenomena;;1985;Horror-Mystery;Jennifer Has A Few Million Close Friends. She's Going To Need Them _All_.
+tt0088993;El día de los muertos;Day of the Dead;1985;Horror-Sci-Fi;Once again, the dead have their day
+tt0091209;The Hitcher;;1986;Horror-Thriller;Out on the desert highway, the rule of thumb has a different meaning...
+tt0093777;El príncipe de las tinieblas;Prince of Darkness;1987;Horror;Before man walked the earth...it slept for centuries. It is evil. It is real. It is awakening.
+tt0093177;Hellraiser;;1987;Horror;Satan's done waitin'.
+tt0094862;Chucky: El muñeco diabólico;Child's Play;1988;Horror-Mystery-Thriller;You'll wish it was only make-believe.
+tt0102511;Almuerzo desnudo;Naked Lunch;1991;Biography-Comedy-Drama-Fantasy-Horror;The book was banned. The film should never have been made. Too late.
+tt0103874;Drácula, de Bram Stoker;Dracula;1992;Drama-Horror-Romance;Love Never Dies.
+tt0104029;Cronos;;1993;Horror-Mystery;
+tt0113409;En la boca del miedo;In the Mouth of Madness;1994;Horror-Mystery-Thriller;Lived Any Good Books Lately?
+tt0110148;Entrevista con el vampiro;Interview with the Vampire: The Vampire Chronicles;1994;Horror-Romance;Drink From Me And Live Forever
+tt0178868;El círculo;Ringu;1998;Horror-Mystery-Thriller;"One curse, one cure, one week to find it"
+tt0117571;Scream;;1996;Crime-Horror-Mystery-Thriller;Now everybody is a victim and everybody is a suspect!
+tt0384537;Silent Hill;;2006;Horror-Mystery;Enjoy your stay.
+tt0360486;Constantine;;2005;Action-Fantasy-Horror;Hell wants him. Heaven won't take him. Earth needs him.
+tt0408236;Sweeney Todd: El barbero demoníaco de la calle Fleet;Sweeney Todd: The Demon Barber of Fleet Street;2007;Drama-Horror-Musical-Thriller;Johnny Depp is THE BARBER.
+tt1591095;La noche del demonio;Insidious;2010;Horror-Thriller;What's in that picture?
+tt0319061;El gran pez;Big Fish;2003;Adventure-Drama-Fantasy-Mystery;An adventure as big as life itself.
+tt0111161;Sueños de libertad;The Shawshank Redemption;1994;Crime-Drama;Fear can hold you prisoner. Hope can set you free.
+tt0281358;Un amor para recordar;A Walk to Remember;2002;Drama-Romance;Find out who you are and do it on purpose.
+tt0395169;Hotel Rwanda;;2004;Biography-Drama-History-War;When the world closed its eyes, he opened his arms.
+tt0454921;En busca de la felicidad;The Pursuit of Happyness;2006;Biography-Drama;
+tt0824747;El sustituto;Changeling;2008;Drama-History-Mystery-Thriller;To find her son, she did what no one else dared.
+tt0814314;Siete almas;Seven Pounds;2008;Drama;Seven Names. Seven Strangers. One Secret.
+tt0162222;Náufrago;Cast Away;2000;Adventure-Drama;At the edge of the world, his journey begins.
+tt0468569;Batman - El caballero de la noche;The Dark Knight;2008;Action-Crime-Drama-Thriller;Out of the darkness...comes the Knight.
+tt0372784;Batman inicia;Batman Begins;2005;Action-Adventure-Drama;
+tt0463998;Escritores de libertad;Freedom Writers;2007;Biography-Crime-Drama;their story their words
+tt0113277;Fuego contra fuego;Heat;1995;Action-Crime-Drama-Thriller;A Los Angeles Crime Saga
+tt0092005;Cuenta conmigo;Stand by Me;1986;Adventure-Drama;For some, it's the last real taste of innocence, and the first real taste of life. But for everyone, it's the time that memories are made of.
+tt0375679;Vidas cruzadas;Crash;2004;Drama;You think you know who you are. You have no idea.
+tt0340377;The Station Agent;;2003;Comedy-Drama;Loneliness is much better when you have got someone to share it with (norway DVD release).
+tt0412922;Little Manhattan;;2005;Comedy-Family-Romance;Nothing's as big as your first love.
+tt0405159;Million Dollar Baby;;2004;Drama-Sport;Beyond his silence, there is a past. Beyond her dreams, there is a feeling. Beyond hope, there is a memory. Beyond their journey, there is a love.
+tt0083987;Gandhi;;1982;Biography-Drama-History;The Man of the Century. The Motion Picture of a Lifetime.
+tt0410297;La casa del lago;The Lake House;2006;Drama-Fantasy-Romance;What if you found the one you were meant for... but you lived 2 years apart?
+tt0159273;Tras líneas enemigas;Behind Enemy Lines;2001;Action-War-Drama-Thriller;Mission: to evade and survive
+tt0978762;Mary and Max;;2009;Animation-Comedy-Drama;Based on a true story.
+tt0138097;Shakespeare apasionado;Shakespeare in Love;1998;Comedy-Drama-Romance;...A Comedy About the Greatest Love Story Almost Never Told...
+tt0046250;Vacaciones en Roma;Roman Holiday;1953;Comedy-Drama-Romance;Audrey Hepburn at her Oscar-winning best in an immortal comedy-romance!
+tt0060196;El bueno, el malo y el feo;Il buono, il brutto, il cattivo.;1966;Adventure-Western;They formed an alliance of hate to steal a fortune in dead man's gold
+tt0822832;Marley y yo;Marley & Me;2008;Comedy-Drama-Family-Romance;Their relationship wasn't going anywhere until one little thing tied it all together.
+tt0169547;Belleza americana;American Beauty;1999;Drama;... look closer
+tt0100405;Mujer bonita;Pretty Woman;1990;Comedy-Romance;She walked off the street, into his life and stole his heart.
+tt0110413;El perfecto asesino;Léon;1994;Crime-Drama-Thriller;He moves without sound. Kills without emotion. Disappears without trace.
+tt0817177;Flipped;;2010;Comedy-Drama-Romance;You never forget your first love.
+tt0078346;Superman;;1978;Action-Adventure-Sci-Fi;You'll Believe a Man Can Fly!
+tt0090021;Bala de Plata;Silver Bullet;1985;Adventure-Drama-Horror-Mystery-Thriller;It started in May in a small town and every month after that whenever the moon is full... It came back.
+tt0857191;Visita inesperada;The Visitor;2007;Crime-Drama-Music-Romance;connection is everything
+tt0327597;Coraline y la puerta secreta;Coraline;2009;Animation-Fantasy-Thriller;An Adventure too Weird for Words
+tt1205489;Gran Torino;;2008;Drama;
+tt0936501;Búsqueda implacable;Taken;2008;Action-Crime-Thriller;His daughter was taken. He has 96 hours to get her back.
+tt0105695;Los imperdonables;Unforgiven;1992;Western;
+tt0094226;Los intocables;The Untouchables;1987;Crime-Drama-History-Thriller;AL CAPONE. He ruled Chicago with absolute power. No one could touch him. No one could stop him. - Until Eliot Ness and a small force of men swore they'd bring him down.
+tt0758758;Hacia rutas salvajes;Into the Wild;2007;Adventure-Biography-Drama;
+tt0381849;El tren de las 3:10 a Yuma;3:10 to Yuma;2007;Action-Crime-Drama-Western;Time waits for one man
+tt0452623;Desapareció una noche;Gone Baby Gone;2007;Crime-Drama-Mystery-Thriller;Everyone Wants The Truth... Until They Find It.
+tt0450259;Diamante de sangre;Blood Diamond;2006;Adventure-Drama-Thriller;Truth
+tt0399146;Una historia violenta;A History of Violence;2005;Action-Crime-Drama-Mystery-Thriller;Tom Stall had the perfect life... until he became a hero.
+tt0460740;Cashback;;2006;Comedy-Drama-Romance;"Once upon a time,I wanted to know what love was.Love is there,If you want it to be.You just have to see,That it's wrapped in beauty,And hidden away between the seconds of your life.If you don't stop for a minute,You might miss it.
+tt0329575;Alma de héroes;Seabiscuit;2003;Drama-History-Sport;The hopes of a nation rode on a long shot.
+tt0431197;El reino;The Kingdom;2007;Action-Drama-Thriller;An elite FBI team sent to find a killer in Saudi Arabia. Now they have become the target.
+tt0443274;Puntos de vista;Vantage Point;2008;Action-Crime-Drama-Thriller;8 Strangers. 8 Points of View. 1 Truth.
+tt0195685;Erin Brockovich, una mujer audaz;Erin Brockovich;2000;Biography-Drama;She brought a small town to its feet and a huge corporation to its knees.
+tt0115956;Valor bajo fuego;Courage Under Fire;1996;Action-Drama-Mystery-Thriller-War;In wartime, the first casualty is always truth.
+tt0822854;Tirador;Shooter;2007;Action-Crime-Mystery-Thriller;Yesterday was about honor. Today is about justice.
+tt0117500;La roca;The Rock;1996;Action-Adventure-Thriller;Cocked, locked, and Ready to Rock!
+tt0407887;Los infiltrados;The Departed;2006;Crime-Drama-Thriller;Unrestrained
+tt0119217;En busca del destino;Good Will Hunting;1997;Drama;Wildly charismatic. Impossibly brilliant. Totally rebellious. For the first 20 years of his life, Will Hunting has called the shots. Now he's about to meet his match.
+tt0095953;Rain Man;;1988;Drama;
+tt0106965;Liberen a Willy;Free Willy;1993;Family-Adventure-Drama;A 12 year old street kid. A 3 ton orca whale. A friendship you could never imagine. An adventure you'll never forget.
+tt0452694;Te amaré por siempre;The Time Traveler's Wife;2009;Drama-Fantasy-Romance-Sci-Fi;
+tt0099077;Despertares;Awakenings;1990;Biography-Drama;There is no such thing as a simple miracle.
+tt0878804;Un sueño posible;The Blind Side;2009;Biography-Drama-Sport;Based on the extraordinary true story
+tt0422783;Music Within;;2007;Biography-Comedy-Drama-Music-Romance-War;Experience a movie that will make you believe anyone can change the world.
+tt0465602;Matar o morir;Shoot 'Em Up;2007;Action-Comedy-Crime-Thriller;I'm a British nanny and I'm dangerous.
+tt0120660;Enemigo público;Enemy of the State;1998;Action-Drama-Thriller;It's not paranoia if they're really after you.
+tt0914798;El niño con el pijama de rayas;The Boy in the Striped Pyjamas;2008;Drama-History-War;A timeless story of innocence lost and humanity found.
+tt0118556;Adictos al amor;Addicted to Love;1997;Comedy-Romance;A Comedy About Lost Loves And Last Laughs
+tt0099487;El joven manos de tijera;Edward Scissorhands;1990;Drama-Fantasy-Romance;His scars run deep.
+tt0328107;Hombre en llamas;Man on Fire;2004;Action-Thriller;Revenge is a meal best served cold
+tt0140352;El informante;The Insider;1999;Biography-Drama-Thriller;Warning: Exposing the Truth May Be Hazardous
+tt0074452;The Eagle Has Landed;;1976;Adventure-Drama-Thriller-War;The daring World War II plot that changed the course of history.
+tt0065207;Where Eagles Dare;;1968;Action-Adventure-War;One weekend Major Smith, Lieutenant Schaffer and a beautiful blonde named Mary decided to win World War II.
+tt0081059;Lion of the Desert;;1981;Biography-Drama-History-War;A giant of a man against a general seeking glory...a spectacular adventure of arch enemies in battle.
+tt0485851;Cuatro vidas y un destino;The Air I Breathe;2007;Crime-Drama-Thriller;The question is not whether we will die, but how we will live.
+tt0096895;Batman;;1989;Action-Fantasy;
+tt0103776;Batman vuelve;Batman Returns;1992;Action-Fantasy;The Bat, the Cat, the Penguin
+tt0111503;True Lies;;1994;Action-Thriller;When he said I do, he never said what he did.
+tt0412080;Sueños de gloria;The World's Fastest Indian;2005;Biography-Drama-Sport;The extraordinary true adventure of Burt Munro from Down Under
+tt0454848;El plan perfecto;Inside Man;2006;Crime-Drama-Thriller;It looked like the perfect bank robbery. But you can't judge a crime by its cover.
+tt0258463;Identidad desconocida;The Bourne Identity;2002;Action-Crime-Mystery-Thriller;On June 14th, danger is Bourne.
+tt0372183;La supremacía de Bourne;The Bourne Supremacy;2004;Action-Crime-Thriller;They should have left him alone.
+tt0440963;Bourne: El ultimátum;The Bourne Ultimatum;2007;Action-Crime-Thriller;This Summer Jason Bourne Comes Home
+tt0340163;Bajo amenaza;Hostage;2005;Crime-Drama-Mystery-Thriller;Every Second Counts
+tt0089880;Rambo II;Rambo: First Blood Part II;1985;Action-Adventure-Thriller-War;They sent him on a mission and set him up to fail. But they made one mistake. They forgot they were dealing with Rambo.
+tt0095016;Duro de matar;Die Hard;1988;Action-Thriller;40 Storeys High - with Suspense, Excitement and Adventure on every level!
+tt0111257;Máxima velocidad;Speed;1994;Action-Crime-Thriller;Get ready for rush hour.
+tt0088944;Commando;;1985;Action-Thriller;If there's a mission that no man could survive...then *he's* the man for the job.
+tt0120746;La máscara del Zorro;The Mask of Zorro;1998;Action-Adventure-Romance-Western;When freedom is a memory and justice is outlawed, the just must become outlaws.
+tt0114887;Un paseo por las nubes;A Walk in the Clouds;1995;Drama-Romance;A man in search. A woman in need. A story of fate.
+tt0118971;El abogado del diablo;The Devil's Advocate;1997;Drama-Mystery-Thriller;Speak of the devil
+tt0988045;Sherlock Holmes;;2009;Action-Adventure-Crime-Mystery-Thriller;Robert Downey Jr. is Holmes
+tt0427470;The Lookout;;2007;Crime-Drama-Thriller;Whoever has the money has the power
+tt0116329;Volando a casa;Fly Away Home;1996;Adventure-Drama-Family;A family of orphaned geese who lost their way. A 14 year old kid who will lead them home. To achieve the incredible, you have to attempt the impossible.
+tt0088011;Tras la esmeralda perdida;Romancing the Stone;1984;Action-Adventure-Comedy-Romance;She's a girl from the big city. He's a reckless soldier of fortune. For a fabulous treasure, they share an adventure no one could imagine... or survive.
+tt1155056;I Love You, Man;;2009;Comedy-Romance;Are You Man Enough To Say It?
+tt0397101;La llave maestra;The Skeleton Key;2005;Drama-Horror-Mystery-Thriller;You will believe.
+tt0145487;El hombre araña;Spider-Man;2002;Action-Adventure-Fantasy;Next Summer, One Hero will take you for the Ultimate Spin
+tt0316654;El hombre araña 2;Spider-Man 2;2004;Action-Fantasy;This summer a man will face his destiny. A hero will be revealed
+tt0113189;GoldenEye;;1995;Action-Adventure-Thriller;When the world is the target and the threat is real, you can still depend on one man.
+tt0413300;El hombre araña 3;Spider-Man 3;2007;Action-Fantasy;One man will fight to find the hero within
+tt0476964;The Brave One;;2007;Crime-Drama-Thriller;How many wrongs to make it right?
+tt1197624;Días de ira;Law Abiding Citizen;2009;Crime-Drama-Thriller;They killed his family. Now justice is his vengeance. (UK Quad)
+tt0408790;Plan de vuelo;Flightplan;2005;Drama-Mystery-Thriller;If Someone Took Everything You Live For... How Far Would You Go To Get It Back?
+tt0356910;Sr. y Sra. Smith;Mr. & Mrs. Smith;2005;Action-Comedy-Romance;
+tt0473308;Waitress;;2007;Comedy-Drama-Romance;The Year's Most Delicious Romantic Comedy
+tt0829297;Ten Inch Hero;;2007;Comedy-Drama-Romance;A romantic comedy with all the extras.
+tt0245844;El conde de Monte Cristo;The Count of Monte Cristo;2002;Adventure-Drama-Romance-Thriller;Prepare for adventure. Count on revenge.
+tt0219854;Mi encuentro conmigo;The Kid;2000;Comedy-Family-Fantasy;Nobody ever grows up quite like they imagined.
+tt0266697;Kill Bill, la venganza: Volumen I;Kill Bill: Vol. 1;2003;Action-Crime-Thriller;On October 10th, speak softly and carry a big sword
+tt0378194;Kill Bill, la venganza: Volumen II;Kill Bill: Vol. 2;2004;Action-Thriller;Back With A Vengeance
+tt0365485;The Matador;;2005;Comedy-Crime-Drama-Thriller;A hitman and a salesman walk into a bar...
+tt0038650;Qué bello es vivir;It's a Wonderful Life;1946;Drama-Fantasy;They're going steady...straight to your heart!
+tt0449467;Babel;;2006;Drama;If You Want to be Understood...Listen
+tt0452608;Carrera Mortal;Death Race;2008;Action-Sci-Fi-Thriller;Get ready for a killer race.
+tt0337921;Celular;Cellular;2004;Action-Crime-Drama-Thriller;If the signal dies so does she.
+tt0138749;The Road to El Dorado;;2000;Animation-Adventure-Comedy-Family-Romance;They came for the gold... they stayed for the adventure
+tt0486822;Paranoia;Disturbia;2007;Drama-Mystery-Thriller;Welcome to...
+tt0099582;Línea mortal;Flatliners;1990;Drama-Horror-Sci-Fi-Thriller;Some lines shouldn't be crossed.
+tt0120737;El señor de los anillos: La comunidad del anillo;The Lord of the Rings: The Fellowship of the Ring;2001;Action-Adventure-Fantasy;One Ring To Rule Them All.
+tt0317740;La estafa maestra;The Italian Job;2003;Action-Crime-Thriller;Nusume! [Japan]
+tt0167261;El señor de los anillos: Las dos torres;The Lord of the Rings: The Two Towers;2002;Action-Adventure-Fantasy;A New Power Is Rising.
+tt0167260;El señor de los anillos: El retorno del rey;The Lord of the Rings: The Return of the King;2003;Action-Adventure-Fantasy;There can be no triumph without loss. No victory without suffering. No freedom without sacrifice.
+tt1148204;La huérfana;Orphan;2009;Mystery-Thriller;Can you keep a secret?
+tt0758774;Red de mentiras;Body of Lies;2008;Action-Drama-Thriller;Trust no one. Deceive everyone.
+tt0145681;El coleccionista de huesos;The Bone Collector;1999;Crime-Drama-Mystery-Thriller;Serial killer vs. forensic genius
+tt1250777;Kick-Ass - Un superhéroe sin super poderes;Kick-Ass;2010;Action-Comedy;I can't read your mind. But I can kick your ass.
+tt1057500;Invictus;;2009;Biography-Drama-History-Sport;His people needed a leader. He gave them a champion.
+tt0477080;Imparable;Unstoppable;2010;Action-Thriller;1 million tons of steel. 100,000 people at risk. 100 minutes to impact.
+tt0473705;Los secretos del poder;State of Play;2009;Drama-Mystery;Find The Truth

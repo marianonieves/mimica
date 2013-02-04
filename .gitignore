@@ -9,3 +9,4 @@ bin-release
 bin-release-temp
 scripts
 .settings
+*.psd
